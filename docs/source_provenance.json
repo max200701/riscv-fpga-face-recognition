@@ -1,0 +1,1394 @@
+[
+  {
+    "destination": "hardware/mini_face_demo_top.sv",
+    "source_sha256": "860b336b7d9d84c031e1f2006b1758dc82295d1c6a5b39c52bf3eaaca206c9bb",
+    "sha256": "860b336b7d9d84c031e1f2006b1758dc82295d1c6a5b39c52bf3eaaca206c9bb",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\mini_face_demo_top.sv"
+  },
+  {
+    "destination": "hardware/hdmi_rx/oj_i2c_reg16.sv",
+    "source_sha256": "b962ad428d1f09cc1b5e80102309dcb2b7191d19e7482a110f52f3cdb8ad6a5f",
+    "sha256": "b962ad428d1f09cc1b5e80102309dcb2b7191d19e7482a110f52f3cdb8ad6a5f",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\hdmi_rx\\oj_i2c_reg16.sv"
+  },
+  {
+    "destination": "hardware/hdmi_rx/oj_ms7200_rx_init04.sv",
+    "source_sha256": "b8344849a0199c6cd46c5e2d4efecadb90f1cf47ae24fbc3c93871a3d6e610fa",
+    "sha256": "b8344849a0199c6cd46c5e2d4efecadb90f1cf47ae24fbc3c93871a3d6e610fa",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\hdmi_rx\\oj_ms7200_rx_init04.sv"
+  },
+  {
+    "destination": "hardware/rtl/adc_temperature_reader.v",
+    "source_sha256": "383265123c7b1772cf3fae5ed14434d8d6ed8aa1a039372029e7ca0ce5f4dbf6",
+    "sha256": "383265123c7b1772cf3fae5ed14434d8d6ed8aa1a039372029e7ca0ce5f4dbf6",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\adc_temperature_reader.v"
+  },
+  {
+    "destination": "hardware/rtl/async_stream_fifo.v",
+    "source_sha256": "22d40e27145423d2b4cdf87937bcccbb58fedd66c3261f1c01354d8fddb8751b",
+    "sha256": "22d40e27145423d2b4cdf87937bcccbb58fedd66c3261f1c01354d8fddb8751b",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\async_stream_fifo.v"
+  },
+  {
+    "destination": "hardware/rtl/axi_skid.v",
+    "source_sha256": "4063b9da4f258af27e5a9fb8460406d5180620e5085102a34ecc20f756a34fc8",
+    "sha256": "4063b9da4f258af27e5a9fb8460406d5180620e5085102a34ecc20f756a34fc8",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\axi_skid.v"
+  },
+  {
+    "destination": "hardware/rtl/boot_rom.v",
+    "source_sha256": "defc799cb8abc333c8232c0b5cb8bd0cf0f45e1d8d5fdf978c8cca4ca6115ee8",
+    "sha256": "defc799cb8abc333c8232c0b5cb8bd0cf0f45e1d8d5fdf978c8cca4ca6115ee8",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\boot_rom.v"
+  },
+  {
+    "destination": "hardware/rtl/boot_rom_dp.v",
+    "source_sha256": "59771bfcee15abc13c55e51fc17d2453a904eea34ecbc5df14fadb10bfd011aa",
+    "sha256": "59771bfcee15abc13c55e51fc17d2453a904eea34ecbc5df14fadb10bfd011aa",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\boot_rom_dp.v"
+  },
+  {
+    "destination": "hardware/rtl/burst_read_sequencer.v",
+    "source_sha256": "55242fac69eda3b1460fd43c83efba29c393db8d7f3fec83db15344c0bd17e27",
+    "sha256": "55242fac69eda3b1460fd43c83efba29c393db8d7f3fec83db15344c0bd17e27",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\burst_read_sequencer.v"
+  },
+  {
+    "destination": "hardware/rtl/conv_window_source.v",
+    "source_sha256": "a887ee40df5741ad7de1f1ba51e45f22dbfe1a58ab9750fba0dfdece58976939",
+    "sha256": "a887ee40df5741ad7de1f1ba51e45f22dbfe1a58ab9750fba0dfdece58976939",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\conv_window_source.v"
+  },
+  {
+    "destination": "hardware/rtl/cpu_npu_queue.v",
+    "source_sha256": "ac9d2b5bfb9e662842394d0ee5f83012abc00811350db668ff2325d00fcf7327",
+    "sha256": "ac9d2b5bfb9e662842394d0ee5f83012abc00811350db668ff2325d00fcf7327",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\cpu_npu_queue.v"
+  },
+  {
+    "destination": "hardware/rtl/cpu_soc.v",
+    "source_sha256": "747086c3c6f5ed04142436df31f9e3105746ece4c5a63ee9ad024ea2ecabd5d5",
+    "sha256": "747086c3c6f5ed04142436df31f9e3105746ece4c5a63ee9ad024ea2ecabd5d5",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\cpu_soc.v"
+  },
+  {
+    "destination": "hardware/rtl/demo_board_logic.sv",
+    "source_sha256": "11366b8b1a8e6e616d1c8e3b02254894f2b8fc955bdd5a1b496dd5e296513c13",
+    "sha256": "11366b8b1a8e6e616d1c8e3b02254894f2b8fc955bdd5a1b496dd5e296513c13",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\demo_board_logic.sv"
+  },
+  {
+    "destination": "hardware/rtl/demo_boot_owner.sv",
+    "source_sha256": "bdbfcfbbb3c32e4072b426c5e196b68f58d2537349547734a4ce538ae51ebf0e",
+    "sha256": "bdbfcfbbb3c32e4072b426c5e196b68f58d2537349547734a4ce538ae51ebf0e",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\demo_boot_owner.sv"
+  },
+  {
+    "destination": "hardware/rtl/demo_hmic_bridge.sv",
+    "source_sha256": "578cd53b9c909b4b9b0a4a7dec02e45c2e43f944e51453e67d00f1e159a1be46",
+    "sha256": "578cd53b9c909b4b9b0a4a7dec02e45c2e43f944e51453e67d00f1e159a1be46",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\demo_hmic_bridge.sv"
+  },
+  {
+    "destination": "hardware/rtl/demo_hmic_client.sv",
+    "source_sha256": "34639d6447b82b0fec7b4430770d187aa2ea52d099086ed9cce311750e67b23f",
+    "sha256": "34639d6447b82b0fec7b4430770d187aa2ea52d099086ed9cce311750e67b23f",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\demo_hmic_client.sv"
+  },
+  {
+    "destination": "hardware/rtl/demo_packet_endpoint.sv",
+    "source_sha256": "cfbde027f0701861be60a0a893e59b182766ebf1bff5d1acbca8057e724a8b10",
+    "sha256": "cfbde027f0701861be60a0a893e59b182766ebf1bff5d1acbca8057e724a8b10",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\demo_packet_endpoint.sv"
+  },
+  {
+    "destination": "hardware/rtl/demo_result_store.sv",
+    "source_sha256": "5b1785026dcb3c642e47aafbec2461010c642db794cf61168b2110532b96353a",
+    "sha256": "5b1785026dcb3c642e47aafbec2461010c642db794cf61168b2110532b96353a",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\demo_result_store.sv"
+  },
+  {
+    "destination": "hardware/rtl/demo_status_cdc.sv",
+    "source_sha256": "bf379c7e96ce0e3260c446109eccc591e2a5b10dcf2197eef2bed7da105e26b3",
+    "sha256": "bf379c7e96ce0e3260c446109eccc591e2a5b10dcf2197eef2bed7da105e26b3",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\demo_status_cdc.sv"
+  },
+  {
+    "destination": "hardware/rtl/demo_uart_frontend.sv",
+    "source_sha256": "0d5c7771ed2a14c429a36bdd7896ab923a3ace9b657b4a1ab4fbe24a7cfe6808",
+    "sha256": "0d5c7771ed2a14c429a36bdd7896ab923a3ace9b657b4a1ab4fbe24a7cfe6808",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\demo_uart_frontend.sv"
+  },
+  {
+    "destination": "hardware/rtl/demo_uart_memory_top.sv",
+    "source_sha256": "ffae790ef04aecfaedca24719f7490549cbd53b40bcfd1ba422386b4f61beee4",
+    "sha256": "ffae790ef04aecfaedca24719f7490549cbd53b40bcfd1ba422386b4f61beee4",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\demo_uart_memory_top.sv"
+  },
+  {
+    "destination": "hardware/rtl/demo_video_q16_writer.sv",
+    "source_sha256": "5519b5daeee41d487304f75c174a183bda39161ead4f6593721be472b33d9b37",
+    "sha256": "5519b5daeee41d487304f75c174a183bda39161ead4f6593721be472b33d9b37",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\demo_video_q16_writer.sv"
+  },
+  {
+    "destination": "hardware/rtl/dual_int8_mac.v",
+    "source_sha256": "4b3ba99bf7362c604ed3f30dd311d9126cef745a310930ceb47f09f4e4cc0fb6",
+    "sha256": "4b3ba99bf7362c604ed3f30dd311d9126cef745a310930ceb47f09f4e4cc0fb6",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\dual_int8_mac.v"
+  },
+  {
+    "destination": "hardware/rtl/dual_int8_mac32.v",
+    "source_sha256": "263c54c4d8b7a100538716d19e79d936da7ae258774363f52769a5da454a389e",
+    "sha256": "263c54c4d8b7a100538716d19e79d936da7ae258774363f52769a5da454a389e",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\dual_int8_mac32.v"
+  },
+  {
+    "destination": "hardware/rtl/elementwise_stream4.v",
+    "source_sha256": "431b218f9e5336df1797f009308266f3e55383c0ed082c278edae63e1667c60c",
+    "sha256": "431b218f9e5336df1797f009308266f3e55383c0ed082c278edae63e1667c60c",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\elementwise_stream4.v"
+  },
+  {
+    "destination": "hardware/rtl/fragment_pack256.v",
+    "source_sha256": "1a56405b75fb0b9efca640102753d5465aabf21141b7555a1174d5ac2e39e13a",
+    "sha256": "1a56405b75fb0b9efca640102753d5465aabf21141b7555a1174d5ac2e39e13a",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\fragment_pack256.v"
+  },
+  {
+    "destination": "hardware/rtl/fullgraph_accelerators.v",
+    "source_sha256": "55a6792b32b4043f4e4928bd7d40dc0d68d2c666310589188c43ba7755395089",
+    "sha256": "55a6792b32b4043f4e4928bd7d40dc0d68d2c666310589188c43ba7755395089",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\fullgraph_accelerators.v"
+  },
+  {
+    "destination": "hardware/rtl/fullgraph_core.v",
+    "source_sha256": "d59e1df5816e5a0a1f7dc2d40efa792723a21341dc0a6ae02165300498160b5d",
+    "sha256": "d59e1df5816e5a0a1f7dc2d40efa792723a21341dc0a6ae02165300498160b5d",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\fullgraph_core.v"
+  },
+  {
+    "destination": "hardware/rtl/graph_reset_leaf.v",
+    "source_sha256": "66fdafb19900a060f8527e595ecf711887ab055f9a5aebd566fb3863463f7062",
+    "sha256": "66fdafb19900a060f8527e595ecf711887ab055f9a5aebd566fb3863463f7062",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\graph_reset_leaf.v"
+  },
+  {
+    "destination": "hardware/rtl/demo_hold_root.v",
+    "source_sha256": "ef40cf8d53f14852537e0a5c8377e0b6ac550d7e05801e18ca3a53bcbf2c1939",
+    "sha256": "ef40cf8d53f14852537e0a5c8377e0b6ac550d7e05801e18ca3a53bcbf2c1939",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\demo_hold_root.v"
+  },
+  {
+    "destination": "hardware/rtl/graph_elementwise4.v",
+    "source_sha256": "1b1d55857c85095e9cb305af2adc4d6864b2f8a1b2d7d41840474e53d9f7dba5",
+    "sha256": "1b1d55857c85095e9cb305af2adc4d6864b2f8a1b2d7d41840474e53d9f7dba5",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\graph_elementwise4.v"
+  },
+  {
+    "destination": "hardware/rtl/graph_fragment_fifo.v",
+    "source_sha256": "89038bd7c9f99d5af0366cf695b8ec768d93eeab837e82940d5207684ce3e1b3",
+    "sha256": "89038bd7c9f99d5af0366cf695b8ec768d93eeab837e82940d5207684ce3e1b3",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\graph_fragment_fifo.v"
+  },
+  {
+    "destination": "hardware/rtl/graph_linear_stream.v",
+    "source_sha256": "d3bbc48b1e69a00044b43717a79ca97290ec13f084928c61f78b2d9268dcef54",
+    "sha256": "d3bbc48b1e69a00044b43717a79ca97290ec13f084928c61f78b2d9268dcef54",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\graph_linear_stream.v"
+  },
+  {
+    "destination": "hardware/rtl/graph_mmio_cdc.v",
+    "source_sha256": "1ee80dc5b9b54039cb43ae944402cae2c1aa5dbcdfb077f59bf422c1af23bfd5",
+    "sha256": "1ee80dc5b9b54039cb43ae944402cae2c1aa5dbcdfb077f59bf422c1af23bfd5",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\graph_mmio_cdc.v"
+  },
+  {
+    "destination": "hardware/rtl/graph_mmio_dma_sequencer.v",
+    "source_sha256": "0d675a8557dbef6d8299ab1bc12c954ed43537dd3b3f1fc5970af5a1f8082cb1",
+    "sha256": "0d675a8557dbef6d8299ab1bc12c954ed43537dd3b3f1fc5970af5a1f8082cb1",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\graph_mmio_dma_sequencer.v"
+  },
+  {
+    "destination": "hardware/rtl/graph_mmio_sequencer.v",
+    "source_sha256": "7d4af5d21a800c7909013d1d8c98d333cadf2c78f865c9d77ad9b024ef88fe2e",
+    "sha256": "7d4af5d21a800c7909013d1d8c98d333cadf2c78f865c9d77ad9b024ef88fe2e",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\graph_mmio_sequencer.v"
+  },
+  {
+    "destination": "hardware/rtl/graph_program_cache.v",
+    "source_sha256": "f8c6bf2c7e84971ee4e325423680d15557252a68ce42005d73d5b3afc4b01d7f",
+    "sha256": "f8c6bf2c7e84971ee4e325423680d15557252a68ce42005d73d5b3afc4b01d7f",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\graph_program_cache.v"
+  },
+  {
+    "destination": "hardware/rtl/graph_transpose_stream.v",
+    "source_sha256": "a3ae720d0ff20709cb2be0607cd1ab41f39a83fe36db9b599e0e102acc998025",
+    "sha256": "a3ae720d0ff20709cb2be0607cd1ab41f39a83fe36db9b599e0e102acc998025",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\graph_transpose_stream.v"
+  },
+  {
+    "destination": "hardware/rtl/graph_vector_bridge.v",
+    "source_sha256": "8efa9243461407f90f84b2d9a11fe8c87b2eae18677ccfa625b1efc4b3c0c887",
+    "sha256": "8efa9243461407f90f84b2d9a11fe8c87b2eae18677ccfa625b1efc4b3c0c887",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\graph_vector_bridge.v"
+  },
+  {
+    "destination": "hardware/rtl/graph_vector_engine.v",
+    "source_sha256": "a45e6dda9f4360b130f827971f13d30724c98e95e05020c8422ac00b4e9dc540",
+    "sha256": "a45e6dda9f4360b130f827971f13d30724c98e95e05020c8422ac00b4e9dc540",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\graph_vector_engine.v"
+  },
+  {
+    "destination": "hardware/rtl/hmic_dma_cdc.v",
+    "source_sha256": "b64ad302e4e843f9525af9f0c91c39b352b3535c1eede0fd7052399532d9a440",
+    "sha256": "b64ad302e4e843f9525af9f0c91c39b352b3535c1eede0fd7052399532d9a440",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\hmic_dma_cdc.v"
+  },
+  {
+    "destination": "hardware/rtl/hmic_layout_cdc.v",
+    "source_sha256": "7711d13803a1f0721d9aa9b97e9c7d8684a6c443a6f6fe6a93c78a5ab22f3ba0",
+    "sha256": "7711d13803a1f0721d9aa9b97e9c7d8684a6c443a6f6fe6a93c78a5ab22f3ba0",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\hmic_layout_cdc.v"
+  },
+  {
+    "destination": "hardware/rtl/hmic_owner3.v",
+    "source_sha256": "7d13ce25d7fc07d03c03034644d0ea31058a28122f189210dfd5e3124ef5bd81",
+    "sha256": "7d13ce25d7fc07d03c03034644d0ea31058a28122f189210dfd5e3124ef5bd81",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\hmic_owner3.v"
+  },
+  {
+    "destination": "hardware/rtl/joint_async_fifo.v",
+    "source_sha256": "2af268c68750425c17133a9c54f8a59f9117d071ed35f6e0f2e684f80f8d6d4d",
+    "sha256": "2af268c68750425c17133a9c54f8a59f9117d071ed35f6e0f2e684f80f8d6d4d",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\joint_async_fifo.v"
+  },
+  {
+    "destination": "hardware/rtl/kq_uart_rx.v",
+    "source_sha256": "cc5a98da0764c11a1f579be5e6a36208e30ca4b4ec57d6a899b53e312ab08c7b",
+    "sha256": "cc5a98da0764c11a1f579be5e6a36208e30ca4b4ec57d6a899b53e312ab08c7b",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\kq_uart_rx.v"
+  },
+  {
+    "destination": "hardware/rtl/kq_uart_tx.v",
+    "source_sha256": "d90913fe9095dec21e8b4cab5b2de960720ca78614bc6f235512311922e55076",
+    "sha256": "d90913fe9095dec21e8b4cab5b2de960720ca78614bc6f235512311922e55076",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\kq_uart_tx.v"
+  },
+  {
+    "destination": "hardware/rtl/logos2_temperature_adc.v",
+    "source_sha256": "a13ed860079f39a13be2ddfb998475af41c726930f7c46c3975d8e5b0e095611",
+    "sha256": "a13ed860079f39a13be2ddfb998475af41c726930f7c46c3975d8e5b0e095611",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\logos2_temperature_adc.v"
+  },
+  {
+    "destination": "hardware/rtl/mac_array_fold16.v",
+    "source_sha256": "e84a30e3adc5f64087f00574d478a2f5c749bf3cd2f9d224ff7f47720031d568",
+    "sha256": "e84a30e3adc5f64087f00574d478a2f5c749bf3cd2f9d224ff7f47720031d568",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\mac_array_fold16.v"
+  },
+  {
+    "destination": "hardware/rtl/mac_array_snapshot.v",
+    "source_sha256": "d2898de191b18f97de935dfccfc957ab3d6e9b6445ac31c5bc6987765a2a30d3",
+    "sha256": "d2898de191b18f97de935dfccfc957ab3d6e9b6445ac31c5bc6987765a2a30d3",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\mac_array_snapshot.v"
+  },
+  {
+    "destination": "hardware/rtl/model_param_store16.v",
+    "source_sha256": "c3366f7c13cfbc1f82bc2a5fda35ea123bf214fc1690ddfda9bfa2064a157ef8",
+    "sha256": "c3366f7c13cfbc1f82bc2a5fda35ea123bf214fc1690ddfda9bfa2064a157ef8",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\model_param_store16.v"
+  },
+  {
+    "destination": "hardware/rtl/native_panel_loader.v",
+    "source_sha256": "79493c8f15c2cd419f4407068b209d60de0a60751af54ea711648edc94ae511c",
+    "sha256": "79493c8f15c2cd419f4407068b209d60de0a60751af54ea711648edc94ae511c",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\native_panel_loader.v"
+  },
+  {
+    "destination": "hardware/rtl/npu_ddr_datapath.v",
+    "source_sha256": "c4e03a781bc42c3791628632a6ff50701d2b34cca9890253331e3208a60b04ca",
+    "sha256": "c4e03a781bc42c3791628632a6ff50701d2b34cca9890253331e3208a60b04ca",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\npu_ddr_datapath.v"
+  },
+  {
+    "destination": "hardware/rtl/npu_layout_tail.v",
+    "source_sha256": "4cb34a036bd88db3b4d5d1f71e7c80ae5cab6ac46603eaea6a5f48df877236c2",
+    "sha256": "4cb34a036bd88db3b4d5d1f71e7c80ae5cab6ac46603eaea6a5f48df877236c2",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\npu_layout_tail.v"
+  },
+  {
+    "destination": "hardware/rtl/oj_pixel_fifo_recovery.sv",
+    "source_sha256": "302d01013802716acb5bbcf92dc7b935ba4babb1d8358d843c43caaf4df980cf",
+    "sha256": "302d01013802716acb5bbcf92dc7b935ba4babb1d8358d843c43caaf4df980cf",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\oj_pixel_fifo_recovery.sv"
+  },
+  {
+    "destination": "hardware/rtl/oj_video_capture_recovery.sv",
+    "source_sha256": "dead1fbb4d49016707c23a62472b03ee5d6205e4cf0bf4e1deac946f1120ac14",
+    "sha256": "dead1fbb4d49016707c23a62472b03ee5d6205e4cf0bf4e1deac946f1120ac14",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\oj_video_capture_recovery.sv"
+  },
+  {
+    "destination": "hardware/rtl/om_video_session.sv",
+    "source_sha256": "92c0ea5d11b491795e88d99976aac7a0629d7c12cbc82c48abfbafd9e2eeb584",
+    "sha256": "92c0ea5d11b491795e88d99976aac7a0629d7c12cbc82c48abfbafd9e2eeb584",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\om_video_session.sv"
+  },
+  {
+    "destination": "hardware/rtl/package_cpu_bridge.v",
+    "source_sha256": "3828e6e788808342c47b314c29fe9759dae3c2a449aed52b0e593be216ba9f41",
+    "sha256": "3828e6e788808342c47b314c29fe9759dae3c2a449aed52b0e593be216ba9f41",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\package_cpu_bridge.v"
+  },
+  {
+    "destination": "hardware/rtl/package_crc_stream.v",
+    "source_sha256": "3a8d21a080ed24ff1271a38136c6c52e5be29c60ab242d07f582c98eb70d2515",
+    "sha256": "3a8d21a080ed24ff1271a38136c6c52e5be29c60ab242d07f582c98eb70d2515",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\package_crc_stream.v"
+  },
+  {
+    "destination": "hardware/rtl/package_mailbox.v",
+    "source_sha256": "ed4068ee0ee86daabf4090044388bc322d24b5610b89e5be611955e40ef1a134",
+    "sha256": "ed4068ee0ee86daabf4090044388bc322d24b5610b89e5be611955e40ef1a134",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\package_mailbox.v"
+  },
+  {
+    "destination": "hardware/rtl/package_reader.v",
+    "source_sha256": "f171d75f23b41149816d83c083c17ba704bbc2df9ef1e9d43ca5b312c0dcc226",
+    "sha256": "f171d75f23b41149816d83c083c17ba704bbc2df9ef1e9d43ca5b312c0dcc226",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\package_reader.v"
+  },
+  {
+    "destination": "hardware/rtl/paired_operand_store.v",
+    "source_sha256": "a9de36d1d7bb453ad71f8a6bfa3506b172b5c584e361ded65e6120f7c85eccd7",
+    "sha256": "a9de36d1d7bb453ad71f8a6bfa3506b172b5c584e361ded65e6120f7c85eccd7",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\paired_operand_store.v"
+  },
+  {
+    "destination": "hardware/rtl/panel_compute.v",
+    "source_sha256": "306a01f32ca4cbb151964aaee778685f7fcdeb096952d28da39e4f4b60afb01f",
+    "sha256": "306a01f32ca4cbb151964aaee778685f7fcdeb096952d28da39e4f4b60afb01f",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\panel_compute.v"
+  },
+  {
+    "destination": "hardware/rtl/panel_operand_store.v",
+    "source_sha256": "78c47ef1160f922378f64c9c2d27c6438d95b5bd7e918bcba19878d5acb58a17",
+    "sha256": "78c47ef1160f922378f64c9c2d27c6438d95b5bd7e918bcba19878d5acb58a17",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\panel_operand_store.v"
+  },
+  {
+    "destination": "hardware/rtl/partial_sum_store.v",
+    "source_sha256": "8adb25cf6daefd6d2e36cd893ac1a82a24112cd36f433fe9827e41371c632a41",
+    "sha256": "8adb25cf6daefd6d2e36cd893ac1a82a24112cd36f433fe9827e41371c632a41",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\partial_sum_store.v"
+  },
+  {
+    "destination": "hardware/rtl/prelu_parameters4.v",
+    "source_sha256": "6702a1d78bd110922da7eb0d0925457aa9a38d25e46075b1e9ccc0cd867a1986",
+    "sha256": "6702a1d78bd110922da7eb0d0925457aa9a38d25e46075b1e9ccc0cd867a1986",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\prelu_parameters4.v"
+  },
+  {
+    "destination": "hardware/rtl/quant_stream16.v",
+    "source_sha256": "8b763f1f49ebce199ff77706fbbb228cd6965f6904d0c8d1ea6a4e5ef987fc1b",
+    "sha256": "8b763f1f49ebce199ff77706fbbb228cd6965f6904d0c8d1ea6a4e5ef987fc1b",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\quant_stream16.v"
+  },
+  {
+    "destination": "hardware/rtl/requant_stream4.v",
+    "source_sha256": "d33c9345dfb4225081f3f0da1b946c927c7d4aa90dd1fd40fc934795c3a2652f",
+    "sha256": "d33c9345dfb4225081f3f0da1b946c927c7d4aa90dd1fd40fc934795c3a2652f",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\requant_stream4.v"
+  },
+  {
+    "destination": "hardware/rtl/resident_job_executor.v",
+    "source_sha256": "12c9a9a8d13aca4f99f07aea5b952d51440fdb6f080f899dd86892dbdb4b9411",
+    "sha256": "12c9a9a8d13aca4f99f07aea5b952d51440fdb6f080f899dd86892dbdb4b9411",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\resident_job_executor.v"
+  },
+  {
+    "destination": "hardware/rtl/resident_layer_scheduler.v",
+    "source_sha256": "8c66958e31c6fda724811094cc2949acc26a1dff0f8a2f2c81d7baba5c47ec53",
+    "sha256": "8c66958e31c6fda724811094cc2949acc26a1dff0f8a2f2c81d7baba5c47ec53",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\resident_layer_scheduler.v"
+  },
+  {
+    "destination": "hardware/rtl/resident_panel_operand_store.v",
+    "source_sha256": "a780e55d64a3a306904f4cc7716ab7a2c7ecc2ff61a59eca83c42306d51e884d",
+    "sha256": "a780e55d64a3a306904f4cc7716ab7a2c7ecc2ff61a59eca83c42306d51e884d",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\resident_panel_operand_store.v"
+  },
+  {
+    "destination": "hardware/rtl/retina_warp_normalize.v",
+    "source_sha256": "7ebe7fa333d795f18d0bf7d65f0583f50d26e35cee781fd0d81f32db6c382716",
+    "sha256": "7ebe7fa333d795f18d0bf7d65f0583f50d26e35cee781fd0d81f32db6c382716",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\retina_warp_normalize.v"
+  },
+  {
+    "destination": "hardware/rtl/retina_warp_q16.sv",
+    "source_sha256": "303dd2eefc92f46ae8ad9f37df35a25779208ee7f14c6c5ade287f3f8226eb7f",
+    "sha256": "303dd2eefc92f46ae8ad9f37df35a25779208ee7f14c6c5ade287f3f8226eb7f",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\retina_warp_q16.sv"
+  },
+  {
+    "destination": "hardware/rtl/rv32_alu.v",
+    "source_sha256": "dfb7a4a24baf7074458f1ce519c3c928d3895e66579167bd6faebadf2779cd5a",
+    "sha256": "dfb7a4a24baf7074458f1ce519c3c928d3895e66579167bd6faebadf2779cd5a",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\rv32_alu.v"
+  },
+  {
+    "destination": "hardware/rtl/rv32_core.v",
+    "source_sha256": "297eb95fd2823e22b0feda10519f602dc6fad0e82a4b5bcd8c88989efd06d3e9",
+    "sha256": "297eb95fd2823e22b0feda10519f602dc6fad0e82a4b5bcd8c88989efd06d3e9",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\rv32_core.v"
+  },
+  {
+    "destination": "hardware/rtl/rv32_dcache.v",
+    "source_sha256": "a40a21027d7a8a4eed1bb6d4328b7429312bb310d6823083d08cfc239ed1c8b4",
+    "sha256": "a40a21027d7a8a4eed1bb6d4328b7429312bb310d6823083d08cfc239ed1c8b4",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\rv32_dcache.v"
+  },
+  {
+    "destination": "hardware/rtl/rv32_icache.v",
+    "source_sha256": "036fede519e5665bb8950fdb833dfa2149ac45d78ccecf437e9056f56983ef78",
+    "sha256": "036fede519e5665bb8950fdb833dfa2149ac45d78ccecf437e9056f56983ef78",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\rv32_icache.v"
+  },
+  {
+    "destination": "hardware/rtl/rv32_muldiv.v",
+    "source_sha256": "824f1b905a706274319cc8c535c7bd2a740e3c18cc4f4309a5ba86bca262c390",
+    "sha256": "824f1b905a706274319cc8c535c7bd2a740e3c18cc4f4309a5ba86bca262c390",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\rv32_muldiv.v"
+  },
+  {
+    "destination": "hardware/rtl/rv32_regfile.v",
+    "source_sha256": "1d412d6e818d906dad1fea22c88fd5e2c80f8127cfdaf269c4aee089c2a18333",
+    "sha256": "1d412d6e818d906dad1fea22c88fd5e2c80f8127cfdaf269c4aee089c2a18333",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\rv32_regfile.v"
+  },
+  {
+    "destination": "hardware/rtl/s_system_core.v",
+    "source_sha256": "83b3b509117b5e7c300075e750d9ee67ba5963a128149d2dfe770818e76050ba",
+    "sha256": "83b3b509117b5e7c300075e750d9ee67ba5963a128149d2dfe770818e76050ba",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\s_system_core.v"
+  },
+  {
+    "destination": "hardware/rtl/sync_ram.v",
+    "source_sha256": "febcd8954626e408232199e177f035351385340e9145460054fd1a881c8cdf8f",
+    "sha256": "febcd8954626e408232199e177f035351385340e9145460054fd1a881c8cdf8f",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\sync_ram.v"
+  },
+  {
+    "destination": "hardware/rtl/sync_stream_fifo.v",
+    "source_sha256": "a9589b3495fa5163b6444ce322bbf7fd331bd294236178fa4add2e8fd274422c",
+    "sha256": "a9589b3495fa5163b6444ce322bbf7fd331bd294236178fa4add2e8fd274422c",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\sync_stream_fifo.v"
+  },
+  {
+    "destination": "hardware/rtl/tile_writeback4.v",
+    "source_sha256": "5da1a409bed600957ddb50121bfe6abc7de2fbc0fb06dc23dfc093a63080d3dc",
+    "sha256": "5da1a409bed600957ddb50121bfe6abc7de2fbc0fb06dc23dfc093a63080d3dc",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\tile_writeback4.v"
+  },
+  {
+    "destination": "hardware/rtl/uart_rx.v",
+    "source_sha256": "1b0b80790db53b08ff0f0b098ade5c4dcea9cc2bb66d558a5e2d67aa013c5bad",
+    "sha256": "1b0b80790db53b08ff0f0b098ade5c4dcea9cc2bb66d558a5e2d67aa013c5bad",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\uart_rx.v"
+  },
+  {
+    "destination": "hardware/rtl/uart_tx.v",
+    "source_sha256": "acc771bb20931df015018e1534266842fa23a0bf12b1ecf3b34c7ff6745aaffb",
+    "sha256": "acc771bb20931df015018e1534266842fa23a0bf12b1ecf3b34c7ff6745aaffb",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\uart_tx.v"
+  },
+  {
+    "destination": "hardware/rtl/warp_bilinear_new.sv",
+    "source_sha256": "17397bea1f9e7cb825784bc926a8f827b8413c3fde6208e8e3277478951cbd70",
+    "sha256": "17397bea1f9e7cb825784bc926a8f827b8413c3fde6208e8e3277478951cbd70",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\warp_bilinear_new.sv"
+  },
+  {
+    "destination": "hardware/rtl/warp_coordinates_pinned.sv",
+    "source_sha256": "353959063c35442a56d23e4183ca511bcdb68dbddd07878cb571190854f86583",
+    "sha256": "353959063c35442a56d23e4183ca511bcdb68dbddd07878cb571190854f86583",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\warp_coordinates_pinned.sv"
+  },
+  {
+    "destination": "hardware/rtl/credit_math4.v",
+    "source_sha256": "2b4b511471c61f65d2aea4c17d75df5b11f77346794ff5dd5b76cb623b5d8a7e",
+    "sha256": "2b4b511471c61f65d2aea4c17d75df5b11f77346794ff5dd5b76cb623b5d8a7e",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\credit_math4.v"
+  },
+  {
+    "destination": "hardware/rtl/model_param_store4.v",
+    "source_sha256": "0c841c1b10e887a731a8d04e656cab41ff9a54e70ff967f987579f7485c949a9",
+    "sha256": "0c841c1b10e887a731a8d04e656cab41ff9a54e70ff967f987579f7485c949a9",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\model_param_store4.v"
+  },
+  {
+    "destination": "hardware/rtl/demo_model_residency.sv",
+    "source_sha256": "326b95006e9e3abb3bef87c8359d39d2bed65b4c9143f5cc1991d81c44debda7",
+    "sha256": "326b95006e9e3abb3bef87c8359d39d2bed65b4c9143f5cc1991d81c44debda7",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\demo_model_residency.sv"
+  },
+  {
+    "destination": "hardware/rtl/demo_gallery_residency.sv",
+    "source_sha256": "d42c5f4299e1a7683973c0ab695944f17dcf1173f2dbd97cc9db274f1381d531",
+    "sha256": "d42c5f4299e1a7683973c0ab695944f17dcf1173f2dbd97cc9db274f1381d531",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\demo_gallery_residency.sv"
+  },
+  {
+    "destination": "hardware/rtl/pf_elastic2.v",
+    "source_sha256": "843e7b0b95bba9b4453edc998048132d028510e40a6916eda05e32b021223754",
+    "sha256": "843e7b0b95bba9b4453edc998048132d028510e40a6916eda05e32b021223754",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\rtl\\pf_elastic2.v"
+  },
+  {
+    "destination": "hardware/board.fdc",
+    "source_sha256": "789791d589ff81948dee4b2afd03b52dd735bd318eda1c6e0e9694cda4f38744",
+    "sha256": "789791d589ff81948dee4b2afd03b52dd735bd318eda1c6e0e9694cda4f38744",
+    "role": "board constraints",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\board.fdc"
+  },
+  {
+    "destination": "hardware/mini_ddr.rcf",
+    "source_sha256": "01a316eaa22fb40512d6d7948533b18296e2cc2860469bbf1ae8dbf0fe872002",
+    "sha256": "01a316eaa22fb40512d6d7948533b18296e2cc2860469bbf1ae8dbf0fe872002",
+    "role": "board constraints",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\mini_ddr.rcf"
+  },
+  {
+    "destination": "hardware/sigmoid.hex",
+    "source_sha256": "8368bbdd194ba3a839518e7c409b572bbac2fcd02d7fee87d791db22b403c446",
+    "sha256": "8368bbdd194ba3a839518e7c409b572bbac2fcd02d7fee87d791db22b403c446",
+    "role": "fixed mathematical initialization table",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\sigmoid.hex"
+  },
+  {
+    "destination": "hardware/sigmoid_even.hex",
+    "source_sha256": "e5d9eb3e1939f34a29b8dabf1b97caf148f75e5641e5d53acc74238be8631209",
+    "sha256": "e5d9eb3e1939f34a29b8dabf1b97caf148f75e5641e5d53acc74238be8631209",
+    "role": "fixed mathematical initialization table",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\sigmoid_even.hex"
+  },
+  {
+    "destination": "hardware/sigmoid_odd.hex",
+    "source_sha256": "c6c4b25d633308742c198f403dd6e4b5f1a536d91743ebdf34b5a1ac705d74fb",
+    "sha256": "c6c4b25d633308742c198f403dd6e4b5f1a536d91743ebdf34b5a1ac705d74fb",
+    "role": "fixed mathematical initialization table",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\physical04\\work\\sigmoid_odd.hex"
+  },
+  {
+    "destination": "firmware/face/cpu_warp.c",
+    "source_sha256": "d7941914780324cfdbe81c8a052a07e1d223545d40abd3949b45a574a71cd412",
+    "sha256": "d7941914780324cfdbe81c8a052a07e1d223545d40abd3949b45a574a71cd412",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\firmware\\cpu_warp.c"
+  },
+  {
+    "destination": "firmware/face/cpu_warp.h",
+    "source_sha256": "0a95a1c84617962a41b4bd5d2165267a03c06d7563b82f14788962ec867c6715",
+    "sha256": "0a95a1c84617962a41b4bd5d2165267a03c06d7563b82f14788962ec867c6715",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\firmware\\cpu_warp.h"
+  },
+  {
+    "destination": "firmware/face/demo.c",
+    "source_sha256": "57c5eab206aee3757ffb96c62bcb2f7233f15bad23296b5ead893bcd6db6c1f6",
+    "sha256": "57c5eab206aee3757ffb96c62bcb2f7233f15bad23296b5ead893bcd6db6c1f6",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\firmware\\demo.c"
+  },
+  {
+    "destination": "firmware/face/exact_sdot.c",
+    "source_sha256": "9ee6c1ebd312f91d8b1ca98b0a612b8b1f38d2db8774425a4a6bd0528fd504a8",
+    "sha256": "9ee6c1ebd312f91d8b1ca98b0a612b8b1f38d2db8774425a4a6bd0528fd504a8",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\firmware\\exact_sdot.c"
+  },
+  {
+    "destination": "firmware/face/fast_exact.c",
+    "source_sha256": "656e4a66cd1e8003d04142956b4b97103689cafd72f9f224abd7de7c876e87c2",
+    "sha256": "656e4a66cd1e8003d04142956b4b97103689cafd72f9f224abd7de7c876e87c2",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\firmware\\fast_exact.c"
+  },
+  {
+    "destination": "firmware/face/fit.c",
+    "source_sha256": "a8eda22119653692578bbc5d87861a3eb0183c58df55667fbd11ac29ee762b71",
+    "sha256": "a8eda22119653692578bbc5d87861a3eb0183c58df55667fbd11ac29ee762b71",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\firmware\\fit.c"
+  },
+  {
+    "destination": "firmware/face/fit.h",
+    "source_sha256": "204d13dad8d82d66e1db7ea2ede86b34888ef36da2daef2cdc5b26655510edcd",
+    "sha256": "204d13dad8d82d66e1db7ea2ede86b34888ef36da2daef2cdc5b26655510edcd",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\firmware\\fit.h"
+  },
+  {
+    "destination": "firmware/face/fma32_fast.c",
+    "source_sha256": "d615b6a0e32156362df6f3095e2315f0250b35d96c018572bbd28351dde1bfa4",
+    "sha256": "d615b6a0e32156362df6f3095e2315f0250b35d96c018572bbd28351dde1bfa4",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\firmware\\fma32_fast.c"
+  },
+  {
+    "destination": "firmware/face/gallery_exact.c",
+    "source_sha256": "a43a877c4be8d4d51a99ecd21e7424ab43326e9aed786a9fa6a357e26b79dd74",
+    "sha256": "a43a877c4be8d4d51a99ecd21e7424ab43326e9aed786a9fa6a357e26b79dd74",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\firmware\\gallery_exact.c"
+  },
+  {
+    "destination": "firmware/face/graph_preflight.c",
+    "source_sha256": "691b3c8cfce64fbdf16141e47b4edf8628bc51ce4d89dc612e9ada81dc4b63af",
+    "sha256": "691b3c8cfce64fbdf16141e47b4edf8628bc51ce4d89dc612e9ada81dc4b63af",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\firmware\\graph_preflight.c"
+  },
+  {
+    "destination": "firmware/face/mbf_normalization.h",
+    "source_sha256": "5e59edbf5ddadd8d78fcf0d980fbc48667231d8d868eddc5289e80723a487878",
+    "sha256": "5e59edbf5ddadd8d78fcf0d980fbc48667231d8d868eddc5289e80723a487878",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\firmware\\mbf_normalization.h"
+  },
+  {
+    "destination": "firmware/face/norm512_skylakex.c",
+    "source_sha256": "a36d8c12cdbd7afb5b1c5195407d28af7eebbd478a1e103323fbaa70fec040b6",
+    "sha256": "a36d8c12cdbd7afb5b1c5195407d28af7eebbd478a1e103323fbaa70fec040b6",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\firmware\\norm512_skylakex.c"
+  },
+  {
+    "destination": "firmware/face/package_fixture.h",
+    "source_sha256": "15850fee01a1c88fcd7c3d2aa2a8b0f89bb69eaca14514439e102ae86a926c1f",
+    "sha256": "15850fee01a1c88fcd7c3d2aa2a8b0f89bb69eaca14514439e102ae86a926c1f",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\firmware\\package_fixture.h"
+  },
+  {
+    "destination": "firmware/face/positive64_exact.c",
+    "source_sha256": "ca44804358219fdfb937f415ad51dd19eae594a8b67dc733d850551dfe063f46",
+    "sha256": "ca44804358219fdfb937f415ad51dd19eae594a8b67dc733d850551dfe063f46",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\firmware\\positive64_exact.c"
+  },
+  {
+    "destination": "firmware/face/release_memory.h",
+    "source_sha256": "d62f81d7e896dd9aa59eb2ed16b23a315b4ca8fe89e47a1b3fa7c9d203ecd799",
+    "sha256": "d62f81d7e896dd9aa59eb2ed16b23a315b4ca8fe89e47a1b3fa7c9d203ecd799",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\firmware\\release_memory.h"
+  },
+  {
+    "destination": "firmware/face/retina_decode.c",
+    "source_sha256": "bb85b57fb09a8e9b6f8f0a5d2717d081eaa36bbd91e3655835ebaaf08efeab2a",
+    "sha256": "bb85b57fb09a8e9b6f8f0a5d2717d081eaa36bbd91e3655835ebaaf08efeab2a",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\firmware\\retina_decode.c"
+  },
+  {
+    "destination": "firmware/face/retina_decode.h",
+    "source_sha256": "1c2e9ad9ed4a25e2b4d0a15e9fdfdb3fb599ba2650496f7cc25eee9b11bf722a",
+    "sha256": "1c2e9ad9ed4a25e2b4d0a15e9fdfdb3fb599ba2650496f7cc25eee9b11bf722a",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\firmware\\retina_decode.h"
+  },
+  {
+    "destination": "firmware/face/retina_exp_table.h",
+    "source_sha256": "5acab1d72095da40daf94218bb533ab0bbfced3c1d7b83c395e491d04fb44126",
+    "sha256": "5acab1d72095da40daf94218bb533ab0bbfced3c1d7b83c395e491d04fb44126",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\firmware\\retina_exp_table.h"
+  },
+  {
+    "destination": "firmware/face/retina_post.c",
+    "source_sha256": "fa3cb12754c1d7df351b8d92f063cf02d0a9715987db84fe3fbb18d194558352",
+    "sha256": "fa3cb12754c1d7df351b8d92f063cf02d0a9715987db84fe3fbb18d194558352",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\firmware\\retina_post.c"
+  },
+  {
+    "destination": "firmware/face/retina_post.h",
+    "source_sha256": "1a5845945a69d376c2a353135a6be36363f3ee63d1e702f0b4d91de2710880cb",
+    "sha256": "1a5845945a69d376c2a353135a6be36363f3ee63d1e702f0b4d91de2710880cb",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\firmware\\retina_post.h"
+  },
+  {
+    "destination": "firmware/face/runtime.c",
+    "source_sha256": "7c0e8c8644a10770b07daee6d226c1c813829ce7cd4cc3123994f092f256d8e8",
+    "sha256": "7c0e8c8644a10770b07daee6d226c1c813829ce7cd4cc3123994f092f256d8e8",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\firmware\\runtime.c"
+  },
+  {
+    "destination": "firmware/loader.c",
+    "source_sha256": "9570251bec96afef0ced4b8146fc0913f0d267aadb22ff8c4d273df3340d6cfb",
+    "sha256": "9570251bec96afef0ced4b8146fc0913f0d267aadb22ff8c4d273df3340d6cfb",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\loader.c"
+  },
+  {
+    "destination": "firmware/core_portme.c",
+    "source_sha256": "027330a675b235665e2b250ce68e20129458499a6bb46753e5bd64a9d8149dac",
+    "sha256": "027330a675b235665e2b250ce68e20129458499a6bb46753e5bd64a9d8149dac",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\core_portme.c"
+  },
+  {
+    "destination": "firmware/benchmark.ld",
+    "source_sha256": "e545a85e3e948faceb0ebc5a43bae4f90971ff54202b45fcb66a7cb5629da542",
+    "sha256": "e545a85e3e948faceb0ebc5a43bae4f90971ff54202b45fcb66a7cb5629da542",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\benchmark.ld"
+  },
+  {
+    "destination": "firmware/coremark/core_portme.h",
+    "source_sha256": "626986571e81cbbbfabef2b8b7e459e7d3cb46f5a629bef717bcf2820ff5e691",
+    "sha256": "626986571e81cbbbfabef2b8b7e459e7d3cb46f5a629bef717bcf2820ff5e691",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\coremark\\core_portme.h"
+  },
+  {
+    "destination": "firmware/start.S",
+    "source_sha256": "ac09314f13df22d2ef7395c6b9a02ad8cd3a6099b21c1a189f8ffcecf9684185",
+    "sha256": "ac09314f13df22d2ef7395c6b9a02ad8cd3a6099b21c1a189f8ffcecf9684185",
+    "role": "project source",
+    "modified": false,
+    "origin": "start.S"
+  },
+  {
+    "destination": "firmware/face.ld",
+    "source_sha256": "2842c2c2e04344063e4d4d13c7f3ada4b6bec6884917a85a7f1b15f8b3dbd8ba",
+    "sha256": "2842c2c2e04344063e4d4d13c7f3ada4b6bec6884917a85a7f1b15f8b3dbd8ba",
+    "role": "project source",
+    "modified": false,
+    "origin": "link.ld"
+  },
+  {
+    "destination": "host/console/async_records.py",
+    "source_sha256": "cfe05819ed96bff14fdf7330ab4ea3e9b8f37b35734f6736afeb44209941a87b",
+    "sha256": "cfe05819ed96bff14fdf7330ab4ea3e9b8f37b35734f6736afeb44209941a87b",
+    "role": "project source",
+    "modified": false,
+    "origin": "qg_header_local_eco01\\console38\\async_records.py"
+  },
+  {
+    "destination": "host/console/async_serial_records.py",
+    "source_sha256": "2b8c212c57b9a35b9e42bb11a97cac09c59b5e119a7a8e9cb1295a3b1a0bd8f1",
+    "sha256": "2b8c212c57b9a35b9e42bb11a97cac09c59b5e119a7a8e9cb1295a3b1a0bd8f1",
+    "role": "project source",
+    "modified": false,
+    "origin": "qg_header_local_eco01\\console38\\async_serial_records.py"
+  },
+  {
+    "destination": "host/console/benchmark_sequence.py",
+    "source_sha256": "bacd646a4c92248c935b83155558f35b1b2e69358b6a4922b69be7c641e373b0",
+    "sha256": "bacd646a4c92248c935b83155558f35b1b2e69358b6a4922b69be7c641e373b0",
+    "role": "project source",
+    "modified": false,
+    "origin": "qg_header_local_eco01\\console38\\benchmark_sequence.py"
+  },
+  {
+    "destination": "host/console/camera.js",
+    "source_sha256": "ae8314cc9490d3719825f6bd04ee10e6fabab9709548f031b27a52bfd89fbbd1",
+    "sha256": "07f6004d2f25b934d35751a2a46d668444b216ebbf0f5691fc1eb0aae995cefa",
+    "role": "project source",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\console38\\camera.js"
+  },
+  {
+    "destination": "host/console/camera_assets.py",
+    "source_sha256": "bde4b1e72598516e428c3382d62cef4d29119b22f5170691a79ff1f716e8ba19",
+    "sha256": "317891ae43ffcba015b4d7aa3026b9d3fc65ad22cc2f657d14ea886dcd6d11fb",
+    "role": "project source",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\console38\\camera_assets.py"
+  },
+  {
+    "destination": "host/console/console.js",
+    "source_sha256": "5df3ba6b61d657dc693efe37bedddfd7e39f77982eb6d4f9af7d2ecde99cb914",
+    "sha256": "b348f236ba9ccd64c812adf873dac7bdd97ff9023b23d062b58f09ced7e82989",
+    "role": "project source",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\console38\\console.js"
+  },
+  {
+    "destination": "host/console/coremark_mode.py",
+    "source_sha256": "a1aff96da5d0fcd39b8cc5a6862855d42adac9d6d490b095048c1d05efd6bc89",
+    "sha256": "820d8fb8d606ab28eaf4b25ca8c245b2dcfbfbaa5b5e03c8eea2504f303976f5",
+    "role": "project source",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\console38\\coremark_mode.py"
+  },
+  {
+    "destination": "host/console/demo_console.py",
+    "source_sha256": "b6ebe4342840a621b3793040da6fd797c6d0caab3f44cc6872137d8b9db47102",
+    "sha256": "f20842a2d2ffcf425889e05521dbcdd0fd7eb3c0ed7dede14a89e428e755fef6",
+    "role": "project source",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\console38\\demo_console.py"
+  },
+  {
+    "destination": "host/console/display_sources.py",
+    "source_sha256": "27b3e18b46a15930a9782962b8d59a48be3cd87d0ea6d8cca8e4f9034586a8d0",
+    "sha256": "27b3e18b46a15930a9782962b8d59a48be3cd87d0ea6d8cca8e4f9034586a8d0",
+    "role": "project source",
+    "modified": false,
+    "origin": "qg_header_local_eco01\\console38\\display_sources.py"
+  },
+  {
+    "destination": "host/console/gallery.py",
+    "source_sha256": "80b225d38fee1771f5289b77e23327bc1bfed7b0ba08f05bf3fccb993489f927",
+    "sha256": "f8041370628dfa0e5ec964f43582eaa0d1ca2832e4108b00c44af157f8dbd9d8",
+    "role": "project source",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\console38\\gallery.py"
+  },
+  {
+    "destination": "host/console/host_pipeline.py",
+    "source_sha256": "83b5f3437f31a67d7840294ea53ffb0a56a6ffe4f33e3f9e26bc56407f7ce37c",
+    "sha256": "2022afb7e6385bbc67dd881aa22bd097cc863d9fd4e42e7bed79bc7bf60eb31c",
+    "role": "project source",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\console38\\host_pipeline.py"
+  },
+  {
+    "destination": "host/console/index.html",
+    "source_sha256": "6096715958856af22b1b0673edac460780650ecbaa68ac2e350e62152a3e8dd9",
+    "sha256": "5e2c16329a404460d1a251a65d49b912562b9a612e9de0c8837026ec39b6addb",
+    "role": "project source",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\console38\\index.html"
+  },
+  {
+    "destination": "host/console/pin_cache.py",
+    "source_sha256": "12a22717222512f04b84eb56f0fb52c8104677a05faad427fb7ff3a400262b51",
+    "sha256": "12a22717222512f04b84eb56f0fb52c8104677a05faad427fb7ff3a400262b51",
+    "role": "project source",
+    "modified": false,
+    "origin": "qg_header_local_eco01\\console38\\pin_cache.py"
+  },
+  {
+    "destination": "host/console/prefetched_sequence.py",
+    "source_sha256": "990f0888795a6f7c8afb21e28f2dc18674a5133389889ef13c6ca468f2093873",
+    "sha256": "990f0888795a6f7c8afb21e28f2dc18674a5133389889ef13c6ca468f2093873",
+    "role": "project source",
+    "modified": false,
+    "origin": "qg_header_local_eco01\\console38\\prefetched_sequence.py"
+  },
+  {
+    "destination": "host/console/resident_resume.py",
+    "source_sha256": "f649b1054ef0506d861f1d2a2e01e67cd2e6a9ec9631300373a94bfdd64aca55",
+    "sha256": "f649b1054ef0506d861f1d2a2e01e67cd2e6a9ec9631300373a94bfdd64aca55",
+    "role": "project source",
+    "modified": false,
+    "origin": "qg_header_local_eco01\\console38\\resident_resume.py"
+  },
+  {
+    "destination": "host/console/run_qualification.py",
+    "source_sha256": "63fad581bd485a69b3a08ccf6bfef26f7046db08c4891cb56b0a5a7166c1a01c",
+    "sha256": "63fad581bd485a69b3a08ccf6bfef26f7046db08c4891cb56b0a5a7166c1a01c",
+    "role": "project source",
+    "modified": false,
+    "origin": "qg_header_local_eco01\\console38\\run_qualification.py"
+  },
+  {
+    "destination": "host/console/runtime_demo.py",
+    "source_sha256": "8e0f09ffd8ed6cce84befbc876507485c43d7ac1f624d5f1e1f7c381431c28be",
+    "sha256": "bd42ab32d93453c2fe1065528c6901dc31003ac030e83558139c325588d02dae",
+    "role": "project source",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\console38\\runtime_demo.py"
+  },
+  {
+    "destination": "host/console/source.html",
+    "source_sha256": "d455bc5374d0f2a7dd9b1c572e08b584e3c4801127fd28a2b0ce5b4b24a1e94d",
+    "sha256": "7bf0a5db3ab013cd13841dca7e6ba596d59234d215c880adfad5fcfeba110546",
+    "role": "project source",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\console38\\source.html"
+  },
+  {
+    "destination": "host/console/test_camera_resume.py",
+    "source_sha256": "546c0f4987257d171f22fa64679208245becb05a37c93584c9f6d67b50a9857a",
+    "sha256": "d96b63660dd7ec82c3246a2770375bb0c7c8f88d434c74468e13158ca1088b17",
+    "role": "offline test with synthetic fixtures; no board evidence",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\console38\\test_camera_resume.py"
+  },
+  {
+    "destination": "host/console/test_compact_protocol.py",
+    "source_sha256": "45e7306db5d693538634d6662197425ea0679600f71d430edf2a958be834fc20",
+    "sha256": "45e7306db5d693538634d6662197425ea0679600f71d430edf2a958be834fc20",
+    "role": "project source",
+    "modified": false,
+    "origin": "qg_header_local_eco01\\console38\\test_compact_protocol.py"
+  },
+  {
+    "destination": "host/console/test_compressed_handoff.py",
+    "source_sha256": "5aba3f7127d786e9388cb2434fc640e18736915c0661bd343f65629832a0bcd5",
+    "sha256": "8487c686514a93269aa4c54bceca527adb71085aeead27a7d0f9ccb90b237e03",
+    "role": "offline test with synthetic fixtures; no board evidence",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\console38\\test_compressed_handoff.py"
+  },
+  {
+    "destination": "host/console/test_console_regression.py",
+    "source_sha256": "f606f94e265192200978c135df45c42fa38d2e98f2676dd5ebb97eb65eeca20f",
+    "sha256": "333d27aa30a87ddd52fefe26bbb612239c5dc5e8e2501ccf58d92c247ecae196",
+    "role": "offline test with synthetic fixtures; no board evidence",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\console38\\test_console_regression.py"
+  },
+  {
+    "destination": "host/console/test_coremark_mode.py",
+    "source_sha256": "404553998745ec2597d7d99d624381be6cf256019ac2e0347fbca4d8cc942b68",
+    "sha256": "630a3878d2fb80a90369e1ceff357341dda0feb0b5affc642fd8c018d69948ae",
+    "role": "offline test with synthetic fixtures; no board evidence",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\console38\\test_coremark_mode.py"
+  },
+  {
+    "destination": "host/console/test_demo_console.py",
+    "source_sha256": "629d7785952f4c8745d352b9682e328c889b4659ba68da6b077809a35388aa5e",
+    "sha256": "283ee5e19606cfff5662a4732a2d9fbb11b047316c7136f85a38d99174536bd9",
+    "role": "offline test with synthetic fixtures; no board evidence",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\console38\\test_demo_console.py"
+  },
+  {
+    "destination": "host/console/test_display_sources.py",
+    "source_sha256": "98118588619a8c4c917e939b625789e4279ae3ca5060d6f36e4a498a2564dd14",
+    "sha256": "98118588619a8c4c917e939b625789e4279ae3ca5060d6f36e4a498a2564dd14",
+    "role": "project source",
+    "modified": false,
+    "origin": "qg_header_local_eco01\\console38\\test_display_sources.py"
+  },
+  {
+    "destination": "host/console/test_event_fastpath.py",
+    "source_sha256": "dfc17d82c3e6bf9b0fb90e75244aaccb31713af66aab73c497714c96c8e76194",
+    "sha256": "b67d4800813c3841f5dbc806dbf07744ec4870a06a0a99500f08d643a88f2440",
+    "role": "offline test with synthetic fixtures; no board evidence",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\console38\\test_event_fastpath.py"
+  },
+  {
+    "destination": "host/console/test_fast_host.py",
+    "source_sha256": "f425096707239b0bce62eb400d2cbefdedec7725261c7d5e7b5656a902381b56",
+    "sha256": "47883dbde0220ed089ad36973cc59efd8e387132bfd2900a0af08100cc004d98",
+    "role": "offline test with synthetic fixtures; no board evidence",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\console38\\test_fast_host.py"
+  },
+  {
+    "destination": "host/console/test_gallery.py",
+    "source_sha256": "09ed4a4b91d2e9c3df52b8431b1469c88547f6d449c61efd812f77a8fd4b1f92",
+    "sha256": "d811c8e0e6a7cbf398ced1b071a85fa1a64e0fa8df2a7a36401b80351a2e29c9",
+    "role": "offline test with synthetic fixtures; no board evidence",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\console38\\test_gallery.py"
+  },
+  {
+    "destination": "host/console/test_handoff_fresh.py",
+    "source_sha256": "d07c3db2089686646425ddcafd3b5856dce8711c00ce176395ea9fd869710cab",
+    "sha256": "08ad03bc32aeb2f0b1e92a27bf9947f203752e295671633d54287491777f366f",
+    "role": "offline test with synthetic fixtures; no board evidence",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\console38\\test_handoff_fresh.py"
+  },
+  {
+    "destination": "host/console/test_host_pipeline.py",
+    "source_sha256": "88334d85caad7e222796597ec93bba1840456ec834a42275810c3d44810e4438",
+    "sha256": "100c25ae91067a4550f8b37dd05ba2ee91aa903a1eaadadfa243079c5c2e3dfa",
+    "role": "offline test with synthetic fixtures; no board evidence",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\console38\\test_host_pipeline.py"
+  },
+  {
+    "destination": "host/console/test_runtime_demo.py",
+    "source_sha256": "a05b71bc7bfa12b6f30d869f9170055633dd577badd70cbaaadc94543d851951",
+    "sha256": "274f0da4732241e03bcbde8d440787c1187347a48a9d971f4a240a768218489d",
+    "role": "offline test with synthetic fixtures; no board evidence",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\console38\\test_runtime_demo.py"
+  },
+  {
+    "destination": "host/console/test_ux_flow.py",
+    "source_sha256": "326212a42e770a9f201c1d258701832920be22a39691aad996fde519c4f0d454",
+    "sha256": "67c858dae36904745d612bb01bb5394f4cba86c6a67df9385bf2825deb73b79e",
+    "role": "offline test with synthetic fixtures; no board evidence",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\console38\\test_ux_flow.py"
+  },
+  {
+    "destination": "host/console/ux_flow.py",
+    "source_sha256": "29d5d0543c097f788b5425565c1ee239026b1a2b61ba47b55dddaac51208c5e4",
+    "sha256": "29d5d0543c097f788b5425565c1ee239026b1a2b61ba47b55dddaac51208c5e4",
+    "role": "project source",
+    "modified": false,
+    "origin": "qg_header_local_eco01\\console38\\ux_flow.py"
+  },
+  {
+    "destination": "host/console/video_protocol.py",
+    "source_sha256": "6f47fe417018611c9d859be1e38ed7ab961f18f61ff10072d9fb8ee84f953c9c",
+    "sha256": "6f47fe417018611c9d859be1e38ed7ab961f18f61ff10072d9fb8ee84f953c9c",
+    "role": "project source",
+    "modified": false,
+    "origin": "qg_header_local_eco01\\console38\\video_protocol.py"
+  },
+  {
+    "destination": "host/console/video_session.py",
+    "source_sha256": "a2e85f18a2d34dc2cf6d487255319c51890ee2b231ee95fa020902bf39918f3f",
+    "sha256": "a2e85f18a2d34dc2cf6d487255319c51890ee2b231ee95fa020902bf39918f3f",
+    "role": "project source",
+    "modified": false,
+    "origin": "qg_header_local_eco01\\console38\\video_session.py"
+  },
+  {
+    "destination": "host/source/source_server.py",
+    "source_sha256": "b3366464bbaed0438d22c5b8e7af09ae3b158bd4684abaa0977c8f8ba2c1f969",
+    "sha256": "b3366464bbaed0438d22c5b8e7af09ae3b158bd4684abaa0977c8f8ba2c1f969",
+    "role": "project source",
+    "modified": false,
+    "origin": "on_hdmi_console01\\source_server.py"
+  },
+  {
+    "destination": "host/source/prepare_source.py",
+    "source_sha256": "8f33fea6c80fd9f563fcbdbed2aa634ee26c77430e82feb36cddaac9d324ebc4",
+    "sha256": "8f33fea6c80fd9f563fcbdbed2aa634ee26c77430e82feb36cddaac9d324ebc4",
+    "role": "project source",
+    "modified": false,
+    "origin": "on_hdmi_console01\\prepare_source.py"
+  },
+  {
+    "destination": "host/source/source.html",
+    "source_sha256": "633d14ea7f3a56a22f3f8698f0c31a151b18a15df392310f200b1e468637d692",
+    "sha256": "633d14ea7f3a56a22f3f8698f0c31a151b18a15df392310f200b1e468637d692",
+    "role": "project source",
+    "modified": false,
+    "origin": "on_hdmi_console01\\source.html"
+  },
+  {
+    "destination": "reference/serve_qg38.py",
+    "source_sha256": "02a765186efe5c110186ce5f86e71f491c61bdb90ffdeb237d1ed7303fae4631",
+    "sha256": "e877665e0e443c4a445ad049066d296209d670aae5b0ba5ebdda1bc6935fcb1f",
+    "role": "historical launcher, not a public runnable entry",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\console38\\serve_qg.py"
+  },
+  {
+    "destination": "reference/pds/place.tcl",
+    "source_sha256": "510d20271ecddc2bac94cdd3272beb2ed6907244fae2479d7240a4e5c67a6284",
+    "sha256": "71cf8d6f3dafadac38a6a349c3d304b5dcd7ac5ff3e38def6677c0c625181c04",
+    "role": "historical physical flow reference",
+    "modified": true,
+    "origin": "qb_pk_release_coremark01\\placement17\\place.tcl"
+  },
+  {
+    "destination": "reference/pds/route.tcl",
+    "source_sha256": "783b197ca555f3ee20dfe6a2914191099ad48d9c85a9b8a8e0d3084b08ea0b5f",
+    "sha256": "7cbfb638ba13d3058339f98effa007b6951b70ae5b8ee7ff7ef2bc4ad7438c90",
+    "role": "historical physical flow reference",
+    "modified": true,
+    "origin": "qb_pk_release_coremark01\\route29\\route.tcl"
+  },
+  {
+    "destination": "reference/pds/qg_two_net_eco.tcl",
+    "source_sha256": "2de7f290aa1530af581f364a141a76846ae09b2d68dcd0fac24a6e0b9c3a05fa",
+    "sha256": "efb9aa953f41f7e97a55d52018d7f4287ec6249207baca5686dcf9571360eb75",
+    "role": "historical physical flow reference",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\route10\\route.tcl"
+  },
+  {
+    "destination": "reference/pds/generate_bitstream.tcl",
+    "source_sha256": "5abc108a20dd9f0d289c779a826af3a5d13cc6c986e9588cb70cea6c01fd6208",
+    "sha256": "c7da50e70e3b90a6cc9e94b174ffcc0e60167bc234d819a8d090539f650fd5d5",
+    "role": "historical physical flow reference",
+    "modified": true,
+    "origin": "qg_header_local_eco01\\experimental_release28\\generate_bitstream.tcl"
+  },
+  {
+    "destination": "reference/pds/native_sites.pcf",
+    "source_sha256": "02850b521730fa71c3910a3a1c570db2e33fa9320c8e027c84f8b113145ca240",
+    "sha256": "02850b521730fa71c3910a3a1c570db2e33fa9320c8e027c84f8b113145ca240",
+    "role": "exact mapped-instance site plan; not valid for arbitrary rebuilt netlists",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\placement17\\work\\native_sites.pcf"
+  },
+  {
+    "destination": "tests/rtl/tb_modes.sv",
+    "source_sha256": "15124cca445278b6a91b38f8c4cb47324954e4bc8e2cd5db746fd0b134b09a1e",
+    "sha256": "15124cca445278b6a91b38f8c4cb47324954e4bc8e2cd5db746fd0b134b09a1e",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\tb_modes.sv"
+  },
+  {
+    "destination": "tests/rtl/tb_results.sv",
+    "source_sha256": "96f3d254670979dd0c67eec40420088348123310c5e34fc64dad7f768145c278",
+    "sha256": "96f3d254670979dd0c67eec40420088348123310c5e34fc64dad7f768145c278",
+    "role": "project source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\tb_results.sv"
+  },
+  {
+    "destination": "tests/full_application_driver.cpp",
+    "source_sha256": "d0442a53d427b46b54d3c2f4254a283e10d6a2eac201b28dadc7319224e2e69a",
+    "sha256": "d0442a53d427b46b54d3c2f4254a283e10d6a2eac201b28dadc7319224e2e69a",
+    "role": "full application driver, external test assets required",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\application03\\source\\driver.cpp"
+  },
+  {
+    "destination": "tests/bounded_reads.hpp",
+    "source_sha256": "1c160f52e5475113a0897fd72327e75fa3b5557a0ee75ad8b38fc4b1c8040e71",
+    "sha256": "1c160f52e5475113a0897fd72327e75fa3b5557a0ee75ad8b38fc4b1c8040e71",
+    "role": "supporting source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\application03\\source\\bounded_reads.hpp"
+  },
+  {
+    "destination": "tests/release_observations.hpp",
+    "source_sha256": "637bce6b65f717dd5cf96be8396e5ed43f93c3f71dc9b4360a9a2a1fb7ff9644",
+    "sha256": "637bce6b65f717dd5cf96be8396e5ed43f93c3f71dc9b4360a9a2a1fb7ff9644",
+    "role": "supporting source",
+    "modified": false,
+    "origin": "qb_pk_release_coremark01\\application03\\source\\release_observations.hpp"
+  },
+  {
+    "destination": "host/native_display/show_source.py",
+    "source_sha256": "29aa3c3f7529ef0bea1d32abe9de137b1a2f38d61ec84723a455d4f4bb50b2d5",
+    "sha256": "29aa3c3f7529ef0bea1d32abe9de137b1a2f38d61ec84723a455d4f4bb50b2d5",
+    "role": "supporting source",
+    "modified": false,
+    "origin": "qg_header_local_eco01\\source_window33\\show_source.py"
+  },
+  {
+    "destination": "host/native_display/local_http.py",
+    "source_sha256": "42017d9dae69cbc6131e52aa044d0f3c143ed3444407745962c62051e20c08ea",
+    "sha256": "42017d9dae69cbc6131e52aa044d0f3c143ed3444407745962c62051e20c08ea",
+    "role": "supporting source",
+    "modified": false,
+    "origin": "qg_header_local_eco01\\source_window33\\local_http.py"
+  }
+]

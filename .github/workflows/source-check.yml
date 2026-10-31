@@ -1,0 +1,16 @@
+name: Source and offline host checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/verify_release.py
+      - run: python -m pip install -r host/requirements.txt
+      - run: python scripts/prepare_test_assets.py
+      - run: python scripts/run_host_tests.py

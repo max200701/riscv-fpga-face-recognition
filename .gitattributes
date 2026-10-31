@@ -1,0 +1,2 @@
+* -text
+# Preserve every audited byte; MANIFEST hashes must survive Git checkout.

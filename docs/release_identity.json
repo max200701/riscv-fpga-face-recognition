@@ -1,0 +1,15 @@
+{
+  "source_version": "QB_PK_RELEASE_COREMARK01",
+  "physical_patch": "QG_ROUTE_ONLY10",
+  "board_console": "QG38",
+  "bitstream_sha256": "209c34e7e704ec0977f88b6bd275f679e0c16099cc2a28233131d08de605413c",
+  "bitstream_bytes": 9188552,
+  "bitstream_in_repository": false,
+  "formal_STA_pass": false,
+  "release_type": "source-only with explicitly listed external dependencies",
+  "model": "RetinaFace MobileNet0.25 640x480 + w600k_mbf 112x112",
+  "original_dual_fetch_dual_retire_CPU": true,
+  "not_adopted": "QG source01 RTL pipeline candidate; not used by this board bitstream",
+  "route_ECO_changed_nets": 2,
+  "other_routes_preserved": 162056
+}

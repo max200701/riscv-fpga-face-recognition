@@ -1,0 +1,14 @@
+{
+  "top": "mini_face_demo_top",
+  "family": "Logos2",
+  "device": "PG2L200H",
+  "speedgrade": "-6",
+  "package": "FBB676",
+  "PDS": "2022.2-SP6.1",
+  "cpu_hz": 31250000,
+  "npu_hz": 125000000,
+  "ui_hz": 125000000,
+  "management_hz": 27000000,
+  "SCBV": "High Voltage",
+  "formal_STA_pass": false
+}
