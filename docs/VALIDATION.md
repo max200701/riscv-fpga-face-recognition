@@ -21,3 +21,7 @@ Python 3.12，测试安装：Pillow 13.0.0、NumPy 2.5.4、OpenCV 5.0.0.93、pys
 
 完整应用 RTL、完整 PNR/STA、真实板测仍引用此前冻结结果，本次没有重跑。
 源代码重建固件一致不等于重新生成的 PDS 网表、布局或位流也会一致。
+
+## GitHub CI 平台修正（2026-10-31）
+
+运行 41163890235 的源码检查通过，111 项主机测试有 6 项平台错误：4 项依赖 Windows kernel32 文件锁，2 项依赖 Windows creationflags。首次 CI 错配 Ubuntu，不能称 Linux 主机兼容。现保留 Ubuntu 源码检查，并在 Windows 上执行全部 111 项主机测试；不删除、跳过或降低断言。此调整不改变 FPGA RTL、固件或实板行为。
