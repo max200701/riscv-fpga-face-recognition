@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tables>
+    <general_container id="report_timing_settings">
+        <table_container>
+            <table id="report_timing_settings" title="Timing Settings" column_number="2">
+                <column_headers>
+                    <data>Name</data>
+                    <data>Value</data>
+                </column_headers>
+                <row>
+                    <data>Part</data>
+                    <data>PG2L200H-6FBB676</data>
+                </row>
+                <row>
+                    <data>Top Module</data>
+                    <data>mini_face_demo_top</data>
+                </row>
+            </table>
+        </table_container>
+        <general_container align="3">
+            <table_container>
+                <data>General</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>Enable</data>
+                        <data>true</data>
+                    </row>
+                </table>
+            </table_container>
+            <table_container>
+                <data>Timing</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>Path Delay Type (-delay_type)</data>
+                        <data>min</data>
+                    </row>
+                    <row>
+                        <data>Number of Paths per Endpoint (-nworst)</data>
+                        <data>1</data>
+                    </row>
+                    <row>
+                        <data>Total Number of Paths (-max_path)</data>
+                        <data>30000</data>
+                    </row>
+                    <row>
+                        <data>Show Input Pins (-input_pins)</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Report Paths with Slack &gt;</data>
+                        <data>-100000</data>
+                    </row>
+                    <row>
+                        <data>Report Paths with Slack &lt;</data>
+                        <data>100000</data>
+                    </row>
+                    <row>
+                        <data>Disable Package Delay</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Report IO Datasheet</data>
+                        <data>true</data>
+                    </row>
+                    <row>
+                        <data>Report Logic Level Distribution</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Max Path of Per Logic Level</data>
+                        <data>100</data>
+                    </row>
+                    <row>
+                        <data>Report Max Skew</data>
+                        <data>true</data>
+                    </row>
+                    <row>
+                        <data>Report Exception</data>
+                        <data>true</data>
+                    </row>
+                    <row>
+                        <data>Skip DB version check</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Show Routing</data>
+                        <data>false</data>
+                    </row>
+                </table>
+            </table_container>
+        </general_container>
+    </general_container>
+</tables>

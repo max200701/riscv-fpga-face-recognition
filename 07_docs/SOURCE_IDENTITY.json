@@ -1,0 +1,2176 @@
+{
+  "source_files": [
+    {
+      "file": "01_hardware/QO/mini_face_demo_top.sv",
+      "original_sha256": "5df47858047a4e16eaa5c77899780ae56fabc37b021fedb10f3e21550915fadf",
+      "packaged_sha256": "5df47858047a4e16eaa5c77899780ae56fabc37b021fedb10f3e21550915fadf",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/oj_ms7200_table.vh",
+      "original_sha256": "668797588946f3b6386cdc6b5f6b2cb44d1a7c571039f93e1fcb3cc5521de3b7",
+      "packaged_sha256": "668797588946f3b6386cdc6b5f6b2cb44d1a7c571039f93e1fcb3cc5521de3b7",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/hdmi_rx/oj_i2c_reg16.sv",
+      "original_sha256": "b962ad428d1f09cc1b5e80102309dcb2b7191d19e7482a110f52f3cdb8ad6a5f",
+      "packaged_sha256": "b962ad428d1f09cc1b5e80102309dcb2b7191d19e7482a110f52f3cdb8ad6a5f",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/hdmi_rx/oj_ms7200_rx_init04.sv",
+      "original_sha256": "b8344849a0199c6cd46c5e2d4efecadb90f1cf47ae24fbc3c93871a3d6e610fa",
+      "packaged_sha256": "b8344849a0199c6cd46c5e2d4efecadb90f1cf47ae24fbc3c93871a3d6e610fa",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/hdmi_rx/oj_ms7200_table.vh",
+      "original_sha256": "668797588946f3b6386cdc6b5f6b2cb44d1a7c571039f93e1fcb3cc5521de3b7",
+      "packaged_sha256": "668797588946f3b6386cdc6b5f6b2cb44d1a7c571039f93e1fcb3cc5521de3b7",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/mini_ddr.v",
+      "original_sha256": "cfc34cd4419680a89b6ee093e991886e4ce0d251d4ff2a857e01463aaed35347",
+      "packaged_sha256": "cfc34cd4419680a89b6ee093e991886e4ce0d251d4ff2a857e01463aaed35347",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/mini_ddr_ddrphy_top.v",
+      "original_sha256": "a264df2e7ada846d4d50d08cb650593f208b26bf06500cc239fbd77e59c1a41a",
+      "packaged_sha256": "a264df2e7ada846d4d50d08cb650593f208b26bf06500cc239fbd77e59c1a41a",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/adc_temperature_reader.v",
+      "original_sha256": "383265123c7b1772cf3fae5ed14434d8d6ed8aa1a039372029e7ca0ce5f4dbf6",
+      "packaged_sha256": "383265123c7b1772cf3fae5ed14434d8d6ed8aa1a039372029e7ca0ce5f4dbf6",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/async_stream_fifo.v",
+      "original_sha256": "22d40e27145423d2b4cdf87937bcccbb58fedd66c3261f1c01354d8fddb8751b",
+      "packaged_sha256": "22d40e27145423d2b4cdf87937bcccbb58fedd66c3261f1c01354d8fddb8751b",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/axi_skid.v",
+      "original_sha256": "4063b9da4f258af27e5a9fb8460406d5180620e5085102a34ecc20f756a34fc8",
+      "packaged_sha256": "d7063cb1b0baf29245049f6376d768197c932b464d853a87590151e3c13074ff",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/boot_rom.v",
+      "original_sha256": "c96450cd7705ab2484fa30114ccbdf5080267407be6dbbcb36a2a39b9ca1a77c",
+      "packaged_sha256": "defc799cb8abc333c8232c0b5cb8bd0cf0f45e1d8d5fdf978c8cca4ca6115ee8",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/boot_rom_dp.v",
+      "original_sha256": "367e66fae4189bd0e8cd3521c656d285c37595f5b94acf029cfd4b97b822ffe0",
+      "packaged_sha256": "b3d92d4e0ad29c38b92db9887380da1de3be44941945d1aefca861d717425934",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/burst_read_sequencer.v",
+      "original_sha256": "55242fac69eda3b1460fd43c83efba29c393db8d7f3fec83db15344c0bd17e27",
+      "packaged_sha256": "55242fac69eda3b1460fd43c83efba29c393db8d7f3fec83db15344c0bd17e27",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/conv_window_source.v",
+      "original_sha256": "fea7421f9248bf30a3e6cac3c9aff5c355ce231a3aaf194efd149854e9202b21",
+      "packaged_sha256": "12764672e9d49f92824e2919dc92688c6a857b6302856621b0ae874de56b7285",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/cpu_npu_queue.v",
+      "original_sha256": "ac9d2b5bfb9e662842394d0ee5f83012abc00811350db668ff2325d00fcf7327",
+      "packaged_sha256": "ec8167ded311f320f93697cb119dbd54bd6fb6a09612ba43267752b5eae0aeef",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/cpu_soc.v",
+      "original_sha256": "747086c3c6f5ed04142436df31f9e3105746ece4c5a63ee9ad024ea2ecabd5d5",
+      "packaged_sha256": "747086c3c6f5ed04142436df31f9e3105746ece4c5a63ee9ad024ea2ecabd5d5",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/credit_math4.v",
+      "original_sha256": "b7a8d1d31eb7605b38264f27166cfaf552783befb8b5e5731727db8f3cd35bbd",
+      "packaged_sha256": "b7a8d1d31eb7605b38264f27166cfaf552783befb8b5e5731727db8f3cd35bbd",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/demo_board_logic.sv",
+      "original_sha256": "00e9ca1c1e9e82448b619f1490ca8b6b063ccd6d24089c8e7a960ae91729397d",
+      "packaged_sha256": "00e9ca1c1e9e82448b619f1490ca8b6b063ccd6d24089c8e7a960ae91729397d",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/demo_boot_owner.sv",
+      "original_sha256": "bdbfcfbbb3c32e4072b426c5e196b68f58d2537349547734a4ce538ae51ebf0e",
+      "packaged_sha256": "bdbfcfbbb3c32e4072b426c5e196b68f58d2537349547734a4ce538ae51ebf0e",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/demo_gallery_residency.sv",
+      "original_sha256": "d42c5f4299e1a7683973c0ab695944f17dcf1173f2dbd97cc9db274f1381d531",
+      "packaged_sha256": "d42c5f4299e1a7683973c0ab695944f17dcf1173f2dbd97cc9db274f1381d531",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/demo_hmic_bridge.sv",
+      "original_sha256": "d9cd8f1afbcfc8bbe1eb44276c5d7b3548e73d54cc030ff4c1476f9bb49366d0",
+      "packaged_sha256": "d9cd8f1afbcfc8bbe1eb44276c5d7b3548e73d54cc030ff4c1476f9bb49366d0",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/demo_hmic_client.sv",
+      "original_sha256": "d9caf520a2692e9759e363e8d07a69cb001b4a2e0b3e5d3f2f14cfabafd1ec2d",
+      "packaged_sha256": "d9caf520a2692e9759e363e8d07a69cb001b4a2e0b3e5d3f2f14cfabafd1ec2d",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/demo_hold_root.v",
+      "original_sha256": "ef40cf8d53f14852537e0a5c8377e0b6ac550d7e05801e18ca3a53bcbf2c1939",
+      "packaged_sha256": "ef40cf8d53f14852537e0a5c8377e0b6ac550d7e05801e18ca3a53bcbf2c1939",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/demo_model_residency.sv",
+      "original_sha256": "326b95006e9e3abb3bef87c8359d39d2bed65b4c9143f5cc1991d81c44debda7",
+      "packaged_sha256": "326b95006e9e3abb3bef87c8359d39d2bed65b4c9143f5cc1991d81c44debda7",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/demo_packet_endpoint.sv",
+      "original_sha256": "55e3f4759d4bcdb054b1918c4d3118af5b547dacc25afacf69d6890f4ee0cfae",
+      "packaged_sha256": "55e3f4759d4bcdb054b1918c4d3118af5b547dacc25afacf69d6890f4ee0cfae",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/demo_result_store.sv",
+      "original_sha256": "0f51890d543140c949dc66163c4fcdd79bcc12701b0cbf58789646d4e1621c2e",
+      "packaged_sha256": "0f51890d543140c949dc66163c4fcdd79bcc12701b0cbf58789646d4e1621c2e",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/demo_status_cdc.sv",
+      "original_sha256": "bf379c7e96ce0e3260c446109eccc591e2a5b10dcf2197eef2bed7da105e26b3",
+      "packaged_sha256": "bf379c7e96ce0e3260c446109eccc591e2a5b10dcf2197eef2bed7da105e26b3",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/demo_uart_frontend.sv",
+      "original_sha256": "0d5c7771ed2a14c429a36bdd7896ab923a3ace9b657b4a1ab4fbe24a7cfe6808",
+      "packaged_sha256": "0d5c7771ed2a14c429a36bdd7896ab923a3ace9b657b4a1ab4fbe24a7cfe6808",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/demo_uart_memory_top.sv",
+      "original_sha256": "caa6e01d75788bb0a5b55bde7f7b1ee49df4d02040b749a13c72499e2892cfec",
+      "packaged_sha256": "caa6e01d75788bb0a5b55bde7f7b1ee49df4d02040b749a13c72499e2892cfec",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/demo_video_q16_writer.sv",
+      "original_sha256": "5519b5daeee41d487304f75c174a183bda39161ead4f6593721be472b33d9b37",
+      "packaged_sha256": "5519b5daeee41d487304f75c174a183bda39161ead4f6593721be472b33d9b37",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/dual_int8_mac.v",
+      "original_sha256": "4b3ba99bf7362c604ed3f30dd311d9126cef745a310930ceb47f09f4e4cc0fb6",
+      "packaged_sha256": "4b3ba99bf7362c604ed3f30dd311d9126cef745a310930ceb47f09f4e4cc0fb6",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/dual_int8_mac32.v",
+      "original_sha256": "263c54c4d8b7a100538716d19e79d936da7ae258774363f52769a5da454a389e",
+      "packaged_sha256": "263c54c4d8b7a100538716d19e79d936da7ae258774363f52769a5da454a389e",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/elementwise_stream4.v",
+      "original_sha256": "1f59e795a18d1de814037aa0b3fcb6bd95694ad210cb316d4b36463b2aed52a7",
+      "packaged_sha256": "f2db2ebb7d92fb08cb383e2e0034fc4cc43db20e10ac64569c60d9c877b95a06",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/fragment_pack256.v",
+      "original_sha256": "1a56405b75fb0b9efca640102753d5465aabf21141b7555a1174d5ac2e39e13a",
+      "packaged_sha256": "de8cc4b72c231ad77e2de1cd3d48581d441dff64d0fdc1bee3ea291ec1caf456",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/fullgraph_accelerators.v",
+      "original_sha256": "beb8868560fcdb9dcbf17a7ae5e706792ae87daf94f141c4629bfe358fed0673",
+      "packaged_sha256": "2c1eabd07486134b6b655e348e563265e749c90ae145dded35d0a8095bd46cf0",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/fullgraph_core.v",
+      "original_sha256": "d59e1df5816e5a0a1f7dc2d40efa792723a21341dc0a6ae02165300498160b5d",
+      "packaged_sha256": "9c673980e65c945f343bd9d487c38b70377ae5c419be923489949f69158f8199",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/graph_elementwise4.v",
+      "original_sha256": "232552fde73b428a039d53780f794e04a42fa0a92ffdc367371043e7945c4e51",
+      "packaged_sha256": "1b1d55857c85095e9cb305af2adc4d6864b2f8a1b2d7d41840474e53d9f7dba5",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/graph_fragment_fifo.v",
+      "original_sha256": "89038bd7c9f99d5af0366cf695b8ec768d93eeab837e82940d5207684ce3e1b3",
+      "packaged_sha256": "89038bd7c9f99d5af0366cf695b8ec768d93eeab837e82940d5207684ce3e1b3",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/graph_linear_stream.v",
+      "original_sha256": "a5c539e6c404a5d29e065e6b9f6f8f71129ffab030aa35763b33f85f346186b1",
+      "packaged_sha256": "1f809f3b6c7e8017c48106333176feddc5a9002b6ba179bfd4d4b71265411095",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/graph_mmio_cdc.v",
+      "original_sha256": "1ee80dc5b9b54039cb43ae944402cae2c1aa5dbcdfb077f59bf422c1af23bfd5",
+      "packaged_sha256": "1ee80dc5b9b54039cb43ae944402cae2c1aa5dbcdfb077f59bf422c1af23bfd5",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/graph_mmio_dma_sequencer.v",
+      "original_sha256": "0d675a8557dbef6d8299ab1bc12c954ed43537dd3b3f1fc5970af5a1f8082cb1",
+      "packaged_sha256": "731f919481bc446e1ef6d05c7b2afbbd1b8c8f533f1e88fa3ad27315d9ae2cd4",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/graph_mmio_sequencer.v",
+      "original_sha256": "7d4af5d21a800c7909013d1d8c98d333cadf2c78f865c9d77ad9b024ef88fe2e",
+      "packaged_sha256": "7d4af5d21a800c7909013d1d8c98d333cadf2c78f865c9d77ad9b024ef88fe2e",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/graph_program_cache.v",
+      "original_sha256": "f8c6bf2c7e84971ee4e325423680d15557252a68ce42005d73d5b3afc4b01d7f",
+      "packaged_sha256": "f8c6bf2c7e84971ee4e325423680d15557252a68ce42005d73d5b3afc4b01d7f",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/graph_reset_leaf.v",
+      "original_sha256": "66fdafb19900a060f8527e595ecf711887ab055f9a5aebd566fb3863463f7062",
+      "packaged_sha256": "66fdafb19900a060f8527e595ecf711887ab055f9a5aebd566fb3863463f7062",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/graph_transpose_stream.v",
+      "original_sha256": "c28ebed3353f307d08b6e20530836dac2c56a7f00f2fab80a078e7bf7dfb0d3e",
+      "packaged_sha256": "7ed8fef2ecc6f0b5f80be30047c98c273854f5cab9695e874a04e57c0b0e7e36",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/graph_vector_bridge.v",
+      "original_sha256": "8efa9243461407f90f84b2d9a11fe8c87b2eae18677ccfa625b1efc4b3c0c887",
+      "packaged_sha256": "8efa9243461407f90f84b2d9a11fe8c87b2eae18677ccfa625b1efc4b3c0c887",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/graph_vector_engine.v",
+      "original_sha256": "9f41c7ac145356c4a6ec202692ee43dab685e9833e931a24f7ff3cfe6e16159b",
+      "packaged_sha256": "4c0b3e72f49c5a99da6e9648cb496a8de432927f83d834662c72f5e610cb0647",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/hmic_dma_cdc.v",
+      "original_sha256": "b64ad302e4e843f9525af9f0c91c39b352b3535c1eede0fd7052399532d9a440",
+      "packaged_sha256": "b64ad302e4e843f9525af9f0c91c39b352b3535c1eede0fd7052399532d9a440",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/hmic_layout_cdc.v",
+      "original_sha256": "ffab8605b46147428e9f56e4c18cb748d86d7eac2fb4086ce0339fa67975255e",
+      "packaged_sha256": "ffab8605b46147428e9f56e4c18cb748d86d7eac2fb4086ce0339fa67975255e",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/hmic_owner3.v",
+      "original_sha256": "70746cf9bc4ca7b9c05845304321ec2d99275712d71dadc00e04290698de2dea",
+      "packaged_sha256": "70746cf9bc4ca7b9c05845304321ec2d99275712d71dadc00e04290698de2dea",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/joint_async_fifo.v",
+      "original_sha256": "ec9a4fe752e912a52d6220a1ece9a725a2a6b58ddea8bf8b219c1f3507cfc160",
+      "packaged_sha256": "ec9a4fe752e912a52d6220a1ece9a725a2a6b58ddea8bf8b219c1f3507cfc160",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/kq_uart_rx.v",
+      "original_sha256": "cc5a98da0764c11a1f579be5e6a36208e30ca4b4ec57d6a899b53e312ab08c7b",
+      "packaged_sha256": "cc5a98da0764c11a1f579be5e6a36208e30ca4b4ec57d6a899b53e312ab08c7b",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/kq_uart_tx.v",
+      "original_sha256": "d90913fe9095dec21e8b4cab5b2de960720ca78614bc6f235512311922e55076",
+      "packaged_sha256": "d90913fe9095dec21e8b4cab5b2de960720ca78614bc6f235512311922e55076",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/logos2_temperature_adc.v",
+      "original_sha256": "a13ed860079f39a13be2ddfb998475af41c726930f7c46c3975d8e5b0e095611",
+      "packaged_sha256": "a13ed860079f39a13be2ddfb998475af41c726930f7c46c3975d8e5b0e095611",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/mac_array_fold16.v",
+      "original_sha256": "0ee04cfe048506f22b7cab672f4ab02191ffdbe45f221f387b75d26781fa6646",
+      "packaged_sha256": "2e7c87c4d9835f153feaf8c63bc210aeaacbe32f16cc12fb687048381d0ff2c5",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/mac_array_snapshot.v",
+      "original_sha256": "d2898de191b18f97de935dfccfc957ab3d6e9b6445ac31c5bc6987765a2a30d3",
+      "packaged_sha256": "d2898de191b18f97de935dfccfc957ab3d6e9b6445ac31c5bc6987765a2a30d3",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/model_param_store16.v",
+      "original_sha256": "c3366f7c13cfbc1f82bc2a5fda35ea123bf214fc1690ddfda9bfa2064a157ef8",
+      "packaged_sha256": "c3366f7c13cfbc1f82bc2a5fda35ea123bf214fc1690ddfda9bfa2064a157ef8",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/model_param_store4.v",
+      "original_sha256": "3a444a7a8edc6dda879caede6126dd71fd432aa414db2bacf3cc556ce588d570",
+      "packaged_sha256": "3a444a7a8edc6dda879caede6126dd71fd432aa414db2bacf3cc556ce588d570",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/native_panel_loader.v",
+      "original_sha256": "3a68f5998e9e49fafcd690965d316c48c200f4c969bf99c967f92da8b276c532",
+      "packaged_sha256": "75bde87a0eca0cd411d930d6acb9dd86ae3262454c6ff1dced120b901a98f3a7",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/npu_ddr_datapath.v",
+      "original_sha256": "c4e03a781bc42c3791628632a6ff50701d2b34cca9890253331e3208a60b04ca",
+      "packaged_sha256": "9bde8e9b517564d71a519ce2b608365ac8efc6003052267897ab76ce61a88430",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/npu_layout_tail.v",
+      "original_sha256": "4cb34a036bd88db3b4d5d1f71e7c80ae5cab6ac46603eaea6a5f48df877236c2",
+      "packaged_sha256": "af6ef28197097a27a26c9b1f4f35b06e00267ad22ffd186223185e6faac841a6",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/oj_pixel_fifo_recovery.sv",
+      "original_sha256": "302d01013802716acb5bbcf92dc7b935ba4babb1d8358d843c43caaf4df980cf",
+      "packaged_sha256": "302d01013802716acb5bbcf92dc7b935ba4babb1d8358d843c43caaf4df980cf",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/oj_video_capture_recovery.sv",
+      "original_sha256": "dead1fbb4d49016707c23a62472b03ee5d6205e4cf0bf4e1deac946f1120ac14",
+      "packaged_sha256": "dead1fbb4d49016707c23a62472b03ee5d6205e4cf0bf4e1deac946f1120ac14",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/om_video_session.sv",
+      "original_sha256": "92c0ea5d11b491795e88d99976aac7a0629d7c12cbc82c48abfbafd9e2eeb584",
+      "packaged_sha256": "92c0ea5d11b491795e88d99976aac7a0629d7c12cbc82c48abfbafd9e2eeb584",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/package_bulk_read.v",
+      "original_sha256": "b738fffd2c9d7291e8eb49a6d0534bb55df3d83993fb5d70c4d6f60e35255144",
+      "packaged_sha256": "b738fffd2c9d7291e8eb49a6d0534bb55df3d83993fb5d70c4d6f60e35255144",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/package_cpu_bridge.v",
+      "original_sha256": "339035a067ca0441d4dfa0b2880890ee379de259fcdcea5b2bcb799084e7c4e2",
+      "packaged_sha256": "958f6fcb698c6818181bc484314232e6a37de5a949dc66b69b1eb07a5f0654df",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/package_crc_stream.v",
+      "original_sha256": "3a8d21a080ed24ff1271a38136c6c52e5be29c60ab242d07f582c98eb70d2515",
+      "packaged_sha256": "3a8d21a080ed24ff1271a38136c6c52e5be29c60ab242d07f582c98eb70d2515",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/package_mailbox.v",
+      "original_sha256": "ed4068ee0ee86daabf4090044388bc322d24b5610b89e5be611955e40ef1a134",
+      "packaged_sha256": "ed4068ee0ee86daabf4090044388bc322d24b5610b89e5be611955e40ef1a134",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/package_reader.v",
+      "original_sha256": "2c33ce2c0b55e5dc65e1fc87c417cee7b4aad244a63584c2ebd76e78b6a34bb6",
+      "packaged_sha256": "7146bdc6ec67a7aa61d6d50333aecd644ba0e23f0856269666e7c9d04dc9b2c4",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/paired_operand_store.v",
+      "original_sha256": "a9de36d1d7bb453ad71f8a6bfa3506b172b5c584e361ded65e6120f7c85eccd7",
+      "packaged_sha256": "dc45ac41543ddcaa971e95085b882735f7c90b5cf4078cda5fc7e62917155947",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/panel_compute.v",
+      "original_sha256": "0ccadddf3623d769c320a051ce26b2398f3b697ff94c76cbe50b4f6bf6e5a87c",
+      "packaged_sha256": "110dfecbad999ad1f7d6e9d8b58123216a523f6db86430e38fa3719eb019b811",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/panel_operand_store.v",
+      "original_sha256": "78c47ef1160f922378f64c9c2d27c6438d95b5bd7e918bcba19878d5acb58a17",
+      "packaged_sha256": "78c47ef1160f922378f64c9c2d27c6438d95b5bd7e918bcba19878d5acb58a17",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/partial_sum_store.v",
+      "original_sha256": "8adb25cf6daefd6d2e36cd893ac1a82a24112cd36f433fe9827e41371c632a41",
+      "packaged_sha256": "98fc52c2297003ef01ecbae582b35168d42e21c18f98fa76f13765ae7dbd17b6",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/pf_elastic2.v",
+      "original_sha256": "843e7b0b95bba9b4453edc998048132d028510e40a6916eda05e32b021223754",
+      "packaged_sha256": "843e7b0b95bba9b4453edc998048132d028510e40a6916eda05e32b021223754",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/po_uart_domains.sv",
+      "original_sha256": "d477357ee417f281bb10a943e9c785764cc572584c5d803009aceeb17ee34920",
+      "packaged_sha256": "d477357ee417f281bb10a943e9c785764cc572584c5d803009aceeb17ee34920",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/po_uart_mailbox.v",
+      "original_sha256": "58154d720f5ba32d97313f881340c2de86a539b08ab775d235fb33d537c06ee0",
+      "packaged_sha256": "58154d720f5ba32d97313f881340c2de86a539b08ab775d235fb33d537c06ee0",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/pp_video_session.sv",
+      "original_sha256": "22143d1207338daf0465cf8c4168c3dccaadd34b5750424452b3d9ed0b718197",
+      "packaged_sha256": "22143d1207338daf0465cf8c4168c3dccaadd34b5750424452b3d9ed0b718197",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/pp_writer_mux.sv",
+      "original_sha256": "e8a54ff78021a1313f9f276b3b2a83e9432f684f324717c36fb3e1a3247d238b",
+      "packaged_sha256": "e8a54ff78021a1313f9f276b3b2a83e9432f684f324717c36fb3e1a3247d238b",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/prelu_parameters4.v",
+      "original_sha256": "266bde8eb4009ad9e655dc89a581dfd825c30d9c1b525849a54d4c56a409b4b2",
+      "packaged_sha256": "15f4a32841240798b5c2c04cd2dc6b953c4df5ac62c1b8b5474dfeddae6021fe",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/quant_stream16.v",
+      "original_sha256": "8b763f1f49ebce199ff77706fbbb228cd6965f6904d0c8d1ea6a4e5ef987fc1b",
+      "packaged_sha256": "8b763f1f49ebce199ff77706fbbb228cd6965f6904d0c8d1ea6a4e5ef987fc1b",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/requant_stream4.v",
+      "original_sha256": "288e8d659cfabfe18f337cbbf01445990ce7f66570c72845a10515dd0cb4dcfa",
+      "packaged_sha256": "288e8d659cfabfe18f337cbbf01445990ce7f66570c72845a10515dd0cb4dcfa",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/resident_job_executor.v",
+      "original_sha256": "12c9a9a8d13aca4f99f07aea5b952d51440fdb6f080f899dd86892dbdb4b9411",
+      "packaged_sha256": "12c9a9a8d13aca4f99f07aea5b952d51440fdb6f080f899dd86892dbdb4b9411",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/resident_layer_scheduler.v",
+      "original_sha256": "8c66958e31c6fda724811094cc2949acc26a1dff0f8a2f2c81d7baba5c47ec53",
+      "packaged_sha256": "8c66958e31c6fda724811094cc2949acc26a1dff0f8a2f2c81d7baba5c47ec53",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/resident_panel_operand_store.v",
+      "original_sha256": "a780e55d64a3a306904f4cc7716ab7a2c7ecc2ff61a59eca83c42306d51e884d",
+      "packaged_sha256": "a780e55d64a3a306904f4cc7716ab7a2c7ecc2ff61a59eca83c42306d51e884d",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/retina_warp_normalize.v",
+      "original_sha256": "7ebe7fa333d795f18d0bf7d65f0583f50d26e35cee781fd0d81f32db6c382716",
+      "packaged_sha256": "7ebe7fa333d795f18d0bf7d65f0583f50d26e35cee781fd0d81f32db6c382716",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/retina_warp_q16.sv",
+      "original_sha256": "303dd2eefc92f46ae8ad9f37df35a25779208ee7f14c6c5ade287f3f8226eb7f",
+      "packaged_sha256": "d4afbaa2b7d5a12a5bf80274f58bf13fef3db0906807c5c6a6cc2b99288c916a",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/rv32_alu.v",
+      "original_sha256": "dfb7a4a24baf7074458f1ce519c3c928d3895e66579167bd6faebadf2779cd5a",
+      "packaged_sha256": "dfb7a4a24baf7074458f1ce519c3c928d3895e66579167bd6faebadf2779cd5a",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/rv32_core.v",
+      "original_sha256": "297eb95fd2823e22b0feda10519f602dc6fad0e82a4b5bcd8c88989efd06d3e9",
+      "packaged_sha256": "297eb95fd2823e22b0feda10519f602dc6fad0e82a4b5bcd8c88989efd06d3e9",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/rv32_dcache.v",
+      "original_sha256": "a40a21027d7a8a4eed1bb6d4328b7429312bb310d6823083d08cfc239ed1c8b4",
+      "packaged_sha256": "a40a21027d7a8a4eed1bb6d4328b7429312bb310d6823083d08cfc239ed1c8b4",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/rv32_icache.v",
+      "original_sha256": "036fede519e5665bb8950fdb833dfa2149ac45d78ccecf437e9056f56983ef78",
+      "packaged_sha256": "74d6ceaf22a91e956a6c6b0cf5e65846f5a95749c25831ebe016b41664d67c05",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/rv32_muldiv.v",
+      "original_sha256": "824f1b905a706274319cc8c535c7bd2a740e3c18cc4f4309a5ba86bca262c390",
+      "packaged_sha256": "824f1b905a706274319cc8c535c7bd2a740e3c18cc4f4309a5ba86bca262c390",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/rv32_regfile.v",
+      "original_sha256": "1d412d6e818d906dad1fea22c88fd5e2c80f8127cfdaf269c4aee089c2a18333",
+      "packaged_sha256": "1d412d6e818d906dad1fea22c88fd5e2c80f8127cfdaf269c4aee089c2a18333",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/sync_ram.v",
+      "original_sha256": "febcd8954626e408232199e177f035351385340e9145460054fd1a881c8cdf8f",
+      "packaged_sha256": "b1790d648559fe2bdd83e8e42bae3c98eae2fab37dcf611d719afa7d26c60ecc",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/sync_stream_fifo.v",
+      "original_sha256": "a9589b3495fa5163b6444ce322bbf7fd331bd294236178fa4add2e8fd274422c",
+      "packaged_sha256": "61327645b27ab5c22357b2d0debc4f30a9143588667a5cf68d26014550c20073",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/s_system_core.v",
+      "original_sha256": "83b3b509117b5e7c300075e750d9ee67ba5963a128149d2dfe770818e76050ba",
+      "packaged_sha256": "83b3b509117b5e7c300075e750d9ee67ba5963a128149d2dfe770818e76050ba",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/tile_writeback4.v",
+      "original_sha256": "020780e7a7e85045af5c2502ddf5e943cbb666f1bb8449e705e98fa2169cc651",
+      "packaged_sha256": "6ed4a984aa604a978c61bda3b88841707e67661ec3e87224be6d9f6404b6e561",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/uart_rx.v",
+      "original_sha256": "1b0b80790db53b08ff0f0b098ade5c4dcea9cc2bb66d558a5e2d67aa013c5bad",
+      "packaged_sha256": "1b0b80790db53b08ff0f0b098ade5c4dcea9cc2bb66d558a5e2d67aa013c5bad",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/uart_tx.v",
+      "original_sha256": "acc771bb20931df015018e1534266842fa23a0bf12b1ecf3b34c7ff6745aaffb",
+      "packaged_sha256": "acc771bb20931df015018e1534266842fa23a0bf12b1ecf3b34c7ff6745aaffb",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/warp_bilinear_new.sv",
+      "original_sha256": "17397bea1f9e7cb825784bc926a8f827b8413c3fde6208e8e3277478951cbd70",
+      "packaged_sha256": "17397bea1f9e7cb825784bc926a8f827b8413c3fde6208e8e3277478951cbd70",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/rtl/warp_coordinates_pinned.sv",
+      "original_sha256": "353959063c35442a56d23e4183ca511bcdb68dbddd07878cb571190854f86583",
+      "packaged_sha256": "353959063c35442a56d23e4183ca511bcdb68dbddd07878cb571190854f86583",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ips2l_rst_sync_v1_3.vp",
+      "original_sha256": "64b8d83f15f2ff373e6b1040405c42051d8761bd1857dec719c884c2eb59361a",
+      "packaged_sha256": "64b8d83f15f2ff373e6b1040405c42051d8761bd1857dec719c884c2eb59361a",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_calib_mux_v1_0.vp",
+      "original_sha256": "676e36319e7ce80b93e3543e255d53708d9fc71606587a6e692eab1ec82ecaed",
+      "packaged_sha256": "676e36319e7ce80b93e3543e255d53708d9fc71606587a6e692eab1ec82ecaed",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_calib_top_v1_10.vp",
+      "original_sha256": "04faf434cef120b5d712911dfc97c8f498901b0679fba720b806f596d688bded",
+      "packaged_sha256": "04faf434cef120b5d712911dfc97c8f498901b0679fba720b806f596d688bded",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_control_path_adj_v1_10.vp",
+      "original_sha256": "8cdd7b9ec01c143882217b038cbf840d77e52ee3037e629e75e10b03fc223a38",
+      "packaged_sha256": "8cdd7b9ec01c143882217b038cbf840d77e52ee3037e629e75e10b03fc223a38",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_cpd_ctrl_v1_3.vp",
+      "original_sha256": "56f52683adbe720c7d43da1a9f199f4ab3add3f3b5960e3f687f87f60267c161",
+      "packaged_sha256": "56f52683adbe720c7d43da1a9f199f4ab3add3f3b5960e3f687f87f60267c161",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_cpd_lock_v1_0.vp",
+      "original_sha256": "a6696f8e79e2d132a6e76ad4997d5366d6c9cf8f05c60f77feff1b47b50d0090",
+      "packaged_sha256": "a6696f8e79e2d132a6e76ad4997d5366d6c9cf8f05c60f77feff1b47b50d0090",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_data_slice_dqs_gate_cal_v1_10.vp",
+      "original_sha256": "8764275d4eeb8d1765b3a09aba527d6d3bf3e46f5e1d17eefc685d7e0dbe1520",
+      "packaged_sha256": "8764275d4eeb8d1765b3a09aba527d6d3bf3e46f5e1d17eefc685d7e0dbe1520",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_data_slice_v1_10.vp",
+      "original_sha256": "e13e33d97ecbfea1838c4dd28e7f9f1c57dcb974606179523be46bba75344d50",
+      "packaged_sha256": "e13e33d97ecbfea1838c4dd28e7f9f1c57dcb974606179523be46bba75344d50",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_data_slice_wrcal_v1_10.vp",
+      "original_sha256": "b7a9757c252f74c4b57eb0fb74738c57e4eed3e669ddd7ffeeca1acedd330b2e",
+      "packaged_sha256": "b7a9757c252f74c4b57eb0fb74738c57e4eed3e669ddd7ffeeca1acedd330b2e",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_data_slice_wrlvl_v1_10.vp",
+      "original_sha256": "871874f4af0f068571416916898f83eb07052e6e015c5800ffdf65d67620cf7e",
+      "packaged_sha256": "871874f4af0f068571416916898f83eb07052e6e015c5800ffdf65d67620cf7e",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_dfi_v1_3.vp",
+      "original_sha256": "9828a1ef43a864d287a7a317910fe330bfc904f44e8f60c8773aafa1d8c1534e",
+      "packaged_sha256": "9828a1ef43a864d287a7a317910fe330bfc904f44e8f60c8773aafa1d8c1534e",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_dll_update_ctrl_v1_3.vp",
+      "original_sha256": "bc4e8f402d2fb98920e050a3c1514d44ec959877217d7865a30b22b7da73cac6",
+      "packaged_sha256": "bc4e8f402d2fb98920e050a3c1514d44ec959877217d7865a30b22b7da73cac6",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_dqsi_rdel_cal_v1_3.vp",
+      "original_sha256": "ef7e57755ab7558b1b518aa73999384368f349efe7077cf9283e0911e711ac1a",
+      "packaged_sha256": "ef7e57755ab7558b1b518aa73999384368f349efe7077cf9283e0911e711ac1a",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_dqs_gate_coarse_cal_v1_0.vp",
+      "original_sha256": "950a0010929854894c2c92d9f3f8e9dce0fee6985fee70d4160540a058853ede",
+      "packaged_sha256": "950a0010929854894c2c92d9f3f8e9dce0fee6985fee70d4160540a058853ede",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_dqs_rddata_align_v1_10.vp",
+      "original_sha256": "c0cab4287a7a7b6b720977c1c5f9259c5f48f8da18e9a3ca1173a073b1ccf025",
+      "packaged_sha256": "c0cab4287a7a7b6b720977c1c5f9259c5f48f8da18e9a3ca1173a073b1ccf025",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_drift_ctrl_v1_0.vp",
+      "original_sha256": "8ea99ac6decf6fe14c0585b4f121d7a1acc17290d7a1c68725d984e704e277bc",
+      "packaged_sha256": "8ea99ac6decf6fe14c0585b4f121d7a1acc17290d7a1c68725d984e704e277bc",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_eyecal_v1_5.vp",
+      "original_sha256": "31977dd34339d163ecbd8b9949ac4b65f0eaa6fbcd9a75d787400ae73f7f51d2",
+      "packaged_sha256": "31977dd34339d163ecbd8b9949ac4b65f0eaa6fbcd9a75d787400ae73f7f51d2",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_gatecal_v1_10.vp",
+      "original_sha256": "b6859250ca098e81ff05bcab08dfe8ffee77648218e90c040a1dd3838a0671f2",
+      "packaged_sha256": "b6859250ca098e81ff05bcab08dfe8ffee77648218e90c040a1dd3838a0671f2",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_gate_update_ctrl_v1_3.vp",
+      "original_sha256": "ce20eb3b9cbe3b392d8be0aa1d6787247bc7b2d91af36a1f734f35c9eb03d642",
+      "packaged_sha256": "ce20eb3b9cbe3b392d8be0aa1d6787247bc7b2d91af36a1f734f35c9eb03d642",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_gpll_phase_v1_0.vp",
+      "original_sha256": "ef8ebe3742d23848bd2a1492d4901f886ce49aa98dbc295873b67e4116ba8524",
+      "packaged_sha256": "ef8ebe3742d23848bd2a1492d4901f886ce49aa98dbc295873b67e4116ba8524",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_info_v1_0.vp",
+      "original_sha256": "0794201be97885e7695a16b6c35848655b08c4bf191405d26417126512ce4aa8",
+      "packaged_sha256": "0794201be97885e7695a16b6c35848655b08c4bf191405d26417126512ce4aa8",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_init_v1_0.vp",
+      "original_sha256": "817f9f32b2260a4c35af446e89ff4c2d4b065381b25cb2020c538d22b4a45088",
+      "packaged_sha256": "817f9f32b2260a4c35af446e89ff4c2d4b065381b25cb2020c538d22b4a45088",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_main_ctrl_v1_10.vp",
+      "original_sha256": "39d5024d7364b441340b131d265d0648d8b7c1f92cc417424d7c584413c5f4a6",
+      "packaged_sha256": "39d5024d7364b441340b131d265d0648d8b7c1f92cc417424d7c584413c5f4a6",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_rdcal_v1_10.vp",
+      "original_sha256": "6b4c7f3c24a4750ac69b4e7882617105c6e31f02da712aaa87932b8561ccea2b",
+      "packaged_sha256": "6b4c7f3c24a4750ac69b4e7882617105c6e31f02da712aaa87932b8561ccea2b",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_reset_ctrl_v1_3.vp",
+      "original_sha256": "17189b59ed5307c4a27ec35485b33af5c98a89e6ee7f9c5d85aaed9c03a77163",
+      "packaged_sha256": "17189b59ed5307c4a27ec35485b33af5c98a89e6ee7f9c5d85aaed9c03a77163",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_rst_clk_phase_adj_v1_0.vp",
+      "original_sha256": "dd1dbae71726d968df475fe7fbb2b7321411fa67786092c0dc2e065edcf39382",
+      "packaged_sha256": "dd1dbae71726d968df475fe7fbb2b7321411fa67786092c0dc2e065edcf39382",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_rst_debounce_v1_0.vp",
+      "original_sha256": "bff7ed95c8d305dfb88e6002c6de8453a21c72c03a5a0521a76ddd105598dc4d",
+      "packaged_sha256": "bff7ed95c8d305dfb88e6002c6de8453a21c72c03a5a0521a76ddd105598dc4d",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_slice_rddata_align_v1_0.vp",
+      "original_sha256": "befb44f07d851524109a6dc8e17c5b8062694aa274ed8dbc4f7326b8fe1c443e",
+      "packaged_sha256": "befb44f07d851524109a6dc8e17c5b8062694aa274ed8dbc4f7326b8fe1c443e",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_training_ctrl_v1_0.vp",
+      "original_sha256": "777e8ee9d8d819fdcf04b39b5a5d6086c52369a7f19f04dbd0d06f7a7d3d6110",
+      "packaged_sha256": "777e8ee9d8d819fdcf04b39b5a5d6086c52369a7f19f04dbd0d06f7a7d3d6110",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_upcal_v1_0.vp",
+      "original_sha256": "afbca3503da609f7951ad7fbef386bd007f403c89f52377211ba521967c94455",
+      "packaged_sha256": "afbca3503da609f7951ad7fbef386bd007f403c89f52377211ba521967c94455",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_wdata_path_adj_v1_10.vp",
+      "original_sha256": "85f625ed4a09964442e8616074eea9e4757e43b4217589bb9e2f289c9748b272",
+      "packaged_sha256": "85f625ed4a09964442e8616074eea9e4757e43b4217589bb9e2f289c9748b272",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_wrcal_v1_7.vp",
+      "original_sha256": "0a8cb0bb70bd40809260c50bcb85d092c16fea5d9ab2e4fbbe647ccbd1bfb1b0",
+      "packaged_sha256": "0a8cb0bb70bd40809260c50bcb85d092c16fea5d9ab2e4fbbe647ccbd1bfb1b0",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/ips2l_ddrphy_wrlvl_v1_0.vp",
+      "original_sha256": "00c086bd729be3ab8287f6eb786cfb3549c97aa92f8465c608b8fc2477df3edc",
+      "packaged_sha256": "00c086bd729be3ab8287f6eb786cfb3549c97aa92f8465c608b8fc2477df3edc",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/ddrphy/mini_ddr_slice_top_v1_10.v",
+      "original_sha256": "79289273f592e16c7b89c5f36b79f6d6c62b7a8a0bc2e24658f568b969793d6d",
+      "packaged_sha256": "79289273f592e16c7b89c5f36b79f6d6c62b7a8a0bc2e24658f568b969793d6d",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/ips2l_mcdq_apb_cross_v1_2.vp",
+      "original_sha256": "62f7d55354a8afe4d02bc6f6d6dc30fc8e9960d3b21709988b887acc99d09cf5",
+      "packaged_sha256": "62f7d55354a8afe4d02bc6f6d6dc30fc8e9960d3b21709988b887acc99d09cf5",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/ips2l_mcdq_calib_delay_v1_2.vp",
+      "original_sha256": "a52e992b9766b6cb22ed23aa01d1cc5ac9b6a429a8e49de7a13ac51dd70e9784",
+      "packaged_sha256": "a52e992b9766b6cb22ed23aa01d1cc5ac9b6a429a8e49de7a13ac51dd70e9784",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/ips2l_mcdq_cfg_apb_v1_2.vp",
+      "original_sha256": "482cb280a614f70209f1d07892fdd773a259d2ca0f23e8f38b85a9faf00513b9",
+      "packaged_sha256": "482cb280a614f70209f1d07892fdd773a259d2ca0f23e8f38b85a9faf00513b9",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/ips2l_mcdq_dcd_bm_v1_2.vp",
+      "original_sha256": "bfbd472dd8b427fe6b003dd510f73db89f915ac92d31fe8a779c40f9d4e56bee",
+      "packaged_sha256": "bfbd472dd8b427fe6b003dd510f73db89f915ac92d31fe8a779c40f9d4e56bee",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/ips2l_mcdq_dcd_rowaddr_v1_2.vp",
+      "original_sha256": "4ac4721747b13020e1895be6265e55df90968f05beb8056279589039394bb9be",
+      "packaged_sha256": "4ac4721747b13020e1895be6265e55df90968f05beb8056279589039394bb9be",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/ips2l_mcdq_dcd_sm_v1_2.vp",
+      "original_sha256": "d7e710e3ed4d1807fb0bdd4d84c264817247a4da41123c72439c555573821f49",
+      "packaged_sha256": "d7e710e3ed4d1807fb0bdd4d84c264817247a4da41123c72439c555573821f49",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/ips2l_mcdq_dcd_top_v1_2.vp",
+      "original_sha256": "26ab4e142f555602c023f62b19df52056c6d51da5052401254066cae0655ddaa",
+      "packaged_sha256": "26ab4e142f555602c023f62b19df52056c6d51da5052401254066cae0655ddaa",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/ips2l_mcdq_dcp_back_ctrl_v1_2.vp",
+      "original_sha256": "fe7b340b41d80ec7428cc38329a41864bcf5c209a6310610d09c7bc8579e541f",
+      "packaged_sha256": "fe7b340b41d80ec7428cc38329a41864bcf5c209a6310610d09c7bc8579e541f",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/ips2l_mcdq_dcp_buf_v1_2.vp",
+      "original_sha256": "dab35fa172243ecbb5426a8ebccc2c168368ea0a6ea0558c909b815d781b17d6",
+      "packaged_sha256": "dab35fa172243ecbb5426a8ebccc2c168368ea0a6ea0558c909b815d781b17d6",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/ips2l_mcdq_dcp_out_v1_2.vp",
+      "original_sha256": "9471082e23170b144dc619f7f7e08c94b8a03378f72da388f744d6acb728928b",
+      "packaged_sha256": "9471082e23170b144dc619f7f7e08c94b8a03378f72da388f744d6acb728928b",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/ips2l_mcdq_dcp_top_v1_2.vp",
+      "original_sha256": "21b1f0e3b4660e1078b47000bfe50022346414f5d5e713ac9e522a4f39f76548",
+      "packaged_sha256": "21b1f0e3b4660e1078b47000bfe50022346414f5d5e713ac9e522a4f39f76548",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/ips2l_mcdq_dfi_v1_2.vp",
+      "original_sha256": "abf138d692e634fabe5f569b98d897dfece8a8ae66cee1dba830a56d7e255df1",
+      "packaged_sha256": "abf138d692e634fabe5f569b98d897dfece8a8ae66cee1dba830a56d7e255df1",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/ips2l_mcdq_lp_v1_2.vp",
+      "original_sha256": "7a80ccb1e053e5c9d8f389169359570f256d709ff2e4ad2c51fda7a7a6a4239d",
+      "packaged_sha256": "7a80ccb1e053e5c9d8f389169359570f256d709ff2e4ad2c51fda7a7a6a4239d",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/ips2l_mcdq_mrs_v1_2.vp",
+      "original_sha256": "f78133bc021a57cf469773daaf102817fc37069447e8accc80afa1f4b20b0ad6",
+      "packaged_sha256": "f78133bc021a57cf469773daaf102817fc37069447e8accc80afa1f4b20b0ad6",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/ips2l_mcdq_prefetch_fifo_v1_2.vp",
+      "original_sha256": "ee3aa91e980fb3dd08231cf1806a28edf759f4ea8248adfd44407d607519b9e4",
+      "packaged_sha256": "ee3aa91e980fb3dd08231cf1806a28edf759f4ea8248adfd44407d607519b9e4",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/ips2l_mcdq_rdatapath_v1_2.vp",
+      "original_sha256": "72dd8ece021f4ee74fd576c1628c4f7d3606ef632f0e68b9569a288a092a6b0f",
+      "packaged_sha256": "72dd8ece021f4ee74fd576c1628c4f7d3606ef632f0e68b9569a288a092a6b0f",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/ips2l_mcdq_reg_fifo2_v1_2.vp",
+      "original_sha256": "bc9cff65e4002a51af0c20c2f0a9b9f17dacde5157b58691bbfb1c44348ee08a",
+      "packaged_sha256": "bc9cff65e4002a51af0c20c2f0a9b9f17dacde5157b58691bbfb1c44348ee08a",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/ips2l_mcdq_ui_axi_v1_2a.vp",
+      "original_sha256": "145b69395412be2553835f9278cdf1cb1703d3beeb914abf7d985e3c69f817fb",
+      "packaged_sha256": "145b69395412be2553835f9278cdf1cb1703d3beeb914abf7d985e3c69f817fb",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/ips2l_mcdq_wdatapath_v1_2.vp",
+      "original_sha256": "db648e90ff607ca2f9e2b5cca048de417439888d0b906288e0cec7cf038d9dee",
+      "packaged_sha256": "db648e90ff607ca2f9e2b5cca048de417439888d0b906288e0cec7cf038d9dee",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/ips2l_mcdq_wdp_align_v1_2.vp",
+      "original_sha256": "1645e9eb7fac3c9c13cd3e0d7367f132293f9cec16835ce188c6345993d2b730",
+      "packaged_sha256": "1645e9eb7fac3c9c13cd3e0d7367f132293f9cec16835ce188c6345993d2b730",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/ips2l_mcdq_wdp_dcp_v1_2.vp",
+      "original_sha256": "3f30be0f49f78f09915743995c950fa6ff8de5f14598ebc8802e73b5c6d140ee",
+      "packaged_sha256": "3f30be0f49f78f09915743995c950fa6ff8de5f14598ebc8802e73b5c6d140ee",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/ips2l_mcdq_wrapper_v1_2b.vp",
+      "original_sha256": "d35010f49be551fb15ab2655cbeffcaaaa74fdf3ccb0754b033fc979d615e805",
+      "packaged_sha256": "d35010f49be551fb15ab2655cbeffcaaaa74fdf3ccb0754b033fc979d615e805",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/pll/ips2l_ddrphy_gpll_v1_3.vp",
+      "original_sha256": "3fecc367573a4b5bd158e1a8ff106c5c401c5f180143e8e5abe6bb068e5078d2",
+      "packaged_sha256": "3fecc367573a4b5bd158e1a8ff106c5c401c5f180143e8e5abe6bb068e5078d2",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/pll/ips2l_ddrphy_ppll_v1_0.vp",
+      "original_sha256": "34bb46106b84eab147f130bd7526f1486d35caeb40b0258cd59656e50d19dddd",
+      "packaged_sha256": "34bb46106b84eab147f130bd7526f1486d35caeb40b0258cd59656e50d19dddd",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/distributed_fifo/ips2l_distributed_fifo_v1_0.vp",
+      "original_sha256": "d6c0b0d8560b0f22128b4883933944fc686fd7597cfea0d6c545cc6af56c0b7a",
+      "packaged_sha256": "d6c0b0d8560b0f22128b4883933944fc686fd7597cfea0d6c545cc6af56c0b7a",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/syn_mod/ips2l_mcdq_com_timing_v1_2.vp",
+      "original_sha256": "e3f19c4be6352ab64f07426973387f2876c540ee992f6eac9d3f2d470b3d49c2",
+      "packaged_sha256": "e3f19c4be6352ab64f07426973387f2876c540ee992f6eac9d3f2d470b3d49c2",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/syn_mod/ips2l_mcdq_tfaw_timing_v1_2.vp",
+      "original_sha256": "c632619f042bebb4f059df7f20eee90eb2b51b81210430cb37d01958ad3cd30f",
+      "packaged_sha256": "c632619f042bebb4f059df7f20eee90eb2b51b81210430cb37d01958ad3cd30f",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/syn_mod/ips2l_mcdq_tfaw_v1_2.vp",
+      "original_sha256": "ab87b7718bffc4fb2a2b27765576187f09b5266bbca7fc393c43c6dec96ff379",
+      "packaged_sha256": "ab87b7718bffc4fb2a2b27765576187f09b5266bbca7fc393c43c6dec96ff379",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/syn_mod/ips2l_mcdq_timing_act2wr_pass_v1_2.vp",
+      "original_sha256": "1b3874b059923481f292ba382ad156f7dcdd9ad39da6c86dddd480290ccce498",
+      "packaged_sha256": "1b3874b059923481f292ba382ad156f7dcdd9ad39da6c86dddd480290ccce498",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/syn_mod/ips2l_mcdq_timing_act_pass_v1_2.vp",
+      "original_sha256": "9f32b6936e039c15f7b07b74480179d39d1b3787965e1b90bd067a7ede7fdd4c",
+      "packaged_sha256": "9f32b6936e039c15f7b07b74480179d39d1b3787965e1b90bd067a7ede7fdd4c",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/syn_mod/ips2l_mcdq_timing_pre_pass_v1_2.vp",
+      "original_sha256": "e40a64caec9725c231cd88dde69973eab3aca38c9d2e66a2c5c0bbddf3103ae0",
+      "packaged_sha256": "e40a64caec9725c231cd88dde69973eab3aca38c9d2e66a2c5c0bbddf3103ae0",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/syn_mod/ips2l_mcdq_timing_rd_pass_v1_2.vp",
+      "original_sha256": "78b1de719a43ee0fc80e1a5464f7284439d91f1d4b3f83ef2ae5611920293988",
+      "packaged_sha256": "78b1de719a43ee0fc80e1a5464f7284439d91f1d4b3f83ef2ae5611920293988",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/syn_mod/ips2l_mcdq_timing_ref_pass_v1_2.vp",
+      "original_sha256": "c79dde6f9a682c55aff7bb89c4863f76a069b874fb154dff7d3e4d4a7a88f9d1",
+      "packaged_sha256": "c79dde6f9a682c55aff7bb89c4863f76a069b874fb154dff7d3e4d4a7a88f9d1",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/syn_mod/ips2l_mcdq_timing_wr_pass_v1_2.vp",
+      "original_sha256": "ea3470ca984554d4908ec950314f9242042417c6c4c6b3fd05ac5d6daab98c90",
+      "packaged_sha256": "ea3470ca984554d4908ec950314f9242042417c6c4c6b3fd05ac5d6daab98c90",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/syn_mod/ips2l_mcdq_trc_timing_v1_2.vp",
+      "original_sha256": "7234241e5968f91ec6e396794f0bb80f6c7d1bca2038aa004d5078d3937953da",
+      "packaged_sha256": "7234241e5968f91ec6e396794f0bb80f6c7d1bca2038aa004d5078d3937953da",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/distributed_fifo/rtl/ips2l_distributed_fifo_ctr_v1_0.vp",
+      "original_sha256": "fe31c8f44bea653ab20bb1830ad4f8ed41566e9cfef354bd5e2d48c7682f353d",
+      "packaged_sha256": "fe31c8f44bea653ab20bb1830ad4f8ed41566e9cfef354bd5e2d48c7682f353d",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/distributed_fifo/rtl/ips2l_distributed_fifo_v1_0_distributed_fifo_v1_0.vp",
+      "original_sha256": "867ac91a1485dfe613a81f372d788e784bba8cd4b0497e56986135e92685ba73",
+      "packaged_sha256": "867ac91a1485dfe613a81f372d788e784bba8cd4b0497e56986135e92685ba73",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "01_hardware/QO/ip/rtl/mcdq_ctrl/distributed_fifo/rtl/ips2l_distributed_sdpram_v1_0_distributed_fifo_v1_0.vp",
+      "original_sha256": "3561bbbbd4e4432a538c3d20818d262b4f1e5517c48296f6b1b4cc8afdd19aef",
+      "packaged_sha256": "3561bbbbd4e4432a538c3d20818d262b4f1e5517c48296f6b1b4cc8afdd19aef",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "06_cpu_coremark/CM/rtl/boot_rom_dp.v",
+      "original_sha256": "59771bfcee15abc13c55e51fc17d2453a904eea34ecbc5df14fadb10bfd011aa",
+      "packaged_sha256": "59771bfcee15abc13c55e51fc17d2453a904eea34ecbc5df14fadb10bfd011aa",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "06_cpu_coremark/CM/rtl/burst_read_sequencer.v",
+      "original_sha256": "55242fac69eda3b1460fd43c83efba29c393db8d7f3fec83db15344c0bd17e27",
+      "packaged_sha256": "55242fac69eda3b1460fd43c83efba29c393db8d7f3fec83db15344c0bd17e27",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "06_cpu_coremark/CM/rtl/cpu_perf_board.v",
+      "original_sha256": "11695b6bc9b4867d0747b7ac06d772a2e105438de657bf54903f24100fe1ebc0",
+      "packaged_sha256": "11695b6bc9b4867d0747b7ac06d772a2e105438de657bf54903f24100fe1ebc0",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "06_cpu_coremark/CM/rtl/cpu_perf_pll.v",
+      "original_sha256": "15a6db3b41403083ad8e0508ab579b1bba2c5bd99b39e1423553da5365768926",
+      "packaged_sha256": "15a6db3b41403083ad8e0508ab579b1bba2c5bd99b39e1423553da5365768926",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "06_cpu_coremark/CM/rtl/cpu_soc.v",
+      "original_sha256": "481c1265d6e51d2de2335776b89c4bbc38d4c7e848f2084a2ef0c6757c8eb957",
+      "packaged_sha256": "481c1265d6e51d2de2335776b89c4bbc38d4c7e848f2084a2ef0c6757c8eb957",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "06_cpu_coremark/CM/rtl/rv32_alu.v",
+      "original_sha256": "dfb7a4a24baf7074458f1ce519c3c928d3895e66579167bd6faebadf2779cd5a",
+      "packaged_sha256": "dfb7a4a24baf7074458f1ce519c3c928d3895e66579167bd6faebadf2779cd5a",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "06_cpu_coremark/CM/rtl/rv32_core.sv",
+      "original_sha256": "24b68d9e4caeedab1bfef54b1a3ab8b7752b8e017d249147c0fb1e8e401a084e",
+      "packaged_sha256": "24b68d9e4caeedab1bfef54b1a3ab8b7752b8e017d249147c0fb1e8e401a084e",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "06_cpu_coremark/CM/rtl/rv32_dcache.v",
+      "original_sha256": "a40a21027d7a8a4eed1bb6d4328b7429312bb310d6823083d08cfc239ed1c8b4",
+      "packaged_sha256": "a40a21027d7a8a4eed1bb6d4328b7429312bb310d6823083d08cfc239ed1c8b4",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "06_cpu_coremark/CM/rtl/rv32_icache.v",
+      "original_sha256": "036fede519e5665bb8950fdb833dfa2149ac45d78ccecf437e9056f56983ef78",
+      "packaged_sha256": "74d6ceaf22a91e956a6c6b0cf5e65846f5a95749c25831ebe016b41664d67c05",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "06_cpu_coremark/CM/rtl/rv32_muldiv.v",
+      "original_sha256": "d87d3177b4209645450d6a9e5c341c91d07e052b9142250f3d99eb930d93e5a8",
+      "packaged_sha256": "d87d3177b4209645450d6a9e5c341c91d07e052b9142250f3d99eb930d93e5a8",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "06_cpu_coremark/CM/rtl/rv32_regfile.v",
+      "original_sha256": "1d412d6e818d906dad1fea22c88fd5e2c80f8127cfdaf269c4aee089c2a18333",
+      "packaged_sha256": "1d412d6e818d906dad1fea22c88fd5e2c80f8127cfdaf269c4aee089c2a18333",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "06_cpu_coremark/CM/rtl/sprint_tcm.v",
+      "original_sha256": "f8f76cdd54bd71c21764b6dde3f40f32a9c55c7ea0bb42a8457ea1e627d4f2df",
+      "packaged_sha256": "f8f76cdd54bd71c21764b6dde3f40f32a9c55c7ea0bb42a8457ea1e627d4f2df",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "06_cpu_coremark/CM/rtl/sync_ram.v",
+      "original_sha256": "febcd8954626e408232199e177f035351385340e9145460054fd1a881c8cdf8f",
+      "packaged_sha256": "b1790d648559fe2bdd83e8e42bae3c98eae2fab37dcf611d719afa7d26c60ecc",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "06_cpu_coremark/CM/rtl/uart_rx.v",
+      "original_sha256": "1b0b80790db53b08ff0f0b098ade5c4dcea9cc2bb66d558a5e2d67aa013c5bad",
+      "packaged_sha256": "1b0b80790db53b08ff0f0b098ade5c4dcea9cc2bb66d558a5e2d67aa013c5bad",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "06_cpu_coremark/CM/rtl/uart_tx.v",
+      "original_sha256": "acc771bb20931df015018e1534266842fa23a0bf12b1ecf3b34c7ff6745aaffb",
+      "packaged_sha256": "acc771bb20931df015018e1534266842fa23a0bf12b1ecf3b34c7ff6745aaffb",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/face_application/source/link.ld",
+      "original_sha256": "2842c2c2e04344063e4d4d13c7f3ada4b6bec6884917a85a7f1b15f8b3dbd8ba",
+      "packaged_sha256": "2842c2c2e04344063e4d4d13c7f3ada4b6bec6884917a85a7f1b15f8b3dbd8ba",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/face_application/source/start.S",
+      "original_sha256": "ac09314f13df22d2ef7395c6b9a02ad8cd3a6099b21c1a189f8ffcecf9684185",
+      "packaged_sha256": "ac09314f13df22d2ef7395c6b9a02ad8cd3a6099b21c1a189f8ffcecf9684185",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/face_application/source/demo.c",
+      "original_sha256": "6621c029d8d030ff37365c55a37c1fd8b0a1e7f5cca8a7b9d1dbdc217b63f96c",
+      "packaged_sha256": "6621c029d8d030ff37365c55a37c1fd8b0a1e7f5cca8a7b9d1dbdc217b63f96c",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/face_application/source/retina_post.c",
+      "original_sha256": "fa3cb12754c1d7df351b8d92f063cf02d0a9715987db84fe3fbb18d194558352",
+      "packaged_sha256": "a1d29ccab739a38349cda487819469d0ac3684107c1f329b61941fefb79afbd1",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/face_application/source/retina_decode.c",
+      "original_sha256": "bb85b57fb09a8e9b6f8f0a5d2717d081eaa36bbd91e3655835ebaaf08efeab2a",
+      "packaged_sha256": "bb85b57fb09a8e9b6f8f0a5d2717d081eaa36bbd91e3655835ebaaf08efeab2a",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/face_application/source/fit.c",
+      "original_sha256": "a8eda22119653692578bbc5d87861a3eb0183c58df55667fbd11ac29ee762b71",
+      "packaged_sha256": "e01a502198445f11d08efd454e9dc8b3075990d6ddc20e00074384de25266be1",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/face_application/source/cpu_warp.c",
+      "original_sha256": "d7941914780324cfdbe81c8a052a07e1d223545d40abd3949b45a574a71cd412",
+      "packaged_sha256": "d7941914780324cfdbe81c8a052a07e1d223545d40abd3949b45a574a71cd412",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/face_application/source/gallery_exact.c",
+      "original_sha256": "a43a877c4be8d4d51a99ecd21e7424ab43326e9aed786a9fa6a357e26b79dd74",
+      "packaged_sha256": "4c885dc3f1a9f764ab59a89d3dc5e532aa2e71c9bfe4e423ad4ce5bd4f5c5233",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/face_application/source/norm512_skylakex.c",
+      "original_sha256": "a36d8c12cdbd7afb5b1c5195407d28af7eebbd478a1e103323fbaa70fec040b6",
+      "packaged_sha256": "a36d8c12cdbd7afb5b1c5195407d28af7eebbd478a1e103323fbaa70fec040b6",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/face_application/source/positive64_exact.c",
+      "original_sha256": "ca44804358219fdfb937f415ad51dd19eae594a8b67dc733d850551dfe063f46",
+      "packaged_sha256": "ca44804358219fdfb937f415ad51dd19eae594a8b67dc733d850551dfe063f46",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/face_application/source/exact_sdot.c",
+      "original_sha256": "9ee6c1ebd312f91d8b1ca98b0a612b8b1f38d2db8774425a4a6bd0528fd504a8",
+      "packaged_sha256": "3c916c4cf346ebcb679fb512c98ceb2b0c89f3823f99034d83b8c9ce91cae4ef",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/face_application/source/runtime.c",
+      "original_sha256": "7c0e8c8644a10770b07daee6d226c1c813829ce7cd4cc3123994f092f256d8e8",
+      "packaged_sha256": "7c0e8c8644a10770b07daee6d226c1c813829ce7cd4cc3123994f092f256d8e8",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/face_application/source/loader.c",
+      "original_sha256": "9570251bec96afef0ced4b8146fc0913f0d267aadb22ff8c4d273df3340d6cfb",
+      "packaged_sha256": "9570251bec96afef0ced4b8146fc0913f0d267aadb22ff8c4d273df3340d6cfb",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/face_application/source/cpu_warp.h",
+      "original_sha256": "0a95a1c84617962a41b4bd5d2165267a03c06d7563b82f14788962ec867c6715",
+      "packaged_sha256": "0a95a1c84617962a41b4bd5d2165267a03c06d7563b82f14788962ec867c6715",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/face_application/source/fit.h",
+      "original_sha256": "204d13dad8d82d66e1db7ea2ede86b34888ef36da2daef2cdc5b26655510edcd",
+      "packaged_sha256": "204d13dad8d82d66e1db7ea2ede86b34888ef36da2daef2cdc5b26655510edcd",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/face_application/source/mbf_normalization.h",
+      "original_sha256": "5e59edbf5ddadd8d78fcf0d980fbc48667231d8d868eddc5289e80723a487878",
+      "packaged_sha256": "5e59edbf5ddadd8d78fcf0d980fbc48667231d8d868eddc5289e80723a487878",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/face_application/source/package_fixture.h",
+      "original_sha256": "15850fee01a1c88fcd7c3d2aa2a8b0f89bb69eaca14514439e102ae86a926c1f",
+      "packaged_sha256": "15850fee01a1c88fcd7c3d2aa2a8b0f89bb69eaca14514439e102ae86a926c1f",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/face_application/source/release_memory.h",
+      "original_sha256": "9b22bd97c1d9c9a8a22ef1a629f1da6720c4ea45d98df1ebb1b4bd10796570ed",
+      "packaged_sha256": "9b22bd97c1d9c9a8a22ef1a629f1da6720c4ea45d98df1ebb1b4bd10796570ed",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/face_application/source/retina_decode.h",
+      "original_sha256": "1c2e9ad9ed4a25e2b4d0a15e9fdfdb3fb599ba2650496f7cc25eee9b11bf722a",
+      "packaged_sha256": "1c2e9ad9ed4a25e2b4d0a15e9fdfdb3fb599ba2650496f7cc25eee9b11bf722a",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/face_application/source/retina_exp_table.h",
+      "original_sha256": "5acab1d72095da40daf94218bb533ab0bbfced3c1d7b83c395e491d04fb44126",
+      "packaged_sha256": "5acab1d72095da40daf94218bb533ab0bbfced3c1d7b83c395e491d04fb44126",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/face_application/source/retina_post.h",
+      "original_sha256": "1a5845945a69d376c2a353135a6be36363f3ee63d1e702f0b4d91de2710880cb",
+      "packaged_sha256": "1a5845945a69d376c2a353135a6be36363f3ee63d1e702f0b4d91de2710880cb",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_QO_default/source/start.S",
+      "original_sha256": "ac09314f13df22d2ef7395c6b9a02ad8cd3a6099b21c1a189f8ffcecf9684185",
+      "packaged_sha256": "ac09314f13df22d2ef7395c6b9a02ad8cd3a6099b21c1a189f8ffcecf9684185",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_QO_default/source/core_main.c",
+      "original_sha256": "eaffa2c0ec253d25a348d24ea16ead8d439c1110ad636d7cddbb15efb9e1caf1",
+      "packaged_sha256": "eaffa2c0ec253d25a348d24ea16ead8d439c1110ad636d7cddbb15efb9e1caf1",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_QO_default/source/core_list_join.c",
+      "original_sha256": "1c8aa83861634d6a33cb11c785b738ac205404e2e9222571465dc02156f9154d",
+      "packaged_sha256": "1c8aa83861634d6a33cb11c785b738ac205404e2e9222571465dc02156f9154d",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_QO_default/source/core_matrix.c",
+      "original_sha256": "acf3fe63db2ddd929f405b67fd273e49f558871f0bf8d51a6814cdd881b602c8",
+      "packaged_sha256": "acf3fe63db2ddd929f405b67fd273e49f558871f0bf8d51a6814cdd881b602c8",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_QO_default/source/core_state.c",
+      "original_sha256": "02a6e604d852a2806a8eb2a455c924b0483a8042cfe96478009821558cf35521",
+      "packaged_sha256": "02a6e604d852a2806a8eb2a455c924b0483a8042cfe96478009821558cf35521",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_QO_default/source/core_util.c",
+      "original_sha256": "f8479f7a4e100ded31e2ebecf1f37ffff8904d88314188b0a85d32687e3ca813",
+      "packaged_sha256": "f8479f7a4e100ded31e2ebecf1f37ffff8904d88314188b0a85d32687e3ca813",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_QO_default/source/core_portme.c",
+      "original_sha256": "027330a675b235665e2b250ce68e20129458499a6bb46753e5bd64a9d8149dac",
+      "packaged_sha256": "027330a675b235665e2b250ce68e20129458499a6bb46753e5bd64a9d8149dac",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_QO_default/source/benchmark.ld",
+      "original_sha256": "e545a85e3e948faceb0ebc5a43bae4f90971ff54202b45fcb66a7cb5629da542",
+      "packaged_sha256": "e545a85e3e948faceb0ebc5a43bae4f90971ff54202b45fcb66a7cb5629da542",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_QO_default/source/core_portme.h",
+      "original_sha256": "626986571e81cbbbfabef2b8b7e459e7d3cb46f5a629bef717bcf2820ff5e691",
+      "packaged_sha256": "626986571e81cbbbfabef2b8b7e459e7d3cb46f5a629bef717bcf2820ff5e691",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_QO_default/source/coremark.h",
+      "original_sha256": "d3031335e6e1b5e05d07681357e8e00a70ab60b0524b92d088e546c0ff7f56d6",
+      "packaged_sha256": "d3031335e6e1b5e05d07681357e8e00a70ab60b0524b92d088e546c0ff7f56d6",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_QO_GCC16/source/start.S",
+      "original_sha256": "ac09314f13df22d2ef7395c6b9a02ad8cd3a6099b21c1a189f8ffcecf9684185",
+      "packaged_sha256": "ac09314f13df22d2ef7395c6b9a02ad8cd3a6099b21c1a189f8ffcecf9684185",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_QO_GCC16/source/core_main.c",
+      "original_sha256": "eaffa2c0ec253d25a348d24ea16ead8d439c1110ad636d7cddbb15efb9e1caf1",
+      "packaged_sha256": "eaffa2c0ec253d25a348d24ea16ead8d439c1110ad636d7cddbb15efb9e1caf1",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_QO_GCC16/source/core_list_join.c",
+      "original_sha256": "1c8aa83861634d6a33cb11c785b738ac205404e2e9222571465dc02156f9154d",
+      "packaged_sha256": "1c8aa83861634d6a33cb11c785b738ac205404e2e9222571465dc02156f9154d",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_QO_GCC16/source/core_matrix.c",
+      "original_sha256": "acf3fe63db2ddd929f405b67fd273e49f558871f0bf8d51a6814cdd881b602c8",
+      "packaged_sha256": "acf3fe63db2ddd929f405b67fd273e49f558871f0bf8d51a6814cdd881b602c8",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_QO_GCC16/source/core_state.c",
+      "original_sha256": "02a6e604d852a2806a8eb2a455c924b0483a8042cfe96478009821558cf35521",
+      "packaged_sha256": "02a6e604d852a2806a8eb2a455c924b0483a8042cfe96478009821558cf35521",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_QO_GCC16/source/core_util.c",
+      "original_sha256": "f8479f7a4e100ded31e2ebecf1f37ffff8904d88314188b0a85d32687e3ca813",
+      "packaged_sha256": "f8479f7a4e100ded31e2ebecf1f37ffff8904d88314188b0a85d32687e3ca813",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_QO_GCC16/source/core_portme.c",
+      "original_sha256": "027330a675b235665e2b250ce68e20129458499a6bb46753e5bd64a9d8149dac",
+      "packaged_sha256": "027330a675b235665e2b250ce68e20129458499a6bb46753e5bd64a9d8149dac",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_QO_GCC16/source/benchmark.ld",
+      "original_sha256": "e545a85e3e948faceb0ebc5a43bae4f90971ff54202b45fcb66a7cb5629da542",
+      "packaged_sha256": "e545a85e3e948faceb0ebc5a43bae4f90971ff54202b45fcb66a7cb5629da542",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_QO_GCC16/source/core_portme.h",
+      "original_sha256": "626986571e81cbbbfabef2b8b7e459e7d3cb46f5a629bef717bcf2820ff5e691",
+      "packaged_sha256": "626986571e81cbbbfabef2b8b7e459e7d3cb46f5a629bef717bcf2820ff5e691",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_QO_GCC16/source/coremark.h",
+      "original_sha256": "d3031335e6e1b5e05d07681357e8e00a70ab60b0524b92d088e546c0ff7f56d6",
+      "packaged_sha256": "d3031335e6e1b5e05d07681357e8e00a70ab60b0524b92d088e546c0ff7f56d6",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_normal/source/core_list_join.c",
+      "original_sha256": "1c8aa83861634d6a33cb11c785b738ac205404e2e9222571465dc02156f9154d",
+      "packaged_sha256": "1c8aa83861634d6a33cb11c785b738ac205404e2e9222571465dc02156f9154d",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_normal/source/core_main.c",
+      "original_sha256": "eaffa2c0ec253d25a348d24ea16ead8d439c1110ad636d7cddbb15efb9e1caf1",
+      "packaged_sha256": "eaffa2c0ec253d25a348d24ea16ead8d439c1110ad636d7cddbb15efb9e1caf1",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_normal/source/core_matrix.c",
+      "original_sha256": "acf3fe63db2ddd929f405b67fd273e49f558871f0bf8d51a6814cdd881b602c8",
+      "packaged_sha256": "acf3fe63db2ddd929f405b67fd273e49f558871f0bf8d51a6814cdd881b602c8",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_normal/source/core_state.c",
+      "original_sha256": "02a6e604d852a2806a8eb2a455c924b0483a8042cfe96478009821558cf35521",
+      "packaged_sha256": "02a6e604d852a2806a8eb2a455c924b0483a8042cfe96478009821558cf35521",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_normal/source/core_util.c",
+      "original_sha256": "f8479f7a4e100ded31e2ebecf1f37ffff8904d88314188b0a85d32687e3ca813",
+      "packaged_sha256": "f8479f7a4e100ded31e2ebecf1f37ffff8904d88314188b0a85d32687e3ca813",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_normal/source/core_portme.c",
+      "original_sha256": "5328c5cfce89fed26a229d95cfd4ec6390f76afd170e3ea8ff53230e34e314b8",
+      "packaged_sha256": "5328c5cfce89fed26a229d95cfd4ec6390f76afd170e3ea8ff53230e34e314b8",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_normal/source/ee_printf.c",
+      "original_sha256": "97bc37e93fea8c2b4049d5b60a19cc9b9ee0c7b11719fd5ead8f243ad5154bcc",
+      "packaged_sha256": "97bc37e93fea8c2b4049d5b60a19cc9b9ee0c7b11719fd5ead8f243ad5154bcc",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_normal/source/soft_arith.c",
+      "original_sha256": "cf6c8b542ebcf7b8be95096c63317ae491fa86eb638b3c294c7d61c6016132fe",
+      "packaged_sha256": "cf6c8b542ebcf7b8be95096c63317ae491fa86eb638b3c294c7d61c6016132fe",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_normal/source/performance_report.c",
+      "original_sha256": "b305f9f56118e55410e7022a8fd9d4b03d80b6bae0684dc137dbf97b01135df2",
+      "packaged_sha256": "b305f9f56118e55410e7022a8fd9d4b03d80b6bae0684dc137dbf97b01135df2",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_normal/source/app_start.S",
+      "original_sha256": "8a2bdea50a3f104a7a9b2909bc6f7a4e630e4b7650ed54bdaf675525dacc8bd5",
+      "packaged_sha256": "8a2bdea50a3f104a7a9b2909bc6f7a4e630e4b7650ed54bdaf675525dacc8bd5",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_normal/source/app.ld",
+      "original_sha256": "3317e3901e747a6b28cfc93a80f87b44791eb53eadc3ec57e631ed5613d5f0f9",
+      "packaged_sha256": "3317e3901e747a6b28cfc93a80f87b44791eb53eadc3ec57e631ed5613d5f0f9",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_normal/source/coremark.h",
+      "original_sha256": "d3031335e6e1b5e05d07681357e8e00a70ab60b0524b92d088e546c0ff7f56d6",
+      "packaged_sha256": "d3031335e6e1b5e05d07681357e8e00a70ab60b0524b92d088e546c0ff7f56d6",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_normal/source/core_portme.h",
+      "original_sha256": "884af10dd03383d1406bec0768d1e34fadbdaf02e9fbd1f4c4a448cf1b3f2772",
+      "packaged_sha256": "884af10dd03383d1406bec0768d1e34fadbdaf02e9fbd1f4c4a448cf1b3f2772",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_normal/source/performance_metadata.h",
+      "original_sha256": "5e2e8cbbbbc278f569ac82de00265e2f9c87a955f7055e036d579477814d4a3f",
+      "packaged_sha256": "5e2e8cbbbbc278f569ac82de00265e2f9c87a955f7055e036d579477814d4a3f",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_validation/source/core_list_join.c",
+      "original_sha256": "1c8aa83861634d6a33cb11c785b738ac205404e2e9222571465dc02156f9154d",
+      "packaged_sha256": "1c8aa83861634d6a33cb11c785b738ac205404e2e9222571465dc02156f9154d",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_validation/source/core_main.c",
+      "original_sha256": "eaffa2c0ec253d25a348d24ea16ead8d439c1110ad636d7cddbb15efb9e1caf1",
+      "packaged_sha256": "eaffa2c0ec253d25a348d24ea16ead8d439c1110ad636d7cddbb15efb9e1caf1",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_validation/source/core_matrix.c",
+      "original_sha256": "acf3fe63db2ddd929f405b67fd273e49f558871f0bf8d51a6814cdd881b602c8",
+      "packaged_sha256": "acf3fe63db2ddd929f405b67fd273e49f558871f0bf8d51a6814cdd881b602c8",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_validation/source/core_state.c",
+      "original_sha256": "02a6e604d852a2806a8eb2a455c924b0483a8042cfe96478009821558cf35521",
+      "packaged_sha256": "02a6e604d852a2806a8eb2a455c924b0483a8042cfe96478009821558cf35521",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_validation/source/core_util.c",
+      "original_sha256": "f8479f7a4e100ded31e2ebecf1f37ffff8904d88314188b0a85d32687e3ca813",
+      "packaged_sha256": "f8479f7a4e100ded31e2ebecf1f37ffff8904d88314188b0a85d32687e3ca813",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_validation/source/core_portme.c",
+      "original_sha256": "5328c5cfce89fed26a229d95cfd4ec6390f76afd170e3ea8ff53230e34e314b8",
+      "packaged_sha256": "5328c5cfce89fed26a229d95cfd4ec6390f76afd170e3ea8ff53230e34e314b8",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_validation/source/ee_printf.c",
+      "original_sha256": "97bc37e93fea8c2b4049d5b60a19cc9b9ee0c7b11719fd5ead8f243ad5154bcc",
+      "packaged_sha256": "97bc37e93fea8c2b4049d5b60a19cc9b9ee0c7b11719fd5ead8f243ad5154bcc",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_validation/source/soft_arith.c",
+      "original_sha256": "cf6c8b542ebcf7b8be95096c63317ae491fa86eb638b3c294c7d61c6016132fe",
+      "packaged_sha256": "cf6c8b542ebcf7b8be95096c63317ae491fa86eb638b3c294c7d61c6016132fe",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_validation/source/performance_report.c",
+      "original_sha256": "b305f9f56118e55410e7022a8fd9d4b03d80b6bae0684dc137dbf97b01135df2",
+      "packaged_sha256": "b305f9f56118e55410e7022a8fd9d4b03d80b6bae0684dc137dbf97b01135df2",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_validation/source/app_start.S",
+      "original_sha256": "8a2bdea50a3f104a7a9b2909bc6f7a4e630e4b7650ed54bdaf675525dacc8bd5",
+      "packaged_sha256": "8a2bdea50a3f104a7a9b2909bc6f7a4e630e4b7650ed54bdaf675525dacc8bd5",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_validation/source/app.ld",
+      "original_sha256": "3317e3901e747a6b28cfc93a80f87b44791eb53eadc3ec57e631ed5613d5f0f9",
+      "packaged_sha256": "3317e3901e747a6b28cfc93a80f87b44791eb53eadc3ec57e631ed5613d5f0f9",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_validation/source/coremark.h",
+      "original_sha256": "d3031335e6e1b5e05d07681357e8e00a70ab60b0524b92d088e546c0ff7f56d6",
+      "packaged_sha256": "d3031335e6e1b5e05d07681357e8e00a70ab60b0524b92d088e546c0ff7f56d6",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_validation/source/core_portme.h",
+      "original_sha256": "884af10dd03383d1406bec0768d1e34fadbdaf02e9fbd1f4c4a448cf1b3f2772",
+      "packaged_sha256": "884af10dd03383d1406bec0768d1e34fadbdaf02e9fbd1f4c4a448cf1b3f2772",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/coremark_CM_validation/source/performance_metadata.h",
+      "original_sha256": "5e2e8cbbbbc278f569ac82de00265e2f9c87a955f7055e036d579477814d4a3f",
+      "packaged_sha256": "5e2e8cbbbbc278f569ac82de00265e2f9c87a955f7055e036d579477814d4a3f",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/rtl/tb_modes.sv",
+      "original_sha256": "15124cca445278b6a91b38f8c4cb47324954e4bc8e2cd5db746fd0b134b09a1e",
+      "packaged_sha256": "15124cca445278b6a91b38f8c4cb47324954e4bc8e2cd5db746fd0b134b09a1e",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/rtl/tb_results.sv",
+      "original_sha256": "96f3d254670979dd0c67eec40420088348123310c5e34fc64dad7f768145c278",
+      "packaged_sha256": "96f3d254670979dd0c67eec40420088348123310c5e34fc64dad7f768145c278",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/adc_temperature_reader.v",
+      "original_sha256": "383265123c7b1772cf3fae5ed14434d8d6ed8aa1a039372029e7ca0ce5f4dbf6",
+      "packaged_sha256": "383265123c7b1772cf3fae5ed14434d8d6ed8aa1a039372029e7ca0ce5f4dbf6",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/async_stream_fifo.v",
+      "original_sha256": "22d40e27145423d2b4cdf87937bcccbb58fedd66c3261f1c01354d8fddb8751b",
+      "packaged_sha256": "22d40e27145423d2b4cdf87937bcccbb58fedd66c3261f1c01354d8fddb8751b",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/axi_skid.v",
+      "original_sha256": "4063b9da4f258af27e5a9fb8460406d5180620e5085102a34ecc20f756a34fc8",
+      "packaged_sha256": "d7063cb1b0baf29245049f6376d768197c932b464d853a87590151e3c13074ff",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/board_ddr_profile.hpp",
+      "original_sha256": "a76adf3e62cc1eeb4f0570887ccd718f19d3b60be21eb9d17ef3884557c3bb7d",
+      "packaged_sha256": "a76adf3e62cc1eeb4f0570887ccd718f19d3b60be21eb9d17ef3884557c3bb7d",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/boot_rom.v",
+      "original_sha256": "defc799cb8abc333c8232c0b5cb8bd0cf0f45e1d8d5fdf978c8cca4ca6115ee8",
+      "packaged_sha256": "defc799cb8abc333c8232c0b5cb8bd0cf0f45e1d8d5fdf978c8cca4ca6115ee8",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/boot_rom_dp.v",
+      "original_sha256": "59771bfcee15abc13c55e51fc17d2453a904eea34ecbc5df14fadb10bfd011aa",
+      "packaged_sha256": "59771bfcee15abc13c55e51fc17d2453a904eea34ecbc5df14fadb10bfd011aa",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/bounded_reads.hpp",
+      "original_sha256": "1c160f52e5475113a0897fd72327e75fa3b5557a0ee75ad8b38fc4b1c8040e71",
+      "packaged_sha256": "1c160f52e5475113a0897fd72327e75fa3b5557a0ee75ad8b38fc4b1c8040e71",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/burst_read_sequencer.v",
+      "original_sha256": "55242fac69eda3b1460fd43c83efba29c393db8d7f3fec83db15344c0bd17e27",
+      "packaged_sha256": "55242fac69eda3b1460fd43c83efba29c393db8d7f3fec83db15344c0bd17e27",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/conv_window_source.v",
+      "original_sha256": "fea7421f9248bf30a3e6cac3c9aff5c355ce231a3aaf194efd149854e9202b21",
+      "packaged_sha256": "12764672e9d49f92824e2919dc92688c6a857b6302856621b0ae874de56b7285",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/cpu_npu_queue.v",
+      "original_sha256": "ac9d2b5bfb9e662842394d0ee5f83012abc00811350db668ff2325d00fcf7327",
+      "packaged_sha256": "ec8167ded311f320f93697cb119dbd54bd6fb6a09612ba43267752b5eae0aeef",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/cpu_soc.v",
+      "original_sha256": "747086c3c6f5ed04142436df31f9e3105746ece4c5a63ee9ad024ea2ecabd5d5",
+      "packaged_sha256": "747086c3c6f5ed04142436df31f9e3105746ece4c5a63ee9ad024ea2ecabd5d5",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/credit_math4.v",
+      "original_sha256": "b7a8d1d31eb7605b38264f27166cfaf552783befb8b5e5731727db8f3cd35bbd",
+      "packaged_sha256": "b7a8d1d31eb7605b38264f27166cfaf552783befb8b5e5731727db8f3cd35bbd",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/demo_board_logic.sv",
+      "original_sha256": "6b27a79942687e584b192b7c99dc6ad02f00865773b201d166a7b86cf7a60f04",
+      "packaged_sha256": "6b27a79942687e584b192b7c99dc6ad02f00865773b201d166a7b86cf7a60f04",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/demo_boot_owner.sv",
+      "original_sha256": "bdbfcfbbb3c32e4072b426c5e196b68f58d2537349547734a4ce538ae51ebf0e",
+      "packaged_sha256": "bdbfcfbbb3c32e4072b426c5e196b68f58d2537349547734a4ce538ae51ebf0e",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/demo_gallery_residency.sv",
+      "original_sha256": "d42c5f4299e1a7683973c0ab695944f17dcf1173f2dbd97cc9db274f1381d531",
+      "packaged_sha256": "d42c5f4299e1a7683973c0ab695944f17dcf1173f2dbd97cc9db274f1381d531",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/demo_hmic_bridge.sv",
+      "original_sha256": "d9cd8f1afbcfc8bbe1eb44276c5d7b3548e73d54cc030ff4c1476f9bb49366d0",
+      "packaged_sha256": "d9cd8f1afbcfc8bbe1eb44276c5d7b3548e73d54cc030ff4c1476f9bb49366d0",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/demo_hmic_client.sv",
+      "original_sha256": "d9caf520a2692e9759e363e8d07a69cb001b4a2e0b3e5d3f2f14cfabafd1ec2d",
+      "packaged_sha256": "d9caf520a2692e9759e363e8d07a69cb001b4a2e0b3e5d3f2f14cfabafd1ec2d",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/demo_hold_root.v",
+      "original_sha256": "ef40cf8d53f14852537e0a5c8377e0b6ac550d7e05801e18ca3a53bcbf2c1939",
+      "packaged_sha256": "ef40cf8d53f14852537e0a5c8377e0b6ac550d7e05801e18ca3a53bcbf2c1939",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/demo_model_residency.sv",
+      "original_sha256": "326b95006e9e3abb3bef87c8359d39d2bed65b4c9143f5cc1991d81c44debda7",
+      "packaged_sha256": "326b95006e9e3abb3bef87c8359d39d2bed65b4c9143f5cc1991d81c44debda7",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/demo_packet_endpoint.sv",
+      "original_sha256": "55e3f4759d4bcdb054b1918c4d3118af5b547dacc25afacf69d6890f4ee0cfae",
+      "packaged_sha256": "55e3f4759d4bcdb054b1918c4d3118af5b547dacc25afacf69d6890f4ee0cfae",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/demo_result_store.sv",
+      "original_sha256": "0f51890d543140c949dc66163c4fcdd79bcc12701b0cbf58789646d4e1621c2e",
+      "packaged_sha256": "0f51890d543140c949dc66163c4fcdd79bcc12701b0cbf58789646d4e1621c2e",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/demo_status_cdc.sv",
+      "original_sha256": "bf379c7e96ce0e3260c446109eccc591e2a5b10dcf2197eef2bed7da105e26b3",
+      "packaged_sha256": "bf379c7e96ce0e3260c446109eccc591e2a5b10dcf2197eef2bed7da105e26b3",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/demo_uart_frontend.sv",
+      "original_sha256": "0d5c7771ed2a14c429a36bdd7896ab923a3ace9b657b4a1ab4fbe24a7cfe6808",
+      "packaged_sha256": "0d5c7771ed2a14c429a36bdd7896ab923a3ace9b657b4a1ab4fbe24a7cfe6808",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/demo_uart_memory_top.sv",
+      "original_sha256": "caa6e01d75788bb0a5b55bde7f7b1ee49df4d02040b749a13c72499e2892cfec",
+      "packaged_sha256": "caa6e01d75788bb0a5b55bde7f7b1ee49df4d02040b749a13c72499e2892cfec",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/demo_video_q16_writer.sv",
+      "original_sha256": "5519b5daeee41d487304f75c174a183bda39161ead4f6593721be472b33d9b37",
+      "packaged_sha256": "5519b5daeee41d487304f75c174a183bda39161ead4f6593721be472b33d9b37",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/driver.cpp",
+      "original_sha256": "91eda29e9e857f4fd1c4d24cf8a340ad3774e0091607bb27257564799dcbc664",
+      "packaged_sha256": "91eda29e9e857f4fd1c4d24cf8a340ad3774e0091607bb27257564799dcbc664",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/dual_int8_mac.v",
+      "original_sha256": "4b3ba99bf7362c604ed3f30dd311d9126cef745a310930ceb47f09f4e4cc0fb6",
+      "packaged_sha256": "4b3ba99bf7362c604ed3f30dd311d9126cef745a310930ceb47f09f4e4cc0fb6",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/dual_int8_mac32.v",
+      "original_sha256": "263c54c4d8b7a100538716d19e79d936da7ae258774363f52769a5da454a389e",
+      "packaged_sha256": "263c54c4d8b7a100538716d19e79d936da7ae258774363f52769a5da454a389e",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/elementwise_stream4.v",
+      "original_sha256": "431b218f9e5336df1797f009308266f3e55383c0ed082c278edae63e1667c60c",
+      "packaged_sha256": "f2db2ebb7d92fb08cb383e2e0034fc4cc43db20e10ac64569c60d9c877b95a06",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/fragment_pack256.v",
+      "original_sha256": "1a56405b75fb0b9efca640102753d5465aabf21141b7555a1174d5ac2e39e13a",
+      "packaged_sha256": "de8cc4b72c231ad77e2de1cd3d48581d441dff64d0fdc1bee3ea291ec1caf456",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/fullgraph_accelerators.v",
+      "original_sha256": "beb8868560fcdb9dcbf17a7ae5e706792ae87daf94f141c4629bfe358fed0673",
+      "packaged_sha256": "2c1eabd07486134b6b655e348e563265e749c90ae145dded35d0a8095bd46cf0",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/fullgraph_core.v",
+      "original_sha256": "d59e1df5816e5a0a1f7dc2d40efa792723a21341dc0a6ae02165300498160b5d",
+      "packaged_sha256": "9c673980e65c945f343bd9d487c38b70377ae5c419be923489949f69158f8199",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/graph_elementwise4.v",
+      "original_sha256": "1b1d55857c85095e9cb305af2adc4d6864b2f8a1b2d7d41840474e53d9f7dba5",
+      "packaged_sha256": "1b1d55857c85095e9cb305af2adc4d6864b2f8a1b2d7d41840474e53d9f7dba5",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/graph_fragment_fifo.v",
+      "original_sha256": "89038bd7c9f99d5af0366cf695b8ec768d93eeab837e82940d5207684ce3e1b3",
+      "packaged_sha256": "89038bd7c9f99d5af0366cf695b8ec768d93eeab837e82940d5207684ce3e1b3",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/graph_linear_stream.v",
+      "original_sha256": "a5c539e6c404a5d29e065e6b9f6f8f71129ffab030aa35763b33f85f346186b1",
+      "packaged_sha256": "1f809f3b6c7e8017c48106333176feddc5a9002b6ba179bfd4d4b71265411095",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/graph_mmio_cdc.v",
+      "original_sha256": "1ee80dc5b9b54039cb43ae944402cae2c1aa5dbcdfb077f59bf422c1af23bfd5",
+      "packaged_sha256": "1ee80dc5b9b54039cb43ae944402cae2c1aa5dbcdfb077f59bf422c1af23bfd5",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/graph_mmio_dma_sequencer.v",
+      "original_sha256": "0d675a8557dbef6d8299ab1bc12c954ed43537dd3b3f1fc5970af5a1f8082cb1",
+      "packaged_sha256": "731f919481bc446e1ef6d05c7b2afbbd1b8c8f533f1e88fa3ad27315d9ae2cd4",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/graph_mmio_sequencer.v",
+      "original_sha256": "7d4af5d21a800c7909013d1d8c98d333cadf2c78f865c9d77ad9b024ef88fe2e",
+      "packaged_sha256": "7d4af5d21a800c7909013d1d8c98d333cadf2c78f865c9d77ad9b024ef88fe2e",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/graph_program_cache.v",
+      "original_sha256": "f8c6bf2c7e84971ee4e325423680d15557252a68ce42005d73d5b3afc4b01d7f",
+      "packaged_sha256": "f8c6bf2c7e84971ee4e325423680d15557252a68ce42005d73d5b3afc4b01d7f",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/graph_reset_leaf.v",
+      "original_sha256": "66fdafb19900a060f8527e595ecf711887ab055f9a5aebd566fb3863463f7062",
+      "packaged_sha256": "66fdafb19900a060f8527e595ecf711887ab055f9a5aebd566fb3863463f7062",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/graph_transpose_stream.v",
+      "original_sha256": "c28ebed3353f307d08b6e20530836dac2c56a7f00f2fab80a078e7bf7dfb0d3e",
+      "packaged_sha256": "7ed8fef2ecc6f0b5f80be30047c98c273854f5cab9695e874a04e57c0b0e7e36",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/graph_vector_bridge.v",
+      "original_sha256": "8efa9243461407f90f84b2d9a11fe8c87b2eae18677ccfa625b1efc4b3c0c887",
+      "packaged_sha256": "8efa9243461407f90f84b2d9a11fe8c87b2eae18677ccfa625b1efc4b3c0c887",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/graph_vector_engine.v",
+      "original_sha256": "9f41c7ac145356c4a6ec202692ee43dab685e9833e931a24f7ff3cfe6e16159b",
+      "packaged_sha256": "4c0b3e72f49c5a99da6e9648cb496a8de432927f83d834662c72f5e610cb0647",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/hmic_dma_cdc.v",
+      "original_sha256": "b64ad302e4e843f9525af9f0c91c39b352b3535c1eede0fd7052399532d9a440",
+      "packaged_sha256": "b64ad302e4e843f9525af9f0c91c39b352b3535c1eede0fd7052399532d9a440",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/hmic_layout_cdc.v",
+      "original_sha256": "ffab8605b46147428e9f56e4c18cb748d86d7eac2fb4086ce0339fa67975255e",
+      "packaged_sha256": "ffab8605b46147428e9f56e4c18cb748d86d7eac2fb4086ce0339fa67975255e",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/hmic_owner3.v",
+      "original_sha256": "70746cf9bc4ca7b9c05845304321ec2d99275712d71dadc00e04290698de2dea",
+      "packaged_sha256": "70746cf9bc4ca7b9c05845304321ec2d99275712d71dadc00e04290698de2dea",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/joint_async_fifo.v",
+      "original_sha256": "ec9a4fe752e912a52d6220a1ece9a725a2a6b58ddea8bf8b219c1f3507cfc160",
+      "packaged_sha256": "ec9a4fe752e912a52d6220a1ece9a725a2a6b58ddea8bf8b219c1f3507cfc160",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/kq_uart_rx.v",
+      "original_sha256": "cc5a98da0764c11a1f579be5e6a36208e30ca4b4ec57d6a899b53e312ab08c7b",
+      "packaged_sha256": "cc5a98da0764c11a1f579be5e6a36208e30ca4b4ec57d6a899b53e312ab08c7b",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/kq_uart_tx.v",
+      "original_sha256": "d90913fe9095dec21e8b4cab5b2de960720ca78614bc6f235512311922e55076",
+      "packaged_sha256": "d90913fe9095dec21e8b4cab5b2de960720ca78614bc6f235512311922e55076",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/logos2_temperature_adc.v",
+      "original_sha256": "a13ed860079f39a13be2ddfb998475af41c726930f7c46c3975d8e5b0e095611",
+      "packaged_sha256": "a13ed860079f39a13be2ddfb998475af41c726930f7c46c3975d8e5b0e095611",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/mac_array_fold16.v",
+      "original_sha256": "0ee04cfe048506f22b7cab672f4ab02191ffdbe45f221f387b75d26781fa6646",
+      "packaged_sha256": "2e7c87c4d9835f153feaf8c63bc210aeaacbe32f16cc12fb687048381d0ff2c5",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/mac_array_snapshot.v",
+      "original_sha256": "d2898de191b18f97de935dfccfc957ab3d6e9b6445ac31c5bc6987765a2a30d3",
+      "packaged_sha256": "d2898de191b18f97de935dfccfc957ab3d6e9b6445ac31c5bc6987765a2a30d3",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/model_param_store16.v",
+      "original_sha256": "c3366f7c13cfbc1f82bc2a5fda35ea123bf214fc1690ddfda9bfa2064a157ef8",
+      "packaged_sha256": "c3366f7c13cfbc1f82bc2a5fda35ea123bf214fc1690ddfda9bfa2064a157ef8",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/model_param_store4.v",
+      "original_sha256": "3a444a7a8edc6dda879caede6126dd71fd432aa414db2bacf3cc556ce588d570",
+      "packaged_sha256": "3a444a7a8edc6dda879caede6126dd71fd432aa414db2bacf3cc556ce588d570",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/native_panel_loader.v",
+      "original_sha256": "3a68f5998e9e49fafcd690965d316c48c200f4c969bf99c967f92da8b276c532",
+      "packaged_sha256": "75bde87a0eca0cd411d930d6acb9dd86ae3262454c6ff1dced120b901a98f3a7",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/npu_ddr_datapath.v",
+      "original_sha256": "c4e03a781bc42c3791628632a6ff50701d2b34cca9890253331e3208a60b04ca",
+      "packaged_sha256": "9bde8e9b517564d71a519ce2b608365ac8efc6003052267897ab76ce61a88430",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/npu_layout_tail.v",
+      "original_sha256": "4cb34a036bd88db3b4d5d1f71e7c80ae5cab6ac46603eaea6a5f48df877236c2",
+      "packaged_sha256": "af6ef28197097a27a26c9b1f4f35b06e00267ad22ffd186223185e6faac841a6",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/oj_i2c_reg16.sv",
+      "original_sha256": "b962ad428d1f09cc1b5e80102309dcb2b7191d19e7482a110f52f3cdb8ad6a5f",
+      "packaged_sha256": "b962ad428d1f09cc1b5e80102309dcb2b7191d19e7482a110f52f3cdb8ad6a5f",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/oj_ms7200_rx_init04.sv",
+      "original_sha256": "b8344849a0199c6cd46c5e2d4efecadb90f1cf47ae24fbc3c93871a3d6e610fa",
+      "packaged_sha256": "b8344849a0199c6cd46c5e2d4efecadb90f1cf47ae24fbc3c93871a3d6e610fa",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/oj_ms7200_table.vh",
+      "original_sha256": "668797588946f3b6386cdc6b5f6b2cb44d1a7c571039f93e1fcb3cc5521de3b7",
+      "packaged_sha256": "668797588946f3b6386cdc6b5f6b2cb44d1a7c571039f93e1fcb3cc5521de3b7",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/oj_pixel_fifo_recovery.sv",
+      "original_sha256": "302d01013802716acb5bbcf92dc7b935ba4babb1d8358d843c43caaf4df980cf",
+      "packaged_sha256": "302d01013802716acb5bbcf92dc7b935ba4babb1d8358d843c43caaf4df980cf",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/oj_video_capture_recovery.sv",
+      "original_sha256": "dead1fbb4d49016707c23a62472b03ee5d6205e4cf0bf4e1deac946f1120ac14",
+      "packaged_sha256": "dead1fbb4d49016707c23a62472b03ee5d6205e4cf0bf4e1deac946f1120ac14",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/om_video_session.sv",
+      "original_sha256": "92c0ea5d11b491795e88d99976aac7a0629d7c12cbc82c48abfbafd9e2eeb584",
+      "packaged_sha256": "92c0ea5d11b491795e88d99976aac7a0629d7c12cbc82c48abfbafd9e2eeb584",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/package_bulk_read.v",
+      "original_sha256": "b738fffd2c9d7291e8eb49a6d0534bb55df3d83993fb5d70c4d6f60e35255144",
+      "packaged_sha256": "b738fffd2c9d7291e8eb49a6d0534bb55df3d83993fb5d70c4d6f60e35255144",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/package_cpu_bridge.v",
+      "original_sha256": "339035a067ca0441d4dfa0b2880890ee379de259fcdcea5b2bcb799084e7c4e2",
+      "packaged_sha256": "958f6fcb698c6818181bc484314232e6a37de5a949dc66b69b1eb07a5f0654df",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/package_crc_stream.v",
+      "original_sha256": "3a8d21a080ed24ff1271a38136c6c52e5be29c60ab242d07f582c98eb70d2515",
+      "packaged_sha256": "3a8d21a080ed24ff1271a38136c6c52e5be29c60ab242d07f582c98eb70d2515",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/package_mailbox.v",
+      "original_sha256": "ed4068ee0ee86daabf4090044388bc322d24b5610b89e5be611955e40ef1a134",
+      "packaged_sha256": "ed4068ee0ee86daabf4090044388bc322d24b5610b89e5be611955e40ef1a134",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/package_reader.v",
+      "original_sha256": "2c33ce2c0b55e5dc65e1fc87c417cee7b4aad244a63584c2ebd76e78b6a34bb6",
+      "packaged_sha256": "7146bdc6ec67a7aa61d6d50333aecd644ba0e23f0856269666e7c9d04dc9b2c4",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/paired_operand_store.v",
+      "original_sha256": "a9de36d1d7bb453ad71f8a6bfa3506b172b5c584e361ded65e6120f7c85eccd7",
+      "packaged_sha256": "dc45ac41543ddcaa971e95085b882735f7c90b5cf4078cda5fc7e62917155947",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/panel_compute.v",
+      "original_sha256": "0ccadddf3623d769c320a051ce26b2398f3b697ff94c76cbe50b4f6bf6e5a87c",
+      "packaged_sha256": "110dfecbad999ad1f7d6e9d8b58123216a523f6db86430e38fa3719eb019b811",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/panel_operand_store.v",
+      "original_sha256": "78c47ef1160f922378f64c9c2d27c6438d95b5bd7e918bcba19878d5acb58a17",
+      "packaged_sha256": "78c47ef1160f922378f64c9c2d27c6438d95b5bd7e918bcba19878d5acb58a17",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/partial_sum_store.v",
+      "original_sha256": "8adb25cf6daefd6d2e36cd893ac1a82a24112cd36f433fe9827e41371c632a41",
+      "packaged_sha256": "98fc52c2297003ef01ecbae582b35168d42e21c18f98fa76f13765ae7dbd17b6",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/pf_elastic2.v",
+      "original_sha256": "843e7b0b95bba9b4453edc998048132d028510e40a6916eda05e32b021223754",
+      "packaged_sha256": "843e7b0b95bba9b4453edc998048132d028510e40a6916eda05e32b021223754",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/po_uart_domains.sv",
+      "original_sha256": "d477357ee417f281bb10a943e9c785764cc572584c5d803009aceeb17ee34920",
+      "packaged_sha256": "d477357ee417f281bb10a943e9c785764cc572584c5d803009aceeb17ee34920",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/po_uart_mailbox.v",
+      "original_sha256": "58154d720f5ba32d97313f881340c2de86a539b08ab775d235fb33d537c06ee0",
+      "packaged_sha256": "58154d720f5ba32d97313f881340c2de86a539b08ab775d235fb33d537c06ee0",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/pp_video_session.sv",
+      "original_sha256": "22143d1207338daf0465cf8c4168c3dccaadd34b5750424452b3d9ed0b718197",
+      "packaged_sha256": "22143d1207338daf0465cf8c4168c3dccaadd34b5750424452b3d9ed0b718197",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/pp_writer_mux.sv",
+      "original_sha256": "e8a54ff78021a1313f9f276b3b2a83e9432f684f324717c36fb3e1a3247d238b",
+      "packaged_sha256": "e8a54ff78021a1313f9f276b3b2a83e9432f684f324717c36fb3e1a3247d238b",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/prelu_parameters4.v",
+      "original_sha256": "266bde8eb4009ad9e655dc89a581dfd825c30d9c1b525849a54d4c56a409b4b2",
+      "packaged_sha256": "15f4a32841240798b5c2c04cd2dc6b953c4df5ac62c1b8b5474dfeddae6021fe",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/quant_stream16.v",
+      "original_sha256": "8b763f1f49ebce199ff77706fbbb228cd6965f6904d0c8d1ea6a4e5ef987fc1b",
+      "packaged_sha256": "8b763f1f49ebce199ff77706fbbb228cd6965f6904d0c8d1ea6a4e5ef987fc1b",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/release_observations.hpp",
+      "original_sha256": "637bce6b65f717dd5cf96be8396e5ed43f93c3f71dc9b4360a9a2a1fb7ff9644",
+      "packaged_sha256": "637bce6b65f717dd5cf96be8396e5ed43f93c3f71dc9b4360a9a2a1fb7ff9644",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/requant_stream4.v",
+      "original_sha256": "288e8d659cfabfe18f337cbbf01445990ce7f66570c72845a10515dd0cb4dcfa",
+      "packaged_sha256": "288e8d659cfabfe18f337cbbf01445990ce7f66570c72845a10515dd0cb4dcfa",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/resident_job_executor.v",
+      "original_sha256": "12c9a9a8d13aca4f99f07aea5b952d51440fdb6f080f899dd86892dbdb4b9411",
+      "packaged_sha256": "12c9a9a8d13aca4f99f07aea5b952d51440fdb6f080f899dd86892dbdb4b9411",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/resident_layer_scheduler.v",
+      "original_sha256": "8c66958e31c6fda724811094cc2949acc26a1dff0f8a2f2c81d7baba5c47ec53",
+      "packaged_sha256": "8c66958e31c6fda724811094cc2949acc26a1dff0f8a2f2c81d7baba5c47ec53",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/resident_panel_operand_store.v",
+      "original_sha256": "a780e55d64a3a306904f4cc7716ab7a2c7ecc2ff61a59eca83c42306d51e884d",
+      "packaged_sha256": "a780e55d64a3a306904f4cc7716ab7a2c7ecc2ff61a59eca83c42306d51e884d",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/retina_warp_normalize.v",
+      "original_sha256": "7ebe7fa333d795f18d0bf7d65f0583f50d26e35cee781fd0d81f32db6c382716",
+      "packaged_sha256": "7ebe7fa333d795f18d0bf7d65f0583f50d26e35cee781fd0d81f32db6c382716",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/retina_warp_q16.sv",
+      "original_sha256": "303dd2eefc92f46ae8ad9f37df35a25779208ee7f14c6c5ade287f3f8226eb7f",
+      "packaged_sha256": "d4afbaa2b7d5a12a5bf80274f58bf13fef3db0906807c5c6a6cc2b99288c916a",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/rv32_alu.v",
+      "original_sha256": "dfb7a4a24baf7074458f1ce519c3c928d3895e66579167bd6faebadf2779cd5a",
+      "packaged_sha256": "dfb7a4a24baf7074458f1ce519c3c928d3895e66579167bd6faebadf2779cd5a",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/rv32_core.v",
+      "original_sha256": "297eb95fd2823e22b0feda10519f602dc6fad0e82a4b5bcd8c88989efd06d3e9",
+      "packaged_sha256": "297eb95fd2823e22b0feda10519f602dc6fad0e82a4b5bcd8c88989efd06d3e9",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/rv32_dcache.v",
+      "original_sha256": "a40a21027d7a8a4eed1bb6d4328b7429312bb310d6823083d08cfc239ed1c8b4",
+      "packaged_sha256": "a40a21027d7a8a4eed1bb6d4328b7429312bb310d6823083d08cfc239ed1c8b4",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/rv32_icache.v",
+      "original_sha256": "036fede519e5665bb8950fdb833dfa2149ac45d78ccecf437e9056f56983ef78",
+      "packaged_sha256": "74d6ceaf22a91e956a6c6b0cf5e65846f5a95749c25831ebe016b41664d67c05",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/rv32_muldiv.v",
+      "original_sha256": "824f1b905a706274319cc8c535c7bd2a740e3c18cc4f4309a5ba86bca262c390",
+      "packaged_sha256": "824f1b905a706274319cc8c535c7bd2a740e3c18cc4f4309a5ba86bca262c390",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/rv32_regfile.v",
+      "original_sha256": "1d412d6e818d906dad1fea22c88fd5e2c80f8127cfdaf269c4aee089c2a18333",
+      "packaged_sha256": "1d412d6e818d906dad1fea22c88fd5e2c80f8127cfdaf269c4aee089c2a18333",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/sync_ram.v",
+      "original_sha256": "febcd8954626e408232199e177f035351385340e9145460054fd1a881c8cdf8f",
+      "packaged_sha256": "b1790d648559fe2bdd83e8e42bae3c98eae2fab37dcf611d719afa7d26c60ecc",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/sync_stream_fifo.v",
+      "original_sha256": "a9589b3495fa5163b6444ce322bbf7fd331bd294236178fa4add2e8fd274422c",
+      "packaged_sha256": "61327645b27ab5c22357b2d0debc4f30a9143588667a5cf68d26014550c20073",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/s_system_core.v",
+      "original_sha256": "83b3b509117b5e7c300075e750d9ee67ba5963a128149d2dfe770818e76050ba",
+      "packaged_sha256": "83b3b509117b5e7c300075e750d9ee67ba5963a128149d2dfe770818e76050ba",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/tile_writeback4.v",
+      "original_sha256": "020780e7a7e85045af5c2502ddf5e943cbb666f1bb8449e705e98fa2169cc651",
+      "packaged_sha256": "6ed4a984aa604a978c61bda3b88841707e67661ec3e87224be6d9f6404b6e561",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/uart_rx.v",
+      "original_sha256": "1b0b80790db53b08ff0f0b098ade5c4dcea9cc2bb66d558a5e2d67aa013c5bad",
+      "packaged_sha256": "1b0b80790db53b08ff0f0b098ade5c4dcea9cc2bb66d558a5e2d67aa013c5bad",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/uart_tx.v",
+      "original_sha256": "acc771bb20931df015018e1534266842fa23a0bf12b1ecf3b34c7ff6745aaffb",
+      "packaged_sha256": "acc771bb20931df015018e1534266842fa23a0bf12b1ecf3b34c7ff6745aaffb",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/warp_bilinear_new.sv",
+      "original_sha256": "17397bea1f9e7cb825784bc926a8f827b8413c3fde6208e8e3277478951cbd70",
+      "packaged_sha256": "17397bea1f9e7cb825784bc926a8f827b8413c3fde6208e8e3277478951cbd70",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "05_tests/full_application/source/warp_coordinates_pinned.sv",
+      "original_sha256": "353959063c35442a56d23e4183ca511bcdb68dbddd07878cb571190854f86583",
+      "packaged_sha256": "353959063c35442a56d23e4183ca511bcdb68dbddd07878cb571190854f86583",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/face_application/source/fma32_fast.c",
+      "original_sha256": "d615b6a0e32156362df6f3095e2315f0250b35d96c018572bbd28351dde1bfa4",
+      "packaged_sha256": "33d1bcaed0205fb764d072327abf57cd62f4d318f969351de674d08f3801f216",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/face_application/source/fast_exact.c",
+      "original_sha256": "656e4a66cd1e8003d04142956b4b97103689cafd72f9f224abd7de7c876e87c2",
+      "packaged_sha256": "3806aa34da6045e62805b8177543e84deb0f90668961fa4f34f6cf9825cbeab6",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/CM_boot/boot.S",
+      "original_sha256": "d90161b906002bf505b6339bd44808e2853473e7d8ebe98025d315025e1fdb21",
+      "packaged_sha256": "d90161b906002bf505b6339bd44808e2853473e7d8ebe98025d315025e1fdb21",
+      "functional_text_equal_except_initialization_location": true
+    },
+    {
+      "file": "02_firmware/CM_boot/boot.ld",
+      "original_sha256": "77de2d399293e0f193e592b426ed657b78e54e18b7ba92541a3dbf6cf36e6d0e",
+      "packaged_sha256": "77de2d399293e0f193e592b426ed657b78e54e18b7ba92541a3dbf6cf36e6d0e",
+      "functional_text_equal_except_initialization_location": true
+    }
+  ]
+}

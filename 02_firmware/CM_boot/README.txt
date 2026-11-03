@@ -1,0 +1,1 @@
+CM UART loader source. RV32IM/ILP32 freestanding assembly, link with boot.ld. The low ROM bytes match boot.bin; remaining ROM is filled with 0x00000013 (NOP). CoreMark is loaded into CPU RAM and does not replace this loader.

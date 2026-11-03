@@ -1,0 +1,18 @@
+[
+  "${CC}",
+  "-march=rv32im_zicsr_zifencei",
+  "-mabi=ilp32",
+  "-mno-relax",
+  "-msmall-data-limit=0",
+  "-nostdlib",
+  "-nostartfiles",
+  "-O2",
+  "-ffreestanding",
+  "-fno-builtin",
+  "${ROOT}/start.S",
+  "${ROOT}/diagnostic.c",
+  "${ROOT}/diagnostic.S",
+  "-Wl,--no-relax,--build-id=none,-T,${ROOT}/diag.ld",
+  "-o",
+  "${ROOT}/diagnostic.elf"
+]

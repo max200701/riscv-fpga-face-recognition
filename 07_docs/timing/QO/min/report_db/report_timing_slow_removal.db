@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tables>
+    <table id="report_timing_slow_removal" title="Removal Summary" column_number="6">
+        <column_headers>
+            <data>Launch Clock</data>
+            <data>Capture Clock</data>
+            <data>WHS(ns)</data>
+            <data>THS(ns)</data>
+            <data>Failing Endpoints</data>
+            <data>Total Endpoints</data>
+        </column_headers>
+        <row>
+            <data>ddrphy_sysclk</data>
+            <data>ddrphy_sysclk</data>
+            <data>0.231</data>
+            <data>0.000</data>
+            <data>0</data>
+            <data>6855</data>
+        </row>
+        <row>
+            <data>ddrphy_sysclk</data>
+            <data>cpu_demo_clk</data>
+            <data>0.368</data>
+            <data>0.000</data>
+            <data>0</data>
+            <data>10</data>
+        </row>
+        <row>
+            <data>cpu_demo_clk</data>
+            <data>cpu_demo_clk</data>
+            <data>0.422</data>
+            <data>0.000</data>
+            <data>0</data>
+            <data>819</data>
+        </row>
+        <row>
+            <data>rst_clk</data>
+            <data>rst_clk</data>
+            <data>0.532</data>
+            <data>0.000</data>
+            <data>0</data>
+            <data>103</data>
+        </row>
+        <row>
+            <data>hdmi_pixel_clk</data>
+            <data>hdmi_pixel_clk</data>
+            <data>0.938</data>
+            <data>0.000</data>
+            <data>0</data>
+            <data>242</data>
+        </row>
+        <row>
+            <data>free_clk</data>
+            <data>free_clk</data>
+            <data>0.958</data>
+            <data>0.000</data>
+            <data>0</data>
+            <data>9</data>
+        </row>
+    </table>
+</tables>

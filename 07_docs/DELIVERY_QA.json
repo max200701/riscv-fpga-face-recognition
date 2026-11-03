@@ -1,0 +1,105 @@
+{
+  "status": "PACKAGING_CHECKS_PASS",
+  "date": "2026-11-03",
+  "source_functional_token_comparison_count": 362,
+  "firmware_rebuilds": [
+    {
+      "target": "face_application",
+      "ELF_allocated_sections_equal": true
+    },
+    {
+      "target": "coremark_QO_default",
+      "ELF_allocated_sections_equal": true
+    },
+    {
+      "target": "coremark_QO_GCC16",
+      "ELF_allocated_sections_equal": true
+    },
+    {
+      "target": "coremark_CM_normal",
+      "ELF_allocated_sections_equal": true
+    },
+    {
+      "target": "coremark_CM_validation",
+      "ELF_allocated_sections_equal": true
+    }
+  ],
+  "host_unit_tests": {
+    "passed": 125,
+    "hardware_access": false
+  },
+  "metrics_node_test": "PASS",
+  "RTL_component_checks": {
+    "mode_ABI": 13,
+    "result_ABI": 8,
+    "passed": 21
+  },
+  "offline_HTTP_smoke_test": "PASS",
+  "python_syntax": "PASS",
+  "generated_Tcl_syntax_only": "PASS",
+  "original_routed_timing_summary_reparsed_from_native_XML": {
+    "Setup_Slow": {
+      "wns": 0.002,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 332406
+    },
+    "Setup_Fast": {
+      "wns": 2.799,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 332406
+    },
+    "Recovery_Slow": {
+      "wns": 1.268,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 8048
+    },
+    "Recovery_Fast": {
+      "wns": 3.858,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 8048
+    },
+    "Hold_Slow": {
+      "wns": 0.06,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 332211
+    },
+    "Hold_Fast": {
+      "wns": 0.038,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 332211
+    },
+    "Removal_Slow": {
+      "wns": 0.231,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 8038
+    },
+    "Removal_Fast": {
+      "wns": 0.157,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 8038
+    }
+  },
+  "full_application_RTL_rerun": false,
+  "PDS_rerun": false,
+  "board_access": false,
+  "excluded": [
+    "personal_gallery",
+    "user_photos",
+    "device_session_sequences",
+    "PDS_license",
+    "agent_conversation_records",
+    "temporary_builds",
+    "python_caches",
+    "RAR_program"
+  ],
+  "original_bitstreams_and_routed_databases_preserved": true,
+  "note": "Source-path adaptation and packaging tests are separate from historic implementation and board evidence."
+}

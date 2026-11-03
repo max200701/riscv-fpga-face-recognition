@@ -1,0 +1,361 @@
+{
+  "clock": "clk",
+  "MHz": 162.5,
+  "groups": [
+    {
+      "label": "fetch_pc_word",
+      "nets": [
+        "dut/core/f20 [290]",
+        "dut/core/f20 [291]",
+        "dut/core/f20 [292]",
+        "dut/core/f20 [293]",
+        "dut/core/f20 [294]",
+        "dut/core/f20 [295]",
+        "dut/core/f20 [296]",
+        "dut/core/f20 [297]",
+        "dut/core/f20 [298]",
+        "dut/core/f20 [299]",
+        "dut/core/f20 [300]",
+        "dut/core/f20 [301]",
+        "dut/core/f20 [302]",
+        "dut/core/f20 [303]",
+        "dut/core/f20 [304]",
+        "dut/core/f20 [305]",
+        "dut/core/f20 [306]",
+        "dut/core/f20 [307]",
+        "dut/core/f20 [308]",
+        "dut/core/f20 [309]",
+        "dut/core/f20 [310]",
+        "dut/core/f20 [311]",
+        "dut/core/f20 [312]",
+        "dut/core/f20 [313]",
+        "dut/core/f20 [314]",
+        "dut/core/f20 [315]",
+        "dut/core/f20 [316]",
+        "dut/core/f20 [317]",
+        "dut/core/f20 [318]",
+        "dut/core/f20 [319]"
+      ],
+      "meaning": "F2 pipeline PC[31:2], valid with fetch_valid; not retirement",
+      "display_left_shift": 2,
+      "channel_low": 0,
+      "width": 30
+    },
+    {
+      "label": "decode_pc_word",
+      "nets": [
+        "dut/core/d0 [290]",
+        "dut/core/d0 [291]",
+        "dut/core/d0 [292]",
+        "dut/core/d0 [293]",
+        "dut/core/d0 [294]",
+        "dut/core/d0 [295]",
+        "dut/core/d0 [296]",
+        "dut/core/d0 [297]",
+        "dut/core/d0 [298]",
+        "dut/core/d0 [299]",
+        "dut/core/d0 [300]",
+        "dut/core/d0 [301]",
+        "dut/core/d0 [302]",
+        "dut/core/d0 [303]",
+        "dut/core/d0 [304]",
+        "dut/core/d0 [305]",
+        "dut/core/d0 [306]",
+        "dut/core/d0 [307]",
+        "dut/core/d0 [308]",
+        "dut/core/d0 [309]",
+        "dut/core/d0 [310]",
+        "dut/core/d0 [311]",
+        "dut/core/d0 [312]",
+        "dut/core/d0 [313]",
+        "dut/core/d0 [314]",
+        "dut/core/d0 [315]",
+        "dut/core/d0 [316]",
+        "dut/core/d0 [317]",
+        "dut/core/d0 [318]",
+        "dut/core/d0 [319]"
+      ],
+      "meaning": "D pipeline PC[31:2], valid with decode_valid",
+      "display_left_shift": 2,
+      "channel_low": 30,
+      "width": 30
+    },
+    {
+      "label": "memory_pc_word",
+      "nets": [
+        "dut/core/m0 [290]",
+        "dut/core/m0 [291]",
+        "dut/core/m0 [292]",
+        "dut/core/m0 [293]",
+        "dut/core/m0 [294]",
+        "dut/core/m0 [295]",
+        "dut/core/m0 [296]",
+        "dut/core/m0 [297]",
+        "dut/core/m0 [298]",
+        "dut/core/m0 [299]",
+        "dut/core/m0 [300]",
+        "dut/core/m0 [301]",
+        "dut/core/m0 [302]",
+        "dut/core/m0 [303]",
+        "dut/core/m0 [304]",
+        "dut/core/m0 [305]",
+        "dut/core/m0 [306]",
+        "dut/core/m0 [307]",
+        "dut/core/m0 [308]",
+        "dut/core/m0 [309]",
+        "dut/core/m0 [310]",
+        "dut/core/m0 [311]",
+        "dut/core/m0 [312]",
+        "dut/core/m0 [313]",
+        "dut/core/m0 [314]",
+        "dut/core/m0 [315]",
+        "dut/core/m0 [316]",
+        "dut/core/m0 [317]",
+        "dut/core/m0 [318]",
+        "dut/core/m0 [319]"
+      ],
+      "meaning": "M pipeline PC[31:2], valid with memory_valid; not retirement",
+      "display_left_shift": 2,
+      "channel_low": 60,
+      "width": 30
+    },
+    {
+      "label": "instret16",
+      "nets": [
+        "dut/core/instret_count [0]",
+        "dut/core/instret_count [1]",
+        "dut/core/instret_count [2]",
+        "dut/core/instret_count [3]",
+        "dut/core/instret_count [4]",
+        "dut/core/instret_count [5]",
+        "dut/core/instret_count [6]",
+        "dut/core/instret_count [7]",
+        "dut/core/instret_count [8]",
+        "dut/core/instret_count [9]",
+        "dut/core/instret_count [10]",
+        "dut/core/instret_count [11]",
+        "dut/core/instret_count [12]",
+        "dut/core/instret_count [13]",
+        "dut/core/instret_count [14]",
+        "dut/core/instret_count [15]"
+      ],
+      "meaning": "Low 16 bits of architectural instruction counter",
+      "display_left_shift": 0,
+      "channel_low": 90,
+      "width": 16
+    },
+    {
+      "label": "cycle12",
+      "nets": [
+        "dut/core/cycle_count [0]",
+        "dut/core/cycle_count [1]",
+        "dut/core/cycle_count [2]",
+        "dut/core/cycle_count [3]",
+        "dut/core/cycle_count [4]",
+        "dut/core/cycle_count [5]",
+        "dut/core/cycle_count [6]",
+        "dut/core/cycle_count [7]",
+        "dut/core/cycle_count [8]",
+        "dut/core/cycle_count [9]",
+        "dut/core/cycle_count [10]",
+        "dut/core/cycle_count [11]"
+      ],
+      "meaning": "Low 12 CPU cycle bits",
+      "display_left_shift": 0,
+      "channel_low": 106,
+      "width": 12
+    },
+    {
+      "label": "queue_count",
+      "nets": [
+        "dut/core/queue_count [0]",
+        "dut/core/queue_count [1]",
+        "dut/core/queue_count [2]",
+        "dut/core/queue_count [3]",
+        "dut/core/queue_count [4]"
+      ],
+      "meaning": "16-entry instruction queue occupancy",
+      "display_left_shift": 0,
+      "channel_low": 118,
+      "width": 5
+    },
+    {
+      "label": "fetch_valid",
+      "nets": [
+        "dut/core/f20 [362]"
+      ],
+      "meaning": "F2 valid",
+      "display_left_shift": 0,
+      "channel_low": 123,
+      "width": 1
+    },
+    {
+      "label": "decode_valid",
+      "nets": [
+        "dut/core/d0 [362]"
+      ],
+      "meaning": "D valid",
+      "display_left_shift": 0,
+      "channel_low": 124,
+      "width": 1
+    },
+    {
+      "label": "operand_valid",
+      "nets": [
+        "dut/core/o0 [362]"
+      ],
+      "meaning": "O slot 0 valid",
+      "display_left_shift": 0,
+      "channel_low": 125,
+      "width": 1
+    },
+    {
+      "label": "operand1_valid",
+      "nets": [
+        "dut/core/o1 [362]"
+      ],
+      "meaning": "O slot 1 valid; not pair issue pulse",
+      "display_left_shift": 0,
+      "channel_low": 126,
+      "width": 1
+    },
+    {
+      "label": "memory_valid",
+      "nets": [
+        "dut/core/m0 [362]"
+      ],
+      "meaning": "M slot 0 valid",
+      "display_left_shift": 0,
+      "channel_low": 127,
+      "width": 1
+    },
+    {
+      "label": "wb0_valid",
+      "nets": [
+        "dut/debug_data [136]"
+      ],
+      "meaning": "Alias of w0[362], W slot0 valid",
+      "display_left_shift": 0,
+      "channel_low": 128,
+      "width": 1
+    },
+    {
+      "label": "wb1_valid",
+      "nets": [
+        "dut/core/w1 [362]"
+      ],
+      "meaning": "W slot1 valid",
+      "display_left_shift": 0,
+      "channel_low": 129,
+      "width": 1
+    },
+    {
+      "label": "issue0",
+      "nets": [
+        "dut/core/issue"
+      ],
+      "meaning": "D to O accepted; lane1 inferred separately",
+      "display_left_shift": 0,
+      "channel_low": 130,
+      "width": 1
+    },
+    {
+      "label": "o_fire",
+      "nets": [
+        "dut/core/o_fire"
+      ],
+      "meaning": "O to X accepted",
+      "display_left_shift": 0,
+      "channel_low": 131,
+      "width": 1
+    },
+    {
+      "label": "m_fire",
+      "nets": [
+        "dut/core/m_fire"
+      ],
+      "meaning": "M completion boundary",
+      "display_left_shift": 0,
+      "channel_low": 132,
+      "width": 1
+    },
+    {
+      "label": "redirect",
+      "nets": [
+        "dut/debug_trigger [2]"
+      ],
+      "meaning": "Registered redirect; includes all control redirections",
+      "display_left_shift": 0,
+      "channel_low": 133,
+      "width": 1
+    },
+    {
+      "label": "halted",
+      "nets": [
+        "dut/debug_trigger [3]"
+      ],
+      "meaning": "Core halted",
+      "display_left_shift": 0,
+      "channel_low": 134,
+      "width": 1
+    },
+    {
+      "label": "rst_n",
+      "nets": [
+        "rst_n"
+      ],
+      "meaning": "CPU synchronous active-low reset",
+      "display_left_shift": 0,
+      "channel_low": 135,
+      "width": 1
+    },
+    {
+      "label": "md_done",
+      "nets": [
+        "dut/core/md_done"
+      ],
+      "meaning": "Mul/div completion",
+      "display_left_shift": 0,
+      "channel_low": 136,
+      "width": 1
+    },
+    {
+      "label": "md_start",
+      "nets": [
+        "dut/core/md_start"
+      ],
+      "meaning": "Mul/div start",
+      "display_left_shift": 0,
+      "channel_low": 137,
+      "width": 1
+    }
+  ],
+  "reset_active": 0,
+  "trigger_pc": "fetch_pc_word",
+  "profiles": [
+    [
+      "matrix",
+      76400,
+      "core_bench_matrix"
+    ],
+    [
+      "list",
+      66612,
+      "core_bench_list"
+    ]
+  ],
+  "native": "original-evidence/routed.v",
+  "width": 138,
+  "depth": 2048,
+  "window_us": 12.603076923076923,
+  "data_storage_bits": 282624,
+  "ideal_drm36k_blocks": 8,
+  "clock_driver": {
+    "type": "gopCLKBUFG",
+    "instance": "cpu_clk_buf/gopclkbufg",
+    "port": "CLKOUT",
+    "line": 172133
+  },
+  "status": "PREPARED_NATIVE_PINS_AUDITED_NOT_INSERTED_NOT_CAPTURED",
+  "polarity_status": "vendor Inserter logical mapping and reset/counter calibration required before IPC publication"
+}

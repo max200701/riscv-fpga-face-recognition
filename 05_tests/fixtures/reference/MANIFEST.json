@@ -1,0 +1,41 @@
+{
+  "status": "PC_SOURCE_ASSET_READY_NOT_HDMI_OR_INFERENCE_PASS",
+  "width": 640,
+  "height": 480,
+  "input_address": "01800000",
+  "source": {
+    "kind": "FROZEN_Q16_EXACT_INVERSE",
+    "path": "original-evidence/model0_input.bin",
+    "bytes": 3686400,
+    "sha256": "0253365f1a40506bc9ea07a8734527d366ea3655fc64a5f2b9dba25634baaf8d",
+    "crc32": "89582d88"
+  },
+  "files": {
+    "frame.rgb": {
+      "bytes": 921600,
+      "sha256": "08797d4506db761f3a5864567ebe860eefdadfff6ecbc2187952991700778e03",
+      "crc32": "41a180d5"
+    },
+    "frame.png": {
+      "bytes": 225488,
+      "sha256": "f9ce86b055a17439fa09a81e55913fa158f6fe69732dfd370f96d4e87b118031",
+      "crc32": "d031253b"
+    },
+    "input.bin": {
+      "bytes": 3686400,
+      "sha256": "0253365f1a40506bc9ea07a8734527d366ea3655fc64a5f2b9dba25634baaf8d",
+      "crc32": "89582d88"
+    }
+  },
+  "rgb_format": "uint8 row-major RGB, R then G then B",
+  "q16_format": "little endian int32 NCHW BGR minus104/117/123 times65536",
+  "crc32": "IEEE reflected 0xedb88320, initial ffffffff, final xor ffffffff; exact file byte order",
+  "static_until_server_restart": true,
+  "model_inference_on_PC": false,
+  "requirements": [
+    "PC actual HDMI active mode640x480",
+    "Exact fullscreen viewport in physical pixels",
+    "No HDR/night-light/color enhancement/underscan",
+    "Compare captured pixels or CRC before claiming source fidelity"
+  ]
+}

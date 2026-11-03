@@ -1,2 +1,8 @@
 * -text
-# Preserve every audited byte; MANIFEST hashes must survive Git checkout.
+*.adf binary
+*.bin binary
+*.elf binary
+*.sbit binary
+*.dprj binary
+*.png binary
+*.xz binary

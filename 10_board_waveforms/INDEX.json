@@ -1,0 +1,750 @@
+{
+  "capture_date": "2026-11-02",
+  "capture_tool": "PDS Fabric Debugger",
+  "windows": [
+    {
+      "kind": "CM",
+      "path": "CM/coremark/window0",
+      "clock_MHz": 162.5,
+      "samples": 2048
+    },
+    {
+      "kind": "CM",
+      "path": "CM/coremark/window1",
+      "clock_MHz": 162.5,
+      "samples": 2048
+    },
+    {
+      "kind": "CM",
+      "path": "CM/coremark/window2",
+      "clock_MHz": 162.5,
+      "samples": 2048
+    },
+    {
+      "kind": "QO",
+      "path": "QO/coremark/window0",
+      "clock_MHz": 31.25,
+      "samples": 2048
+    },
+    {
+      "kind": "QO",
+      "path": "QO/coremark/window1",
+      "clock_MHz": 31.25,
+      "samples": 2048
+    },
+    {
+      "kind": "QO",
+      "path": "QO/coremark/window2",
+      "clock_MHz": 31.25,
+      "samples": 2048
+    },
+    {
+      "kind": "QO",
+      "path": "QO/diagnostics/test1/window0",
+      "clock_MHz": 31.25,
+      "samples": 2048
+    },
+    {
+      "kind": "QO",
+      "path": "QO/diagnostics/test1/window1",
+      "clock_MHz": 31.25,
+      "samples": 2048
+    },
+    {
+      "kind": "QO",
+      "path": "QO/diagnostics/test2/window0",
+      "clock_MHz": 31.25,
+      "samples": 2048
+    },
+    {
+      "kind": "QO",
+      "path": "QO/diagnostics/test2/window1",
+      "clock_MHz": 31.25,
+      "samples": 2048
+    },
+    {
+      "kind": "QO",
+      "path": "QO/diagnostics/test3/window0",
+      "clock_MHz": 31.25,
+      "samples": 2048
+    },
+    {
+      "kind": "QO",
+      "path": "QO/diagnostics/test3/window1",
+      "clock_MHz": 31.25,
+      "samples": 2048
+    },
+    {
+      "kind": "QO",
+      "path": "QO/diagnostics/test4/window0",
+      "clock_MHz": 31.25,
+      "samples": 2048
+    },
+    {
+      "kind": "QO",
+      "path": "QO/diagnostics/test4/window1",
+      "clock_MHz": 31.25,
+      "samples": 2048
+    },
+    {
+      "kind": "QO",
+      "path": "QO/face/window1",
+      "clock_MHz": 31.25,
+      "samples": 2048
+    },
+    {
+      "kind": "QO",
+      "path": "QO/face/window2",
+      "clock_MHz": 31.25,
+      "samples": 2048
+    }
+  ],
+  "figures": [
+    {
+      "file": "figures/CM_coremark.png",
+      "title": "CM：CoreMark 流水推进与双退休",
+      "samples": "CM/coremark/window1/samples.csv",
+      "start": 97,
+      "count": 12,
+      "signals": [
+        "fetch_pc",
+        "decode_pc",
+        "wb0_valid",
+        "wb1_valid",
+        "instret16",
+        "retired_to_next"
+      ]
+    },
+    {
+      "file": "figures/QO_coremark.png",
+      "title": "QO：CoreMark 双槽发射与退休",
+      "samples": "QO/coremark/window0/samples.csv",
+      "start": 86,
+      "count": 12,
+      "signals": [
+        "fetch_pc",
+        "wb_pc",
+        "issue1",
+        "wb_success",
+        "instret16",
+        "retired_to_next"
+      ]
+    },
+    {
+      "file": "figures/directed1.png",
+      "title": "缓存冲突访问",
+      "samples": "QO/diagnostics/test1/window0/samples.csv",
+      "start": 22,
+      "count": 12,
+      "signals": [
+        "wb_pc",
+        "i_valid",
+        "i_ready",
+        "d_valid",
+        "d_ready",
+        "retired_to_next"
+      ]
+    },
+    {
+      "file": "figures/directed2.png",
+      "title": "异常与中断处理",
+      "samples": "QO/diagnostics/test2/window0/samples.csv",
+      "start": 101,
+      "count": 12,
+      "signals": [
+        "fetch_pc",
+        "wb_pc",
+        "flush",
+        "issue0",
+        "wb_success",
+        "retired_to_next"
+      ]
+    },
+    {
+      "file": "figures/directed3.png",
+      "title": "条件分支与队列控制",
+      "samples": "QO/diagnostics/test3/window0/samples.csv",
+      "start": 27,
+      "count": 12,
+      "signals": [
+        "fetch_pc",
+        "wb_pc",
+        "flush",
+        "queue_count",
+        "wb_success",
+        "retired_to_next"
+      ]
+    },
+    {
+      "file": "figures/directed4.png",
+      "title": "外设 MMIO 访问",
+      "samples": "QO/diagnostics/test4/window0/samples.csv",
+      "start": 1939,
+      "count": 12,
+      "signals": [
+        "wb_pc",
+        "d_valid",
+        "d_ready",
+        "d_error",
+        "wb_success",
+        "retired_to_next"
+      ]
+    },
+    {
+      "file": "figures/face_normalization.png",
+      "title": "人脸应用：特征归一化",
+      "samples": "QO/face/window1/samples.csv",
+      "start": 40,
+      "count": 12,
+      "signals": [
+        "fetch_pc",
+        "wb_pc",
+        "issue1",
+        "wb_success",
+        "instret16",
+        "retired_to_next"
+      ]
+    },
+    {
+      "file": "figures/face_schedule.png",
+      "title": "人脸应用：模型调度",
+      "samples": "QO/face/window2/samples.csv",
+      "start": 40,
+      "count": 12,
+      "signals": [
+        "wb_pc",
+        "d_valid",
+        "d_ready",
+        "issue0",
+        "wb_success",
+        "retired_to_next"
+      ]
+    }
+  ],
+  "bound_files": {
+    "CM_bitstream": {
+      "file": "08_bitstreams/CM/cpu_CM_162m5_DEBUG138.sbit",
+      "sha256": "9abf7b866295053ac5788f1661654e145e3f105e8f12f89b96b6511e7c55d689"
+    },
+    "CM_FIC": {
+      "file": "08_bitstreams/CM/cpu_CM_162m5_DEBUG138.fic",
+      "sha256": "5897114db83327e06ec6e7703e6314aea367662da14fa9fd0943f8277cb0bb38"
+    },
+    "CM_CoreMark_ELF": {
+      "file": "02_firmware/coremark_CM_normal/prebuilt/coremark_ram.elf",
+      "sha256": "83d571a043358d42bc6a40734871d3e23b3534cbf780e6ffaf90deace474144b"
+    },
+    "QO_bitstream": {
+      "file": "08_bitstreams/QO/mini_face_demo_QO_DEBUG136.sbit",
+      "sha256": "bedb89fe470c9978afb61905c3fc1a2f19d17840de8c9859a81415729709063d"
+    },
+    "QO_FIC": {
+      "file": "08_bitstreams/QO/mini_face_demo_QO_DEBUG136.fic",
+      "sha256": "e2f6943975f99f248ebf7cfcced5115da816048b688a33d3756f50c79f3c821d"
+    },
+    "QO_CoreMark_ELF": {
+      "file": "02_firmware/coremark_QO_GCC16/prebuilt/coremark.elf",
+      "sha256": "f5eba0f28ba1c75550b07f3116721ff4b4fe57583376df2c4996312fbd663320"
+    },
+    "QO_face_ELF": {
+      "file": "02_firmware/face_application/prebuilt/demo.elf",
+      "sha256": "454a068c77593cbd067b22730944358cea3f8994426852789061b6a0720c6ef9"
+    },
+    "QO_diagnostic_ELF": {
+      "file": "10_board_waveforms/firmware/diagnostics/diagnostic.elf",
+      "sha256": "e3beb0cf6ded7ea3654c65c20fdd7ddbf2a12c5c9d612eda21cf5d7b1183a691"
+    }
+  },
+  "copied_files": [
+    {
+      "file": "CM/coremark/window0/wave.txt",
+      "sha256": "681249fd49912fc9e9c1ca0e3228d4a927c1e40b21875e5a6bb0c977c1bf5c52",
+      "bytes": 114687
+    },
+    {
+      "file": "CM/coremark/window0/wave.vcd",
+      "sha256": "4fcfa1e85acc0a031d0a5cea5ea99f843d415da8b16cedecbdbb10562f30f68a",
+      "bytes": 278560
+    },
+    {
+      "file": "CM/coremark/window0/capture.dprj",
+      "sha256": "fd336ef3ad8b126317532511674fb77bb06a31a36a7bffa25578ccffdc460c4b",
+      "bytes": 306092
+    },
+    {
+      "file": "CM/coremark/window0/physical_time.vcd",
+      "sha256": "af4d53e71a365b760a96e46f52a59fc8f42f7b67d015c5694489b306c1c69b11",
+      "bytes": 301131
+    },
+    {
+      "file": "CM/coremark/window0/samples.csv",
+      "sha256": "a256840a50cb1729348a6db720fd222130ecebbd490e6d966dacb193560fff2a",
+      "bytes": 211007
+    },
+    {
+      "file": "CM/coremark/window1/wave.txt",
+      "sha256": "18598269355942266882e50ed35f769f89a60a563f9873fff9e2707be107cd89",
+      "bytes": 114415
+    },
+    {
+      "file": "CM/coremark/window1/wave.vcd",
+      "sha256": "b55096290f07e3323533f5996e8e0091b05cb7ce145d7fe7bd80d10861610e94",
+      "bytes": 304616
+    },
+    {
+      "file": "CM/coremark/window1/capture.dprj",
+      "sha256": "1f53abd740bd699cdf5f022119ba61e47e4766bb56ef19972b40a15555da29c4",
+      "bytes": 306092
+    },
+    {
+      "file": "CM/coremark/window1/physical_time.vcd",
+      "sha256": "af6f96a04352995e73b586aa861937874c9dfbd1490166abfb5eea35e7c6f2e0",
+      "bytes": 327040
+    },
+    {
+      "file": "CM/coremark/window1/samples.csv",
+      "sha256": "f49c553852005fbcfbb99325466d0cd0df92c400997363d87ce9adec6aa5d87e",
+      "bytes": 213641
+    },
+    {
+      "file": "CM/coremark/window2/wave.txt",
+      "sha256": "becb7175c1b1695074595765383b74174e011fa71666811bd92ef9037c280f89",
+      "bytes": 114415
+    },
+    {
+      "file": "CM/coremark/window2/wave.vcd",
+      "sha256": "293aebf202e8ba8d2680801b1006f4a6091c9dac685a04fa407ba06df60197dc",
+      "bytes": 283576
+    },
+    {
+      "file": "CM/coremark/window2/capture.dprj",
+      "sha256": "4316af92d7652297e577adc7cf8f1f028b8f14b0b2485f31b0e3ec20c5d49d33",
+      "bytes": 306092
+    },
+    {
+      "file": "CM/coremark/window2/physical_time.vcd",
+      "sha256": "d7eb1d544526cb89cc315365db9c6c6df6516106ce8511dba9a217c06910cf45",
+      "bytes": 306623
+    },
+    {
+      "file": "CM/coremark/window2/samples.csv",
+      "sha256": "bf4cb4400d963e7154b470b02327a2b028032376cd683e3c7629d2f663a7f965",
+      "bytes": 212088
+    },
+    {
+      "file": "QO/coremark/window0/wave.txt",
+      "sha256": "4b0a728d16bf5667cdca60764513bfe1200a286d58fab754ecbf2e64b7b7dfa8",
+      "bytes": 114285
+    },
+    {
+      "file": "QO/coremark/window0/wave.vcd",
+      "sha256": "ffbfb99c44622ad44e8d4f17989866116b6f86d82ed2bad41a96d07157c3200e",
+      "bytes": 323946
+    },
+    {
+      "file": "QO/coremark/window0/capture.dprj",
+      "sha256": "44fbf12439fba20aa46594c906b8a42563a0dee5a63de1758f9528fbc4f71183",
+      "bytes": 310741
+    },
+    {
+      "file": "QO/coremark/window0/physical_time.vcd",
+      "sha256": "8bb1f5b9ffcb2969a994222ceb2f56889d62baa20224195356b09082a1d92d3b",
+      "bytes": 350137
+    },
+    {
+      "file": "QO/coremark/window0/samples.csv",
+      "sha256": "c40a7de08f9ea3655912c75e01a53ba653825261e7221d488e6158be5eca7ce5",
+      "bytes": 190537
+    },
+    {
+      "file": "QO/coremark/window1/wave.txt",
+      "sha256": "19a533aa6b64d97d78b577163b8bf2ca8b55e9d062a7d86bf076a75f3856b2f4",
+      "bytes": 113814
+    },
+    {
+      "file": "QO/coremark/window1/wave.vcd",
+      "sha256": "7395fd662a9a9816c9b7cd340c11e019ee640b0fc833babd17e7c3927ed1cc03",
+      "bytes": 329594
+    },
+    {
+      "file": "QO/coremark/window1/capture.dprj",
+      "sha256": "391de1d0ea10f0571a98e2fb480597ef2a424901af4798ef110ab1942c5d991a",
+      "bytes": 310741
+    },
+    {
+      "file": "QO/coremark/window1/physical_time.vcd",
+      "sha256": "5923e8bb87e95eb38791b5785c632b6f250a22520000f9cb735c2c9af1d211b6",
+      "bytes": 356063
+    },
+    {
+      "file": "QO/coremark/window1/samples.csv",
+      "sha256": "ac334979e789ec7f0fdb8c6a0d1dfa6112b4e525de5bacdec722ec96f7a73ca9",
+      "bytes": 190637
+    },
+    {
+      "file": "QO/coremark/window2/wave.txt",
+      "sha256": "845998905fdd1579662516545db1a8a1db029989e7e855aecbb98eba053f5359",
+      "bytes": 114415
+    },
+    {
+      "file": "QO/coremark/window2/wave.vcd",
+      "sha256": "40a8483ab800d17f6b7dd29c53c20e3fbb7e8832426fd41460c4fd5aea8089f9",
+      "bytes": 331111
+    },
+    {
+      "file": "QO/coremark/window2/capture.dprj",
+      "sha256": "660b859566961cf95efac8c699bb9756d5c12c6e753d5e799eb71526bda8e25b",
+      "bytes": 310741
+    },
+    {
+      "file": "QO/coremark/window2/physical_time.vcd",
+      "sha256": "0cb876012104f7c458c25c5a5761c6f44190ab2fdd63f16f2d409c4c25b337c6",
+      "bytes": 357782
+    },
+    {
+      "file": "QO/coremark/window2/samples.csv",
+      "sha256": "0d424953018384cbc702fc29cfe28cb4a53a093c4de39c8fbc1ef25e302c1757",
+      "bytes": 192334
+    },
+    {
+      "file": "QO/diagnostics/test1/window0/wave.txt",
+      "sha256": "6949adad522c6fee616860e86ffd76e8345726c6c87c709e094e3a15cc6a6337",
+      "bytes": 114415
+    },
+    {
+      "file": "QO/diagnostics/test1/window0/wave.vcd",
+      "sha256": "8e86958600a0ecbd540a4592f92c95004a5fb0d93b0fd43acb2a4c19273fa8a8",
+      "bytes": 148339
+    },
+    {
+      "file": "QO/diagnostics/test1/window0/capture.dprj",
+      "sha256": "311dd3338f4369987ea5536723557a7c84715c50eb45f8803079eb9b57f2064f",
+      "bytes": 310741
+    },
+    {
+      "file": "QO/diagnostics/test1/window0/physical_time.vcd",
+      "sha256": "2a86fcdf632706dd7b76a79d0bba2bcc78caaf921c12b833a127ca927d9806e6",
+      "bytes": 167927
+    },
+    {
+      "file": "QO/diagnostics/test1/window0/samples.csv",
+      "sha256": "1c671db968ee2ef95882f654581d3866a9a8904a28bfb7f04970999d257e8cf4",
+      "bytes": 192237
+    },
+    {
+      "file": "QO/diagnostics/test1/window1/wave.txt",
+      "sha256": "aa66b54f8f8228969e0c94aef51e74bea2d938f1e43f25c41a32fc05bd04fd3a",
+      "bytes": 114415
+    },
+    {
+      "file": "QO/diagnostics/test1/window1/wave.vcd",
+      "sha256": "1ab9bc3edd6b7447fcc3d43d3e44b9a4b19d6734ad479631f4c0ced78a096f13",
+      "bytes": 147192
+    },
+    {
+      "file": "QO/diagnostics/test1/window1/capture.dprj",
+      "sha256": "4beff4b07ada6dc118559ab9fafb5395e31a185646b6ca4c60f81a0e5fbef2eb",
+      "bytes": 310741
+    },
+    {
+      "file": "QO/diagnostics/test1/window1/physical_time.vcd",
+      "sha256": "cd24036a3ed4dd2769ae6e9b1e750bf023b9d3c1f877936a74989bc236242509",
+      "bytes": 166732
+    },
+    {
+      "file": "QO/diagnostics/test1/window1/samples.csv",
+      "sha256": "f3b18e0a86fdbff90a0aef50ea7b5df8eff7aaef3d9c2ba9f7cc916e566343e3",
+      "bytes": 192237
+    },
+    {
+      "file": "QO/diagnostics/test2/window0/wave.txt",
+      "sha256": "abff1f9d7b70a5b1b48a01a54e5c79a1dc02a9ccfbe2d3292fe075d27d779faa",
+      "bytes": 114687
+    },
+    {
+      "file": "QO/diagnostics/test2/window0/wave.vcd",
+      "sha256": "f91a5a1b4c790d3eb7fbb33d8897a313f824d2a0a841775806f3c56003ebee1d",
+      "bytes": 281884
+    },
+    {
+      "file": "QO/diagnostics/test2/window0/capture.dprj",
+      "sha256": "356039090877436778c3690741e6b3d0a4b8dc2cfa45f1839721460a75a5be81",
+      "bytes": 310741
+    },
+    {
+      "file": "QO/diagnostics/test2/window0/physical_time.vcd",
+      "sha256": "7ce0bdd63a9798122e8cedb430346864e032027dae230f319e7e6e619b66a25f",
+      "bytes": 311976
+    },
+    {
+      "file": "QO/diagnostics/test2/window0/samples.csv",
+      "sha256": "d7e216555768394f0b4f8c89006c7b5826098a557bc1031029cb7c85d535946a",
+      "bytes": 193347
+    },
+    {
+      "file": "QO/diagnostics/test2/window1/wave.txt",
+      "sha256": "6a86e9797be6826fec5648b956f5887ef5e0b31cee4f9f11d0ea4b343a63624a",
+      "bytes": 114687
+    },
+    {
+      "file": "QO/diagnostics/test2/window1/wave.vcd",
+      "sha256": "dbdc119200f2c1bc199eafe4169dee7ddba451d468b8aa2cc161185e3554495c",
+      "bytes": 281884
+    },
+    {
+      "file": "QO/diagnostics/test2/window1/capture.dprj",
+      "sha256": "4f70743eb1f67780bfb943489a053ec92a4a27a28ee8dd569d4aa6f918c849c5",
+      "bytes": 310741
+    },
+    {
+      "file": "QO/diagnostics/test2/window1/physical_time.vcd",
+      "sha256": "48edf184ad67cf0e90069680c07bd3d644f4b82d5c45917a5a86025d6b1f5d73",
+      "bytes": 311976
+    },
+    {
+      "file": "QO/diagnostics/test2/window1/samples.csv",
+      "sha256": "49f66c7f72fe98239ffee8530061a64f6144bbe293d98a952206ceb036292896",
+      "bytes": 193347
+    },
+    {
+      "file": "QO/diagnostics/test3/window0/wave.txt",
+      "sha256": "d1cff839128aeac9e92921eff428254672f29e97f07818054fdd0512f20e07db",
+      "bytes": 114415
+    },
+    {
+      "file": "QO/diagnostics/test3/window0/wave.vcd",
+      "sha256": "5ccd60ac2c0f63b561433118a3108698187afcc87bfeb2a63d88d29d1c2b3bf0",
+      "bytes": 282421
+    },
+    {
+      "file": "QO/diagnostics/test3/window0/capture.dprj",
+      "sha256": "5d361ce67ec8913c8defa6c78ef5567a1f2b78a61f0d9e936324e40b3414a9d6",
+      "bytes": 310741
+    },
+    {
+      "file": "QO/diagnostics/test3/window0/physical_time.vcd",
+      "sha256": "57570f8440c7e0db6a5451769fcf37a472275e47a67cd72fd4d199a14268515f",
+      "bytes": 309969
+    },
+    {
+      "file": "QO/diagnostics/test3/window0/samples.csv",
+      "sha256": "098601064ca4948bbd0e86649cd1082821d51445744a1b8cdd678000e46a2a42",
+      "bytes": 192237
+    },
+    {
+      "file": "QO/diagnostics/test3/window1/wave.txt",
+      "sha256": "ea1e216880844e0241e918f7ce51e2d800d9b78cecf15964fa9e6f79db6ab08d",
+      "bytes": 114534
+    },
+    {
+      "file": "QO/diagnostics/test3/window1/wave.vcd",
+      "sha256": "57a7845454b9d624f6be05b7ffbe57e745ec7ae29288ccacb74c0a98fa1448f7",
+      "bytes": 282614
+    },
+    {
+      "file": "QO/diagnostics/test3/window1/capture.dprj",
+      "sha256": "86620f28172a292094087c68941fa0eaf3127412d2606ace5a8ecfb799f6132e",
+      "bytes": 310741
+    },
+    {
+      "file": "QO/diagnostics/test3/window1/physical_time.vcd",
+      "sha256": "0bb171135a11603ca5f87112dae12b1269ede84fc51bcd47b3fdd71bf4aa8b88",
+      "bytes": 310168
+    },
+    {
+      "file": "QO/diagnostics/test3/window1/samples.csv",
+      "sha256": "bd13094b8055ada9e41c474ab714aaa87074af2148efb603cf5f47222cc99faa",
+      "bytes": 192450
+    },
+    {
+      "file": "QO/diagnostics/test4/window0/wave.txt",
+      "sha256": "113076e93ffd9a53a262ea8fc27e051a0bcaaded46da05107e098f4bae804e49",
+      "bytes": 114687
+    },
+    {
+      "file": "QO/diagnostics/test4/window0/wave.vcd",
+      "sha256": "7e51726f37836ed31f5962be4d0cb1629c107af1b76049b85394cba3d97352a7",
+      "bytes": 49942
+    },
+    {
+      "file": "QO/diagnostics/test4/window0/capture.dprj",
+      "sha256": "d8552476693b135886a64ef68432e5b4d6fdb53c69a9c04b93721da022fd5671",
+      "bytes": 310741
+    },
+    {
+      "file": "QO/diagnostics/test4/window0/physical_time.vcd",
+      "sha256": "075ddaf8913b1604744beb502f59c70edd6fbabc832e03957bc319c7395d2f6f",
+      "bytes": 63287
+    },
+    {
+      "file": "QO/diagnostics/test4/window0/samples.csv",
+      "sha256": "0ddc56b87282975b8884e584367bebf719a463a82759681e0fd9cf9c83b30ea0",
+      "bytes": 191209
+    },
+    {
+      "file": "QO/diagnostics/test4/window1/wave.txt",
+      "sha256": "462006f2e1ff46b2f70e91f931b3d50bc4654c069987963d91fbbe4f512746b9",
+      "bytes": 114585
+    },
+    {
+      "file": "QO/diagnostics/test4/window1/wave.vcd",
+      "sha256": "9d55af709476fd00f767ba839e314410bf3d7e1815db152265f5acd9cb6604b3",
+      "bytes": 47522
+    },
+    {
+      "file": "QO/diagnostics/test4/window1/capture.dprj",
+      "sha256": "71f95486dee9fc0423bca70f1cf1b826120bf5e5fab556a9388b69b67edaa8cb",
+      "bytes": 310741
+    },
+    {
+      "file": "QO/diagnostics/test4/window1/physical_time.vcd",
+      "sha256": "71da240719798f7852348f1127cf79c2a5ca53f9898d6a68e44c2599d251138b",
+      "bytes": 60744
+    },
+    {
+      "file": "QO/diagnostics/test4/window1/samples.csv",
+      "sha256": "f924710e00cfcf122c5f808fea8b9bfb45c099e072670a385f0b9f689778f025",
+      "bytes": 192501
+    },
+    {
+      "file": "QO/face/window1/wave.txt",
+      "sha256": "44f62a788cc7296d4c90a0684ac50ab445efb0e1eb721429ba2d3bff5c90b2fb",
+      "bytes": 109003
+    },
+    {
+      "file": "QO/face/window1/wave.vcd",
+      "sha256": "2329c548e7a50df28bd36665a620bda5420068ac6a63d33edb9295f2dfde5936",
+      "bytes": 308461
+    },
+    {
+      "file": "QO/face/window1/capture.dprj",
+      "sha256": "0eb90e40b8431927748f145813c4ca4c3f53a8d04eb19d7b990c1b7f61cb1d16",
+      "bytes": 310741
+    },
+    {
+      "file": "QO/face/window1/physical_time.vcd",
+      "sha256": "ed7be848b4779cfc7aaa7db1d565028d2f21d0a6abb61a7bf2bd93f3124fed1a",
+      "bytes": 332610
+    },
+    {
+      "file": "QO/face/window1/samples.csv",
+      "sha256": "9c49a8656a5241fd44c2210919e8c3bc5bf9c44275ae9fbb3d5b8b5b78c0968b",
+      "bytes": 186093
+    },
+    {
+      "file": "QO/face/window2/wave.txt",
+      "sha256": "ac2d17aba74fd786cdc93861160adbb7eb42cdda1739df89239f5943d4aa146f",
+      "bytes": 108271
+    },
+    {
+      "file": "QO/face/window2/wave.vcd",
+      "sha256": "300936b69e15685921b3108073aa942cd3f1c347816629bf6ef6bd30eb198653",
+      "bytes": 157121
+    },
+    {
+      "file": "QO/face/window2/capture.dprj",
+      "sha256": "c66d7381133250e6ecda3d201a593843da6ddfcb982e60b208ad09e0f650e27a",
+      "bytes": 310741
+    },
+    {
+      "file": "QO/face/window2/physical_time.vcd",
+      "sha256": "3cb42d63a4ade69143eb009dfc311bfceed95b7f252306864dff41475d0f0ee8",
+      "bytes": 177698
+    },
+    {
+      "file": "QO/face/window2/samples.csv",
+      "sha256": "b38b6ec8ba4b17249cdce0bf4d5860e5219215dd970098793b9aa1d63eae463b",
+      "bytes": 173805
+    },
+    {
+      "file": "probes/CM.json",
+      "sha256": "0cebc213877375fe3c5139af32ab2e0cf034847a60c1cbb36161ec8c72dbadd4",
+      "bytes": 9418
+    },
+    {
+      "file": "probes/QO.json",
+      "sha256": "4fab9a46d638898fa6b4220d5fb42828aaf3eaad2497a5541a0c383146c8f294",
+      "bytes": 12106
+    },
+    {
+      "file": "figures/CM_coremark.png",
+      "sha256": "1127956bfefd8f72f2b1a2f88dec500240acd33590bb8306af6804b41e5e97c9",
+      "bytes": 141330
+    },
+    {
+      "file": "figures/QO_coremark.png",
+      "sha256": "dc845a1fc6ec74c1095a7db97f204664a45aa1081d8594b7783778160ab6f8a3",
+      "bytes": 146812
+    },
+    {
+      "file": "figures/directed1.png",
+      "sha256": "3af0d54b3438ece35414a984eec643f0a99f21b601f1f6aebc45176290606b69",
+      "bytes": 124167
+    },
+    {
+      "file": "figures/directed2.png",
+      "sha256": "5733d2b16e83116d743437d02a9508dd81e75e4181d32b61414fd16db5a76515",
+      "bytes": 133375
+    },
+    {
+      "file": "figures/directed3.png",
+      "sha256": "152b11eaa6a413e1002e4ceabdc0096d9a22b766eb085ba42aabafcca81ebc26",
+      "bytes": 129398
+    },
+    {
+      "file": "figures/directed4.png",
+      "sha256": "f86049a7aa0320f782bd3012f10d903155942469f4e542d9749141ff550761a2",
+      "bytes": 130688
+    },
+    {
+      "file": "figures/face_normalization.png",
+      "sha256": "5fff427801e306e3be91405cdd9a08fbf6a5e2cc32a57f76b5746b1de1d92577",
+      "bytes": 140953
+    },
+    {
+      "file": "figures/face_schedule.png",
+      "sha256": "8a9a30211ffcd3b57ceca6b94cb95eaccbcf01487a9111ed0c6ca6f54f6e85a7",
+      "bytes": 133256
+    },
+    {
+      "file": "firmware/diagnostics/diagnostic.c",
+      "sha256": "fedc454c5abcd7aae5b2ce048c456ae36bd3b3818d4d07ff3ab3ce49bf2aed9c",
+      "bytes": 2885
+    },
+    {
+      "file": "firmware/diagnostics/diagnostic.S",
+      "sha256": "ba28f796b70835ed1e3ec3781fb42e2ff7a8e8687e291825a5281861b3affbe4",
+      "bytes": 802
+    },
+    {
+      "file": "firmware/diagnostics/diag.ld",
+      "sha256": "51f6bccb272a9333a3f95a4e3fa9a254c9c793ce5e7c90100e64e513cb55722f",
+      "bytes": 633
+    },
+    {
+      "file": "firmware/diagnostics/diagnostic.elf",
+      "sha256": "e3beb0cf6ded7ea3654c65c20fdd7ddbf2a12c5c9d612eda21cf5d7b1183a691",
+      "bytes": 18512
+    },
+    {
+      "file": "firmware/diagnostics/diagnostic_image.bin",
+      "sha256": "8237626731f3cee0887dab17ef82acc7d48bdf94c06d8a73f4be33ef594f80b6",
+      "bytes": 17024
+    },
+    {
+      "file": "firmware/diagnostics/disassembly.txt",
+      "sha256": "5e03ae9094246e9256fb42f46195332461dc2013ae4800611b2bdc8043bd428b",
+      "bytes": 19569
+    },
+    {
+      "file": "firmware/diagnostics/symbols.txt",
+      "sha256": "48dc6c35316b26419a0d74d2aca58344e460e28c822b407beb4f3dc6589fa004",
+      "bytes": 513
+    },
+    {
+      "file": "firmware/diagnostics/start.S",
+      "sha256": "ac09314f13df22d2ef7395c6b9a02ad8cd3a6099b21c1a189f8ffcecf9684185",
+      "bytes": 386
+    }
+  ]
+}

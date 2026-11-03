@@ -1,0 +1,82 @@
+{
+  "status": "PASS_ROUTED_ALL_EIGHT_STA_TABLES_AND_138_DEBUG_PROBES",
+  "candidate": "CM_DEBUG10",
+  "timing": {
+    "Setup_Slow": {
+      "wns": 0.027,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 38979
+    },
+    "Setup_Fast": {
+      "wns": 2.368,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 38979
+    },
+    "Recovery_Slow": {
+      "wns": 2.888,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 829
+    },
+    "Recovery_Fast": {
+      "wns": 4.077,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 829
+    },
+    "Hold_Slow": {
+      "wns": 0.069,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 38979
+    },
+    "Hold_Fast": {
+      "wns": 0.047,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 38979
+    },
+    "Removal_Slow": {
+      "wns": 0.538,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 829
+    },
+    "Removal_Fast": {
+      "wns": 0.358,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 829
+    }
+  },
+  "check_timing": {
+    "no_clock": "0",
+    "virtual_clock": "1",
+    "unexpandable_clocks": "0",
+    "no_input_delay": "1",
+    "no_output_delay": "1",
+    "partial_input_delay": "0",
+    "partial_output_delay": "0",
+    "io_min_max_delay_consistency": "0",
+    "input_delay_assigned_to_clock": "0",
+    "loops": "0",
+    "latch_loops": "0",
+    "latchs": "0"
+  },
+  "debug_probes": 138,
+  "depth": 2048,
+  "cpu_mhz": 162.5,
+  "native_cells": 16238,
+  "board_capture": false,
+  "clock_and_firmware_changed": false,
+  "scope": "Internal/routed timing and native insertion; external asynchronous UART retains original constraints. Original CPU scores are not a new debug-build board measurement.",
+  "hashes": {
+    "original-evidence/cpu_perf_board_pnr.adf": "fb81714ab6912de6d3a7263a24a70da07034227251404219cfc8a81dc2141aef",
+    "original-evidence/cpu_perf_board.rtr": "003541ba8e8bed9397807d172ec222deb2ffd3491203b83b9278438aa28eae2e",
+    "original-evidence/check_timing_summary.db": "98bc2d37348616ecdf660548e07e004fb8d0c1ddd2a89ca9f23b64f84260a5e5",
+    "original-evidence/routed_actual.v": "2abb27d9aca82b407212fb6d8e1406639353946437c2a9759d5989c0ebe4f5b1",
+    "original-evidence/cpu_debug.fic": "5897114db83327e06ec6e7703e6314aea367662da14fa9fd0943f8277cb0bb38"
+  }
+}

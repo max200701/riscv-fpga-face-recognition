@@ -1,0 +1,44 @@
+{
+  "status": "PC_SOURCE_ASSET_READY_NOT_HDMI_OR_INFERENCE_PASS",
+  "width": 640,
+  "height": 480,
+  "input_address": "01800000",
+  "source": {
+    "kind": "OL_IDENTICAL_LETTERBOX",
+    "path": "original-evidence/Ana_Guevara_0004.jpg",
+    "scale": 1.92,
+    "left": 80,
+    "top": 0,
+    "bytes": 14978,
+    "sha256": "6d8fae28a9ef461407e32bf58ad1ff648d3178c276ae21c5665cf92a3b47b590",
+    "crc32": "9fe8f54b"
+  },
+  "files": {
+    "frame.rgb": {
+      "bytes": 921600,
+      "sha256": "464b168cabc0ed9e55196624ef5f375526f1386962cda0f0104fa2bdcc7dbf7d",
+      "crc32": "7d234905"
+    },
+    "frame.png": {
+      "bytes": 290973,
+      "sha256": "9cc965dd217d0b03c70bd31da17d6edc20e2c8905b6bfafbbaaf07ec2a5d92c7",
+      "crc32": "22678c70"
+    },
+    "input.bin": {
+      "bytes": 3686400,
+      "sha256": "22e5f52387dbd1d7bb387a5ae5213f131c2220c7b3e952373c1f806c09245633",
+      "crc32": "85152052"
+    }
+  },
+  "rgb_format": "uint8 row-major RGB, R then G then B",
+  "q16_format": "little endian int32 NCHW BGR minus104/117/123 times65536",
+  "crc32": "IEEE reflected 0xedb88320, initial ffffffff, final xor ffffffff; exact file byte order",
+  "static_until_server_restart": true,
+  "model_inference_on_PC": false,
+  "requirements": [
+    "PC actual HDMI active mode640x480",
+    "Exact fullscreen viewport in physical pixels",
+    "No HDR/night-light/color enhancement/underscan",
+    "Compare captured pixels or CRC before claiming source fidelity"
+  ]
+}

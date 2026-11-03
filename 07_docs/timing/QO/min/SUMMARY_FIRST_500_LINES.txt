@@ -1,0 +1,500 @@
+
+----------------------------------------------------------------------------------------------------
+| Tool Version : Fabric Compiler (version 2025.2 <build 211867>)
+| Date         : Mon Nov  2 12:49:53 2026
+| Design       : mini_face_demo_top
+| Device       : PG2L200H
+| Speed Grade  : -6
+| Package      : FBB676
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+| Timing Models: Production
+| Tcl Command  : set_option -options { input_db_file {D:/CPU2026/runs/cpu_debug_install_20261102/QO/delay56/F_delay/local_pnr.adf} delay_type {min} max_path {30000} report_io_datasheet {true} report_max_skew {true}} [get_actions report_timing -of_objects [get_tasks pnr_1]]
+launch_tasks [get_tasks {pnr_1}] -to_action report_timing
+wait_on_tasks [get_tasks {pnr_1}] -to_action report_timing
+----------------------------------------------------------------------------------------------------
+
+Timing analysis mode : multi corner
+
+ Clock Summary:                                                                                                                                                                                                            
+***************************************************************************************************************************************************************************************************************************
+                                                                                             Clock   Non-clock                                                                                                             
+ Clock                          Period       Waveform            Type                        Loads       Loads  Sources                                                                                                    
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ free_clk                       37.0370      {0.0000 18.5180}    Declared                      585           0  {free_clk}                                                                                                 
+ ref_clk                        8.0000       {0.0000 4.0000}     Declared                        0           4  {ref_clk_p}                                                                                                
+   rst_clk                      8.0000       {0.0000 4.0000}     Generated (ref_clk)           124           0  {I_ips_ddr_top/u_ddrphy_top/rst_clk_gpll/u_gpll/gpll_inst/CLKOUT0}                                         
+   ddrphy_sysclk                8.0000       {0.0000 4.0000}     Generated (ref_clk)         61033           4  {I_ips_ddr_top/u_ddrphy_top/ddrphy_gpll/u_gpll/gpll_inst/CLKOUT0}                                          
+     cpu_demo_clk               32.0000      {0.0000 16.0000}    Generated (ddrphy_sysclk)    7495           0  {cpu_clk_buf/gopclkbufg/CLKOUT}                                                                            
+   phy_dq_clk_0                 1.0000       {0.0000 0.5000}     Generated (ref_clk)            35           1  {I_ips_ddr_top/u_ddrphy_top/ddrphy_slice_top/i_dqs_bank[0].ddrphy_ppll/u_ppll/ppll_inst/CLKOUTPHY}         
+     phy_dq_sysclk_0            8.0000       {2.0000 6.0000}     Generated (phy_dq_clk_0)       35           0  {I_ips_ddr_top/u_ddrphy_top/ddrphy_slice_top/i_dqs_bank[0].u_ddrphy_ioclkdiv/ddrphy_ioclk_div_inst/CLKOUT} 
+   phy_dq_clk_1                 1.0000       {0.0000 0.5000}     Generated (ref_clk)            84           1  {I_ips_ddr_top/u_ddrphy_top/ddrphy_slice_top/i_dqs_bank[1].ddrphy_ppll/u_ppll/ppll_inst/CLKOUTPHY}         
+     phy_dq_sysclk_1            8.0000       {2.0000 6.0000}     Generated (phy_dq_clk_1)       84           0  {I_ips_ddr_top/u_ddrphy_top/ddrphy_slice_top/i_dqs_bank[1].u_ddrphy_ioclkdiv/ddrphy_ioclk_div_inst/CLKOUT} 
+ hdmi_pixel_clk                 39.6800      {0.0000 19.8400}    Declared                      347           0  {pixclk_in}                                                                                                
+ CORES|CORES|SCANCHAIN_CAPTURE  100.0000     {25.0000 75.0000}   Declared                       11           0  {u_CORES/u_GTP_SCANCHAIN/scanchain/CAPTUREDR}                                                              
+ CORES|CORES|SCANCHAIN_JCLK     50.0000      {0.0000 25.0000}    Declared                      287           0  {u_CORES/u_GTP_SCANCHAIN/scanchain/TCK1}                                                                   
+===========================================================================================================================================================================================================================
+
+ Clock Groups:                                                                                      
+****************************************************************************************************
+ Clock Group                   Group Type                 Clocks                                    
+----------------------------------------------------------------------------------------------------
+ ref_clk                       asynchronous               ref_clk                                   
+ rst_clk                       asynchronous               rst_clk                                   
+ phy_dq_clk_0                  asynchronous               phy_dq_clk_0                              
+ phy_dq_clk_1                  asynchronous               phy_dq_clk_1                              
+ CORES|Inferred_clock_group_u_GTP_SCANCHAIN_1
+                               asynchronous               CORES|CORES|SCANCHAIN_JCLK  CORES|CORES|SCANCHAIN_CAPTURE
+====================================================================================================
+
+Design Summary : All Constraints Met.
+
+Setup Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Hold Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ free_clk               free_clk                     0.197       0.000              0           1985
+ rst_clk                rst_clk                      0.212       0.000              0            411
+ ddrphy_sysclk          ddrphy_sysclk                0.060       0.000              0         269772
+ phy_dq_sysclk_1        ddrphy_sysclk                0.630       0.000              0            260
+ phy_dq_sysclk_0        ddrphy_sysclk                0.868       0.000              0              1
+ cpu_demo_clk           ddrphy_sysclk                2.413       0.000              0             85
+ ddrphy_sysclk          phy_dq_sysclk_0              0.465       0.000              0            196
+ ddrphy_sysclk          phy_dq_sysclk_1              0.477       0.000              0            420
+ cpu_demo_clk           cpu_demo_clk                 0.119       0.000              0          56776
+ ddrphy_sysclk          cpu_demo_clk                 0.266       0.000              0             39
+ hdmi_pixel_clk         hdmi_pixel_clk               0.288       0.000              0           1027
+ CORES|CORES|SCANCHAIN_JCLK
+                        CORES|CORES|SCANCHAIN_CAPTURE
+                                                     1.663       0.000              0             16
+ CORES|CORES|SCANCHAIN_JCLK
+                        CORES|CORES|SCANCHAIN_JCLK
+                                                     0.272       0.000              0           1141
+ CORES|CORES|SCANCHAIN_CAPTURE
+                        CORES|CORES|SCANCHAIN_JCLK
+                                                    22.313       0.000              0             82
+====================================================================================================
+
+Recovery Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Removal Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ free_clk               free_clk                     0.958       0.000              0              9
+ rst_clk                rst_clk                      0.532       0.000              0            103
+ ddrphy_sysclk          ddrphy_sysclk                0.231       0.000              0           6855
+ ddrphy_sysclk          cpu_demo_clk                 0.368       0.000              0             10
+ cpu_demo_clk           cpu_demo_clk                 0.422       0.000              0            819
+ hdmi_pixel_clk         hdmi_pixel_clk               0.938       0.000              0            242
+====================================================================================================
+
+Skew Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Startpoint Clock       Endpoint Clock             WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ phy_dq_sysclk_0        phy_dq_clk_0                 0.402       0.000              0             31
+ phy_dq_clk_0           phy_dq_sysclk_0              0.211       0.000              0             31
+ phy_dq_sysclk_1        phy_dq_clk_1                 0.402       0.000              0             80
+ phy_dq_clk_1           phy_dq_sysclk_1              0.211       0.000              0             80
+====================================================================================================
+
+Minimum Pulse Width Summary(Slow Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ free_clk                                           18.318       0.000              0            414
+ rst_clk                                             3.800       0.000              0            104
+ ddrphy_sysclk                                       2.655       0.000              0          54438
+ phy_dq_clk_0                                        0.035       0.000              0             35
+ phy_dq_sysclk_0                                     1.850       0.000              0             35
+ phy_dq_clk_1                                        0.035       0.000              0             84
+ phy_dq_sysclk_1                                     2.400       0.000              0             84
+ cpu_demo_clk                                       15.040       0.000              0           7279
+ hdmi_pixel_clk                                     18.880       0.000              0            247
+ CORES|CORES|SCANCHAIN_CAPTURE                      49.800       0.000              0             11
+ CORES|CORES|SCANCHAIN_JCLK                         24.040       0.000              0            280
+====================================================================================================
+
+Setup Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Hold Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ free_clk               free_clk                     0.112       0.000              0           1985
+ rst_clk                rst_clk                      0.149       0.000              0            411
+ ddrphy_sysclk          ddrphy_sysclk                0.039       0.000              0         269772
+ phy_dq_sysclk_1        ddrphy_sysclk                0.079       0.000              0            260
+ phy_dq_sysclk_0        ddrphy_sysclk                0.221       0.000              0              1
+ cpu_demo_clk           ddrphy_sysclk                1.347       0.000              0             85
+ ddrphy_sysclk          phy_dq_sysclk_0              0.039       0.000              0            196
+ ddrphy_sysclk          phy_dq_sysclk_1              0.038       0.000              0            420
+ cpu_demo_clk           cpu_demo_clk                 0.078       0.000              0          56776
+ ddrphy_sysclk          cpu_demo_clk                 0.267       0.000              0             39
+ hdmi_pixel_clk         hdmi_pixel_clk               0.183       0.000              0           1027
+ CORES|CORES|SCANCHAIN_JCLK
+                        CORES|CORES|SCANCHAIN_CAPTURE
+                                                     1.315       0.000              0             16
+ CORES|CORES|SCANCHAIN_JCLK
+                        CORES|CORES|SCANCHAIN_JCLK
+                                                     0.171       0.000              0           1141
+ CORES|CORES|SCANCHAIN_CAPTURE
+                        CORES|CORES|SCANCHAIN_JCLK
+                                                    23.388       0.000              0             82
+====================================================================================================
+
+Recovery Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Removal Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ free_clk               free_clk                     0.648       0.000              0              9
+ rst_clk                rst_clk                      0.360       0.000              0            103
+ ddrphy_sysclk          ddrphy_sysclk                0.157       0.000              0           6855
+ ddrphy_sysclk          cpu_demo_clk                 0.451       0.000              0             10
+ cpu_demo_clk           cpu_demo_clk                 0.282       0.000              0            819
+ hdmi_pixel_clk         hdmi_pixel_clk               0.615       0.000              0            242
+====================================================================================================
+
+Skew Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Startpoint Clock       Endpoint Clock             WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ phy_dq_sysclk_0        phy_dq_clk_0                 0.240       0.000              0             31
+ phy_dq_clk_0           phy_dq_sysclk_0              0.527       0.000              0             31
+ phy_dq_sysclk_1        phy_dq_clk_1                 0.240       0.000              0             80
+ phy_dq_clk_1           phy_dq_sysclk_1              0.527       0.000              0             80
+====================================================================================================
+
+Minimum Pulse Width Summary(Fast Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ free_clk                                           18.318       0.000              0            414
+ rst_clk                                             3.800       0.000              0            104
+ ddrphy_sysclk                                       3.202       0.000              0          54438
+ phy_dq_clk_0                                        0.035       0.000              0             35
+ phy_dq_sysclk_0                                     1.850       0.000              0             35
+ phy_dq_clk_1                                        0.035       0.000              0             84
+ phy_dq_sysclk_1                                     2.400       0.000              0             84
+ cpu_demo_clk                                       15.345       0.000              0           7279
+ hdmi_pixel_clk                                     19.270       0.000              0            247
+ CORES|CORES|SCANCHAIN_CAPTURE                      49.800       0.000              0             11
+ CORES|CORES|SCANCHAIN_JCLK                         24.430       0.000              0            280
+====================================================================================================
+
+Slow Corner
+****************************************************************************************************
+====================================================================================================
+
+Startpoint  : application/transport/serial_link/serial/rx/shift[5]/opit_0_L6Q_perm/CLK
+Endpoint    : application/transport/serial_link/serial/rx/data[5]/opit_0/D
+Path Group  : free_clk
+Path Type   : min (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.001  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  4.400
+  Launch Clock Delay      :  3.773
+  Clock Pessimism Removal :  -0.626
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock free_clk (rising edge)                            0.000       0.000 r                        
+ D18                                                     0.000       0.000 r       free_clk (port)  
+                                   net (fanout=1)        0.046       0.046         free_clk         
+ IOBD_0_1386/DIN                   td                    0.766       0.812 r       free_clk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.812         free_clk_ibuf/ntD
+ IOLHR_16_1386/DI_TO_CLK           td                    0.095       0.907 r       free_clk_ibuf/opit_1/DI_TO_CLK
+                                   net (fanout=1)        1.292       2.199         nt_free_clk      
+ USCM_383_930/CLKOUT               td                    0.150       2.349 r       free_clk_buf/gopclkbufg/CLKOUT
+                                   net (fanout=585)      1.424       3.773         clk27            
+ CLMA_603_1062/CLK                                                         r       application/transport/serial_link/serial/rx/shift[5]/opit_0_L6Q_perm/CLK
+
+ CLMA_603_1062/Q1                  tco                   0.166       3.939 f       application/transport/serial_link/serial/rx/shift[5]/opit_0_L6Q_perm/L6Q
+                                   net (fanout=2)        0.077       4.016         application/transport/serial_link/serial/rx/shift [5]
+ CLMA_603_1062/M3                                                          f       application/transport/serial_link/serial/rx/data[5]/opit_0/D
+
+ Data arrival time                                                   4.016         Logic Levels: 0  
+                                                                                   Logic: 0.166ns(68.313%), Route: 0.077ns(31.687%)
+----------------------------------------------------------------------------------------------------
+
+ Clock free_clk (rising edge)                            0.000       0.000 r                        
+ D18                                                     0.000       0.000 r       free_clk (port)  
+                                   net (fanout=1)        0.046       0.046         free_clk         
+ IOBD_0_1386/DIN                   td                    0.897       0.943 r       free_clk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.943         free_clk_ibuf/ntD
+ IOLHR_16_1386/DI_TO_CLK           td                    0.110       1.053 r       free_clk_ibuf/opit_1/DI_TO_CLK
+                                   net (fanout=1)        1.514       2.567         nt_free_clk      
+ USCM_383_930/CLKOUT               td                    0.177       2.744 r       free_clk_buf/gopclkbufg/CLKOUT
+                                   net (fanout=585)      1.656       4.400         clk27            
+ CLMA_603_1062/CLK                                                         r       application/transport/serial_link/serial/rx/data[5]/opit_0/CLK
+ clock pessimism                                        -0.626       3.774                          
+ clock uncertainty                                       0.000       3.774                          
+
+ Hold time                                               0.045       3.819                          
+
+ Data required time                                                  3.819                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  3.819                          
+ Data arrival time                                                   4.016                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.197                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : reader/state_reg[1]/opit_0_L6Q_perm/CLK
+Endpoint    : reader/timeout_count[1]/opit_0_AL6QL5_perm/I4
+Path Group  : free_clk
+Path Type   : min (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.278  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  4.465
+  Launch Clock Delay      :  3.792
+  Clock Pessimism Removal :  -0.395
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock free_clk (rising edge)                            0.000       0.000 r                        
+ D18                                                     0.000       0.000 r       free_clk (port)  
+                                   net (fanout=1)        0.046       0.046         free_clk         
+ IOBD_0_1386/DIN                   td                    0.766       0.812 r       free_clk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.812         free_clk_ibuf/ntD
+ IOLHR_16_1386/DI_TO_CLK           td                    0.095       0.907 r       free_clk_ibuf/opit_1/DI_TO_CLK
+                                   net (fanout=1)        1.292       2.199         nt_free_clk      
+ USCM_383_930/CLKOUT               td                    0.150       2.349 r       free_clk_buf/gopclkbufg/CLKOUT
+                                   net (fanout=585)      1.443       3.792         clk27            
+ CLMA_183_1218/CLK                                                         r       reader/state_reg[1]/opit_0_L6Q_perm/CLK
+
+ CLMA_183_1218/Q2                  tco                   0.166       3.958 f       reader/state_reg[1]/opit_0_L6Q_perm/L6Q
+                                   net (fanout=38)       0.272       4.230         reader/state_reg [1]
+ CLMA_177_1230/A4                                                          f       reader/timeout_count[1]/opit_0_AL6QL5_perm/I4
+
+ Data arrival time                                                   4.230         Logic Levels: 0  
+                                                                                   Logic: 0.166ns(37.900%), Route: 0.272ns(62.100%)
+----------------------------------------------------------------------------------------------------
+
+ Clock free_clk (rising edge)                            0.000       0.000 r                        
+ D18                                                     0.000       0.000 r       free_clk (port)  
+                                   net (fanout=1)        0.046       0.046         free_clk         
+ IOBD_0_1386/DIN                   td                    0.897       0.943 r       free_clk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.943         free_clk_ibuf/ntD
+ IOLHR_16_1386/DI_TO_CLK           td                    0.110       1.053 r       free_clk_ibuf/opit_1/DI_TO_CLK
+                                   net (fanout=1)        1.514       2.567         nt_free_clk      
+ USCM_383_930/CLKOUT               td                    0.177       2.744 r       free_clk_buf/gopclkbufg/CLKOUT
+                                   net (fanout=585)      1.721       4.465         clk27            
+ CLMA_177_1230/CLK                                                         r       reader/timeout_count[4]/opit_0_AQ_perm/CLK
+ clock pessimism                                        -0.395       4.070                          
+ clock uncertainty                                       0.000       4.070                          
+
+ Hold time                                              -0.038       4.032                          
+
+ Data required time                                                  4.032                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  4.032                          
+ Data arrival time                                                   4.230                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.198                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : reader/state_reg[1]/opit_0_L6Q_perm/CLK
+Endpoint    : reader/timeout_count[7]/opit_0_AQ_perm/I4
+Path Group  : free_clk
+Path Type   : min (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.277  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  4.464
+  Launch Clock Delay      :  3.792
+  Clock Pessimism Removal :  -0.395
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock free_clk (rising edge)                            0.000       0.000 r                        
+ D18                                                     0.000       0.000 r       free_clk (port)  
+                                   net (fanout=1)        0.046       0.046         free_clk         
+ IOBD_0_1386/DIN                   td                    0.766       0.812 r       free_clk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.812         free_clk_ibuf/ntD
+ IOLHR_16_1386/DI_TO_CLK           td                    0.095       0.907 r       free_clk_ibuf/opit_1/DI_TO_CLK
+                                   net (fanout=1)        1.292       2.199         nt_free_clk      
+ USCM_383_930/CLKOUT               td                    0.150       2.349 r       free_clk_buf/gopclkbufg/CLKOUT
+                                   net (fanout=585)      1.443       3.792         clk27            
+ CLMA_183_1218/CLK                                                         r       reader/state_reg[1]/opit_0_L6Q_perm/CLK
+
+ CLMA_183_1218/Q2                  tco                   0.166       3.958 f       reader/state_reg[1]/opit_0_L6Q_perm/L6Q
+                                   net (fanout=38)       0.273       4.231         reader/state_reg [1]
+ CLMA_177_1236/C4                                                          f       reader/timeout_count[7]/opit_0_AQ_perm/I4
+
+ Data arrival time                                                   4.231         Logic Levels: 0  
+                                                                                   Logic: 0.166ns(37.813%), Route: 0.273ns(62.187%)
+----------------------------------------------------------------------------------------------------
+
+ Clock free_clk (rising edge)                            0.000       0.000 r                        
+ D18                                                     0.000       0.000 r       free_clk (port)  
+                                   net (fanout=1)        0.046       0.046         free_clk         
+ IOBD_0_1386/DIN                   td                    0.897       0.943 r       free_clk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.943         free_clk_ibuf/ntD
+ IOLHR_16_1386/DI_TO_CLK           td                    0.110       1.053 r       free_clk_ibuf/opit_1/DI_TO_CLK
+                                   net (fanout=1)        1.514       2.567         nt_free_clk      
+ USCM_383_930/CLKOUT               td                    0.177       2.744 r       free_clk_buf/gopclkbufg/CLKOUT
+                                   net (fanout=585)      1.720       4.464         clk27            
+ CLMA_177_1236/CLK                                                         r       reader/timeout_count[8]/opit_0_AQ_perm/CLK
+ clock pessimism                                        -0.395       4.069                          
+ clock uncertainty                                       0.000       4.069                          
+
+ Hold time                                              -0.038       4.031                          
+
+ Data required time                                                  4.031                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  4.031                          
+ Data arrival time                                                   4.231                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.200                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : reader/state_reg[1]/opit_0_L6Q_perm/CLK
+Endpoint    : reader/timeout_count[2]/opit_0_AQ_perm/I3
+Path Group  : free_clk
+Path Type   : min (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.278  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  4.465
+  Launch Clock Delay      :  3.792
+  Clock Pessimism Removal :  -0.395
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock free_clk (rising edge)                            0.000       0.000 r                        
+ D18                                                     0.000       0.000 r       free_clk (port)  
+                                   net (fanout=1)        0.046       0.046         free_clk         
+ IOBD_0_1386/DIN                   td                    0.766       0.812 r       free_clk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.812         free_clk_ibuf/ntD
+ IOLHR_16_1386/DI_TO_CLK           td                    0.095       0.907 r       free_clk_ibuf/opit_1/DI_TO_CLK
+                                   net (fanout=1)        1.292       2.199         nt_free_clk      
+ USCM_383_930/CLKOUT               td                    0.150       2.349 r       free_clk_buf/gopclkbufg/CLKOUT
+                                   net (fanout=585)      1.443       3.792         clk27            
+ CLMA_183_1218/CLK                                                         r       reader/state_reg[1]/opit_0_L6Q_perm/CLK
+
+ CLMA_183_1218/Q2                  tco                   0.166       3.958 f       reader/state_reg[1]/opit_0_L6Q_perm/L6Q
+                                   net (fanout=38)       0.272       4.230         reader/state_reg [1]
+ CLMA_177_1230/B3                                                          f       reader/timeout_count[2]/opit_0_AQ_perm/I3
+
+ Data arrival time                                                   4.230         Logic Levels: 0  
+                                                                                   Logic: 0.166ns(37.900%), Route: 0.272ns(62.100%)
+----------------------------------------------------------------------------------------------------
+
+ Clock free_clk (rising edge)                            0.000       0.000 r                        
+ D18                                                     0.000       0.000 r       free_clk (port)  
+                                   net (fanout=1)        0.046       0.046         free_clk         
+ IOBD_0_1386/DIN                   td                    0.897       0.943 r       free_clk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.943         free_clk_ibuf/ntD
+ IOLHR_16_1386/DI_TO_CLK           td                    0.110       1.053 r       free_clk_ibuf/opit_1/DI_TO_CLK
+                                   net (fanout=1)        1.514       2.567         nt_free_clk      
+ USCM_383_930/CLKOUT               td                    0.177       2.744 r       free_clk_buf/gopclkbufg/CLKOUT
+                                   net (fanout=585)      1.721       4.465         clk27            
+ CLMA_177_1230/CLK                                                         r       reader/timeout_count[4]/opit_0_AQ_perm/CLK
+ clock pessimism                                        -0.395       4.070                          
+ clock uncertainty                                       0.000       4.070                          
+
+ Hold time                                              -0.041       4.029                          
+
+ Data required time                                                  4.029                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  4.029                          
+ Data arrival time                                                   4.230                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.201                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : reader/state_reg[1]/opit_0_L6Q_perm/CLK
+Endpoint    : reader/timeout_count[8]/opit_0_AQ_perm/I3
+Path Group  : free_clk
+Path Type   : min (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.277  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  4.464
+  Launch Clock Delay      :  3.792
+  Clock Pessimism Removal :  -0.395
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock free_clk (rising edge)                            0.000       0.000 r                        
+ D18                                                     0.000       0.000 r       free_clk (port)  
+                                   net (fanout=1)        0.046       0.046         free_clk         
+ IOBD_0_1386/DIN                   td                    0.766       0.812 r       free_clk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.812         free_clk_ibuf/ntD
+ IOLHR_16_1386/DI_TO_CLK           td                    0.095       0.907 r       free_clk_ibuf/opit_1/DI_TO_CLK
+                                   net (fanout=1)        1.292       2.199         nt_free_clk      
+ USCM_383_930/CLKOUT               td                    0.150       2.349 r       free_clk_buf/gopclkbufg/CLKOUT
+                                   net (fanout=585)      1.443       3.792         clk27            
+ CLMA_183_1218/CLK                                                         r       reader/state_reg[1]/opit_0_L6Q_perm/CLK
+
+ CLMA_183_1218/Q2                  tco                   0.166       3.958 f       reader/state_reg[1]/opit_0_L6Q_perm/L6Q
+                                   net (fanout=38)       0.273       4.231         reader/state_reg [1]
+ CLMA_177_1236/D3                                                          f       reader/timeout_count[8]/opit_0_AQ_perm/I3
+
+ Data arrival time                                                   4.231         Logic Levels: 0  
+                                                                                   Logic: 0.166ns(37.813%), Route: 0.273ns(62.187%)
+----------------------------------------------------------------------------------------------------
+
+ Clock free_clk (rising edge)                            0.000       0.000 r                        
+ D18                                                     0.000       0.000 r       free_clk (port)  
+                                   net (fanout=1)        0.046       0.046         free_clk         
+ IOBD_0_1386/DIN                   td                    0.897       0.943 r       free_clk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.943         free_clk_ibuf/ntD
+ IOLHR_16_1386/DI_TO_CLK           td                    0.110       1.053 r       free_clk_ibuf/opit_1/DI_TO_CLK
+                                   net (fanout=1)        1.514       2.567         nt_free_clk      
+ USCM_383_930/CLKOUT               td                    0.177       2.744 r       free_clk_buf/gopclkbufg/CLKOUT
+                                   net (fanout=585)      1.720       4.464         clk27            
+ CLMA_177_1236/CLK                                                         r       reader/timeout_count[8]/opit_0_AQ_perm/CLK
+ clock pessimism                                        -0.395       4.069                          
+ clock uncertainty                                       0.000       4.069                          
+
+ Hold time                                              -0.041       4.028                          
+
+ Data required time                                                  4.028                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  4.028                          
+ Data arrival time                                                   4.231                          

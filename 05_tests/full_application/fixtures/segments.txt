@@ -1,0 +1,7 @@
+10000 ../../../03_models/model0_package.snpkg
+1800000 model0_input.bin
+6000000 ../../../03_models/model0_assets.bin
+7000000 ../../../03_models/model0_program.bin
+1000000 ../../../03_models/model1_package.snpkg
+8000000 ../../../03_models/model1_assets.bin
+9000000 ../../../03_models/model1_program.bin

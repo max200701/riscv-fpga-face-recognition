@@ -1,0 +1,5 @@
+{
+  "executable_name": "riscv32-wch-elf-gcc.exe",
+  "version_requirement": "Use the recorded GCC release and options; another compiler may change timing and CoreMark.",
+  "original_executable_sha256": "5010c7b513f20c19632fa7306429c305046bd4146d966ad282f98a5aae2f42d1"
+}

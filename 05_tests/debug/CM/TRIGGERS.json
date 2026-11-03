@@ -1,0 +1,18 @@
+[
+  {
+    "name": "matrix",
+    "pc_hex": "0x00012a70",
+    "origin": "core_bench_matrix",
+    "logical_pattern_msb_first": "xxxxxxxxxxxxxx1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx000000000000000100101010011100",
+    "scope": "logical polarity, validate in Inserter; use only matching ELF",
+    "trigger_position": 512
+  },
+  {
+    "name": "list",
+    "pc_hex": "0x00010434",
+    "origin": "core_bench_list",
+    "logical_pattern_msb_first": "xxxxxxxxxxxxxx1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx000000000000000100000100001101",
+    "scope": "logical polarity, validate in Inserter; use only matching ELF",
+    "trigger_position": 512
+  }
+]

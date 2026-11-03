@@ -1,0 +1,131 @@
+{
+  "status": "ALL_EIGHT_ROUTED_TIMING_TABLES_AND_DEBUG_FUNCTION_GATES_PASS",
+  "timing": {
+    "Setup_Slow": {
+      "wns": 0.002,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 332406
+    },
+    "Setup_Fast": {
+      "wns": 2.799,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 332406
+    },
+    "Recovery_Slow": {
+      "wns": 1.268,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 8048
+    },
+    "Recovery_Fast": {
+      "wns": 3.858,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 8048
+    },
+    "Hold_Slow": {
+      "wns": 0.06,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 332211
+    },
+    "Hold_Fast": {
+      "wns": 0.038,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 332211
+    },
+    "Removal_Slow": {
+      "wns": 0.231,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 8038
+    },
+    "Removal_Fast": {
+      "wns": 0.157,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 8038
+    }
+  },
+  "skew": {
+    "max_Slow": {
+      "wns": 0.211,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 222
+    },
+    "max_Fast": {
+      "wns": 0.24,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 222
+    },
+    "min_Slow": {
+      "wns": 0.211,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 222
+    },
+    "min_Fast": {
+      "wns": 0.24,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 222
+    }
+  },
+  "check_timing": {
+    "max": {
+      "no_clock": "0",
+      "virtual_clock": "1",
+      "unexpandable_clocks": "1",
+      "no_input_delay": "63",
+      "no_output_delay": "76",
+      "partial_input_delay": "0",
+      "partial_output_delay": "0",
+      "io_min_max_delay_consistency": "0",
+      "input_delay_assigned_to_clock": "0",
+      "loops": "0",
+      "latch_loops": "0",
+      "latchs": "0"
+    },
+    "min": {
+      "no_clock": "0",
+      "virtual_clock": "1",
+      "unexpandable_clocks": "1",
+      "no_input_delay": "63",
+      "no_output_delay": "76",
+      "partial_input_delay": "0",
+      "partial_output_delay": "0",
+      "io_min_max_delay_consistency": "0",
+      "input_delay_assigned_to_clock": "0",
+      "loops": "0",
+      "latch_loops": "0",
+      "latchs": "0"
+    }
+  },
+  "finite_CDC_pairs": 410,
+  "unique_probe_channels": 136,
+  "actual_sampler_D_clock_links": 272,
+  "depth": 2048,
+  "IO_attributes": 870,
+  "actual_IO_cells": 215,
+  "coefficient_banks": 4,
+  "clock_definitions_unchanged": true,
+  "full_application_RTL_pass": true,
+  "application_cycle_delta": 0,
+  "physical_byte_delta": 0,
+  "board": false,
+  "external_HDMI_delay_fully_qualified": false,
+  "scope": "Loaded constraints and internal timing pass; external HDMI board delay corners and actual debug capture remain board qualification.",
+  "evidence": {
+    "original-evidence/local_pnr.adf": "325b2a57609ae3e7803caa79e5e72e6956e634161954475362e65543c194dfed",
+    "original-evidence/mini_face_demo_top.rtr": "cfa86be643f122b0ed1bdae2720152e1e9d52b8de4da13cc3dd47cfd98823e5c",
+    "original-evidence/check_timing_summary.db": "8f608b4f5a0d8f45579e242b5030333f5b7694ef358002b93b1a42731cc97a61",
+    "original-evidence/RESULT.json": "80199ab860d92bbb0e8bb4e0fac49955d7c695031642fd69772f3b14b770f78b",
+    "original-evidence/cpu_debug.fic": "e2f6943975f99f248ebf7cfcced5115da816048b688a33d3756f50c79f3c821d",
+    "original-evidence/routed_actual.v": "30d58a55e9bb42c8247739142d6de999d3f5a38e6abc2579c37d721a8a6586bd"
+  }
+}

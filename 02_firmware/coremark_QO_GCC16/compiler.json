@@ -1,0 +1,5 @@
+{
+  "executable_name": "riscv64-unknown-elf-gcc.exe",
+  "version_requirement": "Use the recorded GCC release and options; another compiler may change timing and CoreMark.",
+  "original_executable_sha256": "188b5e309c52532d4b86f3cc8735036040ca4336eba3f1e4f7eabd01c124f67a"
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tables>
+    <table id="report_timing_fmax" title="Fmax Summary" column_number="4">
+        <column_headers>
+            <data>Clock</data>
+            <data>Fmax</data>
+            <data>Requested Frequency</data>
+            <data>Slack</data>
+        </column_headers>
+        <row>
+            <data>free_clk</data>
+            <data>77.8997MHz</data>
+            <data>27.0000MHz</data>
+            <data>24.200</data>
+        </row>
+        <row>
+            <data>rst_clk</data>
+            <data>194.5904MHz</data>
+            <data>125.0000MHz</data>
+            <data>2.861</data>
+        </row>
+        <row>
+            <data>ddrphy_sysclk</data>
+            <data>126.0398MHz</data>
+            <data>125.0000MHz</data>
+            <data>0.066</data>
+        </row>
+        <row>
+            <data>cpu_demo_clk</data>
+            <data>32.9424MHz</data>
+            <data>31.2500MHz</data>
+            <data>1.644</data>
+        </row>
+        <row>
+            <data>hdmi_pixel_clk</data>
+            <data>88.5504MHz</data>
+            <data>25.2016MHz</data>
+            <data>28.387</data>
+        </row>
+        <row>
+            <data>CORES|CORES|SCANCHAIN_JCLK</data>
+            <data>142.1464MHz</data>
+            <data>20.0000MHz</data>
+            <data>42.965</data>
+        </row>
+    </table>
+</tables>

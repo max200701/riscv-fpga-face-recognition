@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tables>
+    <table id="report_timing_fast_skew" title="Skew Summary" column_number="6">
+        <column_headers>
+            <data>Startpoint Clock</data>
+            <data>Endpoint Clock</data>
+            <data>WNS(ns)</data>
+            <data>TNS(ns)</data>
+            <data>Failing Endpoints</data>
+            <data>Total Endpoints</data>
+        </column_headers>
+        <row>
+            <data>phy_dq_sysclk_0</data>
+            <data>phy_dq_clk_0</data>
+            <data>0.240</data>
+            <data>0.000</data>
+            <data>0</data>
+            <data>31</data>
+        </row>
+        <row>
+            <data>phy_dq_sysclk_1</data>
+            <data>phy_dq_clk_1</data>
+            <data>0.240</data>
+            <data>0.000</data>
+            <data>0</data>
+            <data>80</data>
+        </row>
+        <row>
+            <data>phy_dq_clk_0</data>
+            <data>phy_dq_sysclk_0</data>
+            <data>0.527</data>
+            <data>0.000</data>
+            <data>0</data>
+            <data>31</data>
+        </row>
+        <row>
+            <data>phy_dq_clk_1</data>
+            <data>phy_dq_sysclk_1</data>
+            <data>0.527</data>
+            <data>0.000</data>
+            <data>0</data>
+            <data>80</data>
+        </row>
+    </table>
+</tables>

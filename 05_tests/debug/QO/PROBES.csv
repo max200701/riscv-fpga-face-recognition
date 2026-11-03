@@ -1,0 +1,137 @@
+﻿channel,label,label_bit,net,driver,driver_pin,driver_type,native_line
+0,fetch_pc_word,0,application/core/dut/ia [2],application/core/dut/core/req_pc[2]/opit_0_AQ_perm,Q,gopAL6Q,3023562
+1,fetch_pc_word,1,application/core/dut/ia [3],application/core/dut/core/req_pc[3]/opit_0_AQ_perm,Q,gopAL6Q,3023596
+2,fetch_pc_word,2,application/core/dut/ia [4],application/core/dut/core/req_pc[4]/opit_0_AQ,Q,gopAL6Q,3023630
+3,fetch_pc_word,3,application/core/dut/ia [5],application/core/dut/core/req_pc[5]/opit_0_AQ_perm,Q,gopAL6Q,3023664
+4,fetch_pc_word,4,application/core/dut/ia [6],application/core/dut/core/req_pc[6]/opit_0_AQ_perm,Q,gopAL6Q,3023698
+5,fetch_pc_word,5,application/core/dut/ia [7],application/core/dut/core/req_pc[7]/opit_0_AQ_perm,Q,gopAL6Q,3023732
+6,fetch_pc_word,6,application/core/dut/ia [8],application/core/dut/core/req_pc[8]/opit_0_AQ_perm,Q,gopAL6Q,3023766
+7,fetch_pc_word,7,application/core/dut/ia [9],application/core/dut/core/req_pc[9]/opit_0_AQ_perm,Q,gopAL6Q,3023800
+8,fetch_pc_word,8,application/core/dut/ia [10],application/core/dut/core/req_pc[10]/opit_0_AQ_perm,Q,gopAL6Q,3023834
+9,fetch_pc_word,9,application/core/dut/ia [11],application/core/dut/core/req_pc[11]/opit_0_AQ_perm,Q,gopAL6Q,3023868
+10,fetch_pc_word,10,application/core/dut/ia [12],application/core/dut/core/req_pc[12]/opit_0_AQ_perm,Q,gopAL6Q,3023902
+11,fetch_pc_word,11,application/core/dut/ia [13],application/core/dut/core/req_pc[13]/opit_0_AQ_perm,Q,gopAL6Q,3023936
+12,fetch_pc_word,12,application/core/dut/ia [14],application/core/dut/core/req_pc[14]/opit_0_AQ_perm,Q,gopAL6Q,3023970
+13,fetch_pc_word,13,application/core/dut/ia [15],application/core/dut/core/req_pc[15]/opit_0_AQ_perm,Q,gopAL6Q,3024004
+14,fetch_pc_word,14,application/core/dut/ia [16],application/core/dut/core/req_pc[16]/opit_0_AQ_perm,Q,gopAL6Q,3024038
+15,fetch_pc_word,15,application/core/dut/ia [17],application/core/dut/core/req_pc[17]/opit_0_AQ_perm,Q,gopAL6Q,3024072
+16,fetch_pc_word,16,application/core/dut/ia [18],application/core/dut/core/req_pc[18]/opit_0_AQ_perm,Q,gopAL6Q,3024106
+17,fetch_pc_word,17,application/core/dut/ia [19],application/core/dut/core/req_pc[19]/opit_0_AQ_perm,Q,gopAL6Q,3024140
+18,fetch_pc_word,18,application/core/dut/ia [20],application/core/dut/core/req_pc[20]/opit_0_AQ_perm,Q,gopAL6Q,3024174
+19,fetch_pc_word,19,application/core/dut/ia [21],application/core/dut/core/req_pc[21]/opit_0_AQ_perm,Q,gopAL6Q,3024208
+20,fetch_pc_word,20,application/core/dut/ia [22],application/core/dut/core/req_pc[22]/opit_0_AQ_perm,Q,gopAL6Q,3024242
+21,fetch_pc_word,21,application/core/dut/ia [23],application/core/dut/core/req_pc[23]/opit_0_AQ_perm,Q,gopAL6Q,3024276
+22,fetch_pc_word,22,application/core/dut/ia [24],application/core/dut/core/req_pc[24]/opit_0_AQ_perm,Q,gopAL6Q,3024310
+23,fetch_pc_word,23,application/core/dut/ia [25],application/core/dut/core/req_pc[25]/opit_0_AQ_perm,Q,gopAL6Q,3024344
+24,fetch_pc_word,24,application/core/dut/ia [26],application/core/dut/core/req_pc[26]/opit_0_AQ_perm,Q,gopAL6Q,3024378
+25,fetch_pc_word,25,application/core/dut/ia [27],application/core/dut/core/req_pc[27]/opit_0_AQ_perm,Q,gopAL6Q,3024412
+26,fetch_pc_word,26,application/core/dut/ia [28],application/core/dut/core/req_pc[28]/opit_0_AQ_perm,Q,gopAL6Q,3024446
+27,fetch_pc_word,27,application/core/dut/ia [29],application/core/dut/core/req_pc[29]/opit_0_AQ_perm,Q,gopAL6Q,3024480
+28,fetch_pc_word,28,application/core/dut/ia [30],application/core/dut/core/req_pc[30]/opit_0_AQ_perm,Q,gopAL6Q,3024514
+29,fetch_pc_word,29,application/core/dut/ia [31],application/core/dut/core/req_pc[31]/opit_0_AQ_perm,Q,gopAL6Q,3024548
+30,wb_pc_word,0,application/core/dut/core/wb_pc [2],application/core/dut/core/wb_pc[2]/opit_0,Q,gopQ,3055941
+31,wb_pc_word,1,application/core/dut/core/wb_pc [3],application/core/dut/core/wb_pc[3]/opit_0,Q,gopQ,3055966
+32,wb_pc_word,2,application/core/dut/core/wb_pc [4],application/core/dut/core/wb_pc[4]/opit_0,Q,gopQ,3055991
+33,wb_pc_word,3,application/core/dut/core/wb_pc [5],application/core/dut/core/wb_pc[5]/opit_0,Q,gopQ,3056016
+34,wb_pc_word,4,application/core/dut/core/wb_pc [6],application/core/dut/core/wb_pc[6]/opit_0,Q,gopQ,3056041
+35,wb_pc_word,5,application/core/dut/core/wb_pc [7],application/core/dut/core/wb_pc[7]/opit_0,Q,gopQ,3056066
+36,wb_pc_word,6,application/core/dut/core/wb_pc [8],application/core/dut/core/wb_pc[8]/opit_0,Q,gopQ,3056091
+37,wb_pc_word,7,application/core/dut/core/wb_pc [9],application/core/dut/core/wb_pc[9]/opit_0,Q,gopQ,3056116
+38,wb_pc_word,8,application/core/dut/core/wb_pc [10],application/core/dut/core/wb_pc[10]/opit_0_L6Q_LUT6DL5Q_perm,L5Q,gopLUT6L5Q,3056141
+39,wb_pc_word,9,application/core/dut/core/wb_pc [11],application/core/dut/core/wb_pc[11]/opit_0,Q,gopQ,3056174
+40,wb_pc_word,10,application/core/dut/core/wb_pc [12],application/core/dut/core/wb_pc[12]/opit_0,Q,gopQ,3056199
+41,wb_pc_word,11,application/core/dut/core/wb_pc [13],application/core/dut/core/wb_pc[13]/opit_0,Q,gopQ,3056224
+42,wb_pc_word,12,application/core/dut/core/wb_pc [14],application/core/dut/core/wb_pc[14]/opit_0,Q,gopQ,3056249
+43,wb_pc_word,13,application/core/dut/core/wb_pc [15],application/core/dut/core/wb_pc[15]/opit_0,Q,gopQ,3056274
+44,wb_pc_word,14,application/core/dut/core/wb_pc [16],application/core/dut/core/wb_pc[16]/opit_0,Q,gopQ,3056299
+45,wb_pc_word,15,application/core/dut/core/wb_pc [17],application/core/dut/core/wb_pc[17]/opit_0,Q,gopQ,3056324
+46,wb_pc_word,16,application/core/dut/core/wb_pc [18],application/core/dut/core/wb_pc[18]/opit_0,Q,gopQ,3056349
+47,wb_pc_word,17,application/core/dut/core/wb_pc [19],application/core/dut/core/wb_pc[19]/opit_0,Q,gopQ,3056374
+48,wb_pc_word,18,application/core/dut/core/wb_pc [20],application/core/dut/core/wb_pc[20]/opit_0,Q,gopQ,3056399
+49,wb_pc_word,19,application/core/dut/core/wb_pc [21],application/core/dut/core/wb_pc[21]/opit_0,Q,gopQ,3056424
+50,wb_pc_word,20,application/core/dut/core/wb_pc [22],application/core/dut/core/wb_pc[22]/opit_0,Q,gopQ,3056449
+51,wb_pc_word,21,application/core/dut/core/wb_pc [23],application/core/dut/core/wb_pc[23]/opit_0,Q,gopQ,3056474
+52,wb_pc_word,22,application/core/dut/core/wb_pc [24],application/core/dut/core/wb_pc[24]/opit_0,Q,gopQ,3056499
+53,wb_pc_word,23,application/core/dut/core/wb_pc [25],application/core/dut/core/wb_pc[25]/opit_0,Q,gopQ,3056524
+54,wb_pc_word,24,application/core/dut/core/wb_pc [26],application/core/dut/core/wb_pc[26]/opit_0,Q,gopQ,3056549
+55,wb_pc_word,25,application/core/dut/core/wb_pc [27],application/core/dut/core/wb_pc[27]/opit_0,Q,gopQ,3056574
+56,wb_pc_word,26,application/core/dut/core/wb_pc [28],application/core/dut/core/wb_pc[28]/opit_0,Q,gopQ,3056599
+57,wb_pc_word,27,application/core/dut/core/wb_pc [29],application/core/dut/core/wb_pc[29]/opit_0,Q,gopQ,3056624
+58,wb_pc_word,28,application/core/dut/core/wb_pc [30],application/core/dut/core/wb_pc[30]/opit_0,Q,gopQ,3056649
+59,wb_pc_word,29,application/core/dut/core/wb_pc [31],application/core/dut/core/wb_pc[31]/opit_0,Q,gopQ,3056674
+60,wb1_pc_word,0,application/core/dut/core/wb1_pc [2],application/core/dut/core/wb1_pc[2]/opit_0_L6Q_LUT6DL5Q_perm,L5Q,gopLUT6L5Q,3049473
+61,wb1_pc_word,1,application/core/dut/core/wb1_pc [3],application/core/dut/core/wb1_pc[3]/opit_0,Q,gopQ,3049506
+62,wb1_pc_word,2,application/core/dut/core/wb1_pc [4],application/core/dut/core/wb1_pc[4]/opit_0,Q,gopQ,3049531
+63,wb1_pc_word,3,application/core/dut/core/wb1_pc [5],application/core/dut/core/wb1_pc[5]/opit_0,Q,gopQ,3049556
+64,wb1_pc_word,4,application/core/dut/core/wb1_pc [6],application/core/dut/core/wb1_pc[6]/opit_0,Q,gopQ,3049581
+65,wb1_pc_word,5,application/core/dut/core/wb1_pc [7],application/core/dut/core/wb1_pc[7]/opit_0,Q,gopQ,3049606
+66,wb1_pc_word,6,application/core/dut/core/wb1_pc [8],application/core/dut/core/wb1_pc[8]/opit_0,Q,gopQ,3049631
+67,wb1_pc_word,7,application/core/dut/core/wb1_pc [9],application/core/dut/core/wb1_pc[9]/opit_0,Q,gopQ,3049656
+68,wb1_pc_word,8,application/core/dut/core/wb1_pc [10],application/core/dut/core/wb1_pc[10]/opit_0_L6Q_LUT6DL5Q_perm,L5Q,gopLUT6L5Q,3049681
+69,wb1_pc_word,9,application/core/dut/core/wb1_pc [11],application/core/dut/core/wb1_pc[11]/opit_0,Q,gopQ,3049714
+70,wb1_pc_word,10,application/core/dut/core/wb1_pc [12],application/core/dut/core/wb1_pc[12]/opit_0,Q,gopQ,3049739
+71,wb1_pc_word,11,application/core/dut/core/wb1_pc [13],application/core/dut/core/wb1_pc[13]/opit_0,Q,gopQ,3049764
+72,wb1_pc_word,12,application/core/dut/core/wb1_pc [14],application/core/dut/core/wb1_pc[14]/opit_0,Q,gopQ,3049789
+73,wb1_pc_word,13,application/core/dut/core/wb1_pc [15],application/core/dut/core/wb1_pc[15]/opit_0,Q,gopQ,3049814
+74,wb1_pc_word,14,application/core/dut/core/wb1_pc [16],application/core/dut/core/wb1_pc[16]/opit_0,Q,gopQ,3049839
+75,wb1_pc_word,15,application/core/dut/core/wb1_pc [17],application/core/dut/core/wb1_pc[17]/opit_0,Q,gopQ,3049864
+76,wb1_pc_word,16,application/core/dut/core/wb1_pc [18],application/core/dut/core/wb1_pc[18]/opit_0,Q,gopQ,3049889
+77,wb1_pc_word,17,application/core/dut/core/wb1_pc [19],application/core/dut/core/wb1_pc[19]/opit_0,Q,gopQ,3049914
+78,wb1_pc_word,18,application/core/dut/core/wb1_pc [20],application/core/dut/core/wb1_pc[20]/opit_0,Q,gopQ,3049939
+79,wb1_pc_word,19,application/core/dut/core/wb1_pc [21],application/core/dut/core/wb1_pc[21]/opit_0,Q,gopQ,3049964
+80,wb1_pc_word,20,application/core/dut/core/wb1_pc [22],application/core/dut/core/wb1_pc[22]/opit_0,Q,gopQ,3049989
+81,wb1_pc_word,21,application/core/dut/core/wb1_pc [23],application/core/dut/core/wb1_pc[23]/opit_0,Q,gopQ,3050014
+82,wb1_pc_word,22,application/core/dut/core/wb1_pc [24],application/core/dut/core/wb1_pc[24]/opit_0,Q,gopQ,3050039
+83,wb1_pc_word,23,application/core/dut/core/wb1_pc [25],application/core/dut/core/wb1_pc[25]/opit_0,Q,gopQ,3050064
+84,wb1_pc_word,24,application/core/dut/core/wb1_pc [26],application/core/dut/core/wb1_pc[26]/opit_0,Q,gopQ,3050089
+85,wb1_pc_word,25,application/core/dut/core/wb1_pc [27],application/core/dut/core/wb1_pc[27]/opit_0,Q,gopQ,3050114
+86,wb1_pc_word,26,application/core/dut/core/wb1_pc [28],application/core/dut/core/wb1_pc[28]/opit_0,Q,gopQ,3050139
+87,wb1_pc_word,27,application/core/dut/core/wb1_pc [29],application/core/dut/core/wb1_pc[29]/opit_0,Q,gopQ,3050164
+88,wb1_pc_word,28,application/core/dut/core/wb1_pc [30],application/core/dut/core/wb1_pc[30]/opit_0,Q,gopQ,3050189
+89,wb1_pc_word,29,application/core/dut/core/wb1_pc [31],application/core/dut/core/wb1_pc[31]/opit_0,Q,gopQ,3050214
+90,instret16,0,application/core/dut/core/instret_count [0],application/core/dut/core/instret_count[1]/opit_0_L6Q_LUT6DQL5Q_perm,L5Q,gopLUT6QL5Q,2990774
+91,instret16,1,application/core/dut/core/instret_count [1],application/core/dut/core/instret_count[1]/opit_0_L6Q_LUT6DQL5Q_perm,L6Q,gopLUT6QL5Q,2990774
+92,instret16,2,application/core/dut/core/instret_count [2],application/core/dut/core/instret_count[3]/opit_0_L6Q_LUT6DQL5Q_perm,L5Q,gopLUT6QL5Q,2990811
+93,instret16,3,application/core/dut/core/instret_count [3],application/core/dut/core/instret_count[3]/opit_0_L6Q_LUT6DQL5Q_perm,L6Q,gopLUT6QL5Q,2990811
+94,instret16,4,application/core/dut/core/instret_count [4],application/core/dut/core/instret_count[5]/opit_0_L6Q_LUT6DQL5Q_perm,L5Q,gopLUT6QL5Q,2990848
+95,instret16,5,application/core/dut/core/instret_count [5],application/core/dut/core/instret_count[5]/opit_0_L6Q_LUT6DQL5Q_perm,L6Q,gopLUT6QL5Q,2990848
+96,instret16,6,application/core/dut/core/instret_count [6],application/core/dut/core/instret_count[7]/opit_0_L6Q_LUT6DQL5Q_perm,L5Q,gopLUT6QL5Q,2990885
+97,instret16,7,application/core/dut/core/instret_count [7],application/core/dut/core/instret_count[7]/opit_0_L6Q_LUT6DQL5Q_perm,L6Q,gopLUT6QL5Q,2990885
+98,instret16,8,application/core/dut/core/instret_count [8],application/core/dut/core/instret_count[9]/opit_0_L6Q_LUT6DQL5Q_perm,L5Q,gopLUT6QL5Q,2990922
+99,instret16,9,application/core/dut/core/instret_count [9],application/core/dut/core/instret_count[9]/opit_0_L6Q_LUT6DQL5Q_perm,L6Q,gopLUT6QL5Q,2990922
+100,instret16,10,application/core/dut/core/instret_count [10],application/core/dut/core/instret_count[11]/opit_0_L6Q_LUT6DQL5Q_perm,L5Q,gopLUT6QL5Q,2990959
+101,instret16,11,application/core/dut/core/instret_count [11],application/core/dut/core/instret_count[11]/opit_0_L6Q_LUT6DQL5Q_perm,L6Q,gopLUT6QL5Q,2990959
+102,instret16,12,application/core/dut/core/instret_count [12],application/core/dut/core/instret_count[13]/opit_0_L6Q_LUT6DQL5Q_perm,L5Q,gopLUT6QL5Q,2990996
+103,instret16,13,application/core/dut/core/instret_count [13],application/core/dut/core/instret_count[13]/opit_0_L6Q_LUT6DQL5Q_perm,L6Q,gopLUT6QL5Q,2990996
+104,instret16,14,application/core/dut/core/instret_count [14],application/core/dut/core/instret_count[15]/opit_0_L6Q_LUT6DQL5Q_perm,L5Q,gopLUT6QL5Q,2991033
+105,instret16,15,application/core/dut/core/instret_count [15],application/core/dut/core/instret_count[15]/opit_0_L6Q_LUT6DQL5Q_perm,L6Q,gopLUT6QL5Q,2991033
+106,cycle12,0,application/core/dut/core/cycle_count [0],application/core/dut/core/cycle_count[1]/opit_0_L6Q_LUT6DQL5Q_perm,L5Q,gopLUT6QL5Q,2989052
+107,cycle12,1,application/core/dut/core/cycle_count [1],application/core/dut/core/cycle_count[1]/opit_0_L6Q_LUT6DQL5Q_perm,L6Q,gopLUT6QL5Q,2989052
+108,cycle12,2,application/core/dut/core/cycle_count [2],application/core/dut/core/cycle_count[3]/opit_0_L6Q_LUT6DQL5Q_perm,L5Q,gopLUT6QL5Q,2989089
+109,cycle12,3,application/core/dut/core/cycle_count [3],application/core/dut/core/cycle_count[3]/opit_0_L6Q_LUT6DQL5Q_perm,L6Q,gopLUT6QL5Q,2989089
+110,cycle12,4,application/core/dut/core/cycle_count [4],application/core/dut/core/cycle_count[5]/opit_0_L6Q_LUT6DQL5Q_perm,L5Q,gopLUT6QL5Q,2989126
+111,cycle12,5,application/core/dut/core/cycle_count [5],application/core/dut/core/cycle_count[5]/opit_0_L6Q_LUT6DQL5Q_perm,L6Q,gopLUT6QL5Q,2989126
+112,cycle12,6,application/core/dut/core/cycle_count [6],application/core/dut/core/cycle_count[7]/opit_0_L6Q_LUT6DQL5Q_perm,L5Q,gopLUT6QL5Q,2989163
+113,cycle12,7,application/core/dut/core/cycle_count [7],application/core/dut/core/cycle_count[7]/opit_0_L6Q_LUT6DQL5Q_perm,L6Q,gopLUT6QL5Q,2989163
+114,cycle12,8,application/core/dut/core/cycle_count [8],application/core/dut/core/cycle_count[9]/opit_0_L6Q_LUT6DQL5Q_perm,L5Q,gopLUT6QL5Q,2989200
+115,cycle12,9,application/core/dut/core/cycle_count [9],application/core/dut/core/cycle_count[9]/opit_0_L6Q_LUT6DQL5Q_perm,L6Q,gopLUT6QL5Q,2989200
+116,cycle12,10,application/core/dut/core/cycle_count [10],application/core/dut/core/cycle_count[11]/opit_0_L6Q_LUT6DQL5Q_perm,L5Q,gopLUT6QL5Q,2989237
+117,cycle12,11,application/core/dut/core/cycle_count [11],application/core/dut/core/cycle_count[11]/opit_0_L6Q_LUT6DQL5Q_perm,L6Q,gopLUT6QL5Q,2989237
+118,queue_count,0,application/core/dut/core/queue_count [0],application/core/dut/core/queue_count[0]/opit_0_L6Q_LUT6DQL5_perm,L6Q,gopLUT6QL5,3022328
+119,queue_count,1,application/core/dut/core/queue_count [1],application/core/dut/core/queue_count[1]/opit_0_L6Q_perm,L6Q,gopLUT6Q,3022363
+120,queue_count,2,application/core/dut/core/queue_count [2],application/core/dut/core/queue_count[2]/opit_0_L6Q_perm,L6Q,gopLUT6Q,3022395
+121,wb_valid,0,application/core/dut/debug_data [136],application/core/dut/core/wb_valid/opit_0_L6Q_perm,L6Q,gopLUT6Q,3058904
+122,wb1_valid,0,application/core/dut/core/wb1_valid,application/core/dut/core/wb1_valid/opit_0_L6Q_perm,L6Q,gopLUT6Q,3050400
+123,issue0,0,application/core/dut/core/ex_fire,application/core/dut/core/N970/gateop_perm,L6,gopLUT6,2958608
+124,issue1,0,application/core/dut/core/pair_fire,application/core/dut/core/wb1_valid/opit_0_L6Q_perm,L6,gopLUT6Q,3050400
+125,wb_success,0,application/core/dut/core/wb_success,application/core/dut/core/N91/LUT6_inst_perm,L6,gopLUT6,2939959
+126,flush,0,application/core/dut/core/pipeline_flush,application/core/dut/core/N1086/gateop_perm,L6,gopLUT6,2961064
+127,i_valid,0,application/core/dut/iv,application/core/dut/core/N3415_12/gateop_LUT6DL5_perm,L6,gopLUT6L5,2966026
+128,i_ready,0,application/core/dut/ir,application/core/dut/cached_fetch.cache/N1727/gateop_LUT6DL5_perm,L5,gopLUT6L5,2918654
+129,d_valid,0,application/core/dut/debug_data [139],application/core/dut/core/N3415_32/gateop_LUT6DL5_perm,L5,gopLUT6L5,2966128
+130,d_ready,0,application/core/dut/debug_data [140],application/core/dut/cached_data.cache/N66/LUT6_inst_perm,L6,gopLUT6,2901059
+131,d_error,0,application/core/dut/de,application/core/dut/cached_data.cache/N77/gateop_perm,L6,gopLUT6,2901221
+132,cpu_arst,0,application/core/cpu_arst,application/core/cpu_reset_domain/stages[0]/opit_0_srl,CR0,gopSRL2,2859260
+133,md_done,0,application/core/dut/core/md_done,application/core/dut/core/multiply_divide.unit/done/opit_0_L6Q_LUT6DL5Q_perm,L5Q,gopLUT6L5Q,2997644
+134,forward_a,0,application/core/dut/core/forward_a,application/core/dut/core/N124_6/LUT6_inst_perm,L6,gopLUT6,2940028
+135,forward_b,0,application/core/dut/core/forward_b,application/core/dut/core/N127_6/LUT6_inst_perm,L6,gopLUT6,2940046

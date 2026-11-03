@@ -1,0 +1,59 @@
+{
+  "status": "PROPOSED_CURRENT_PACKED_GROUP_MOVE",
+  "selected_cells": [
+    "I_ips_ddr_top/u_ddrphy_top/ddrphy_calib_top/N99[1]/gateop",
+    "I_ips_ddr_top/u_ddrphy_top/ddrphy_calib_top/N99[2]/gateop",
+    "I_ips_ddr_top/u_ddrphy_top/ddrphy_calib_top/N99[3]/gateop",
+    "I_ips_ddr_top/u_ddrphy_top/ddrphy_calib_top/ddrphy_calib_mux/N42_2/gateop_LUT6DL5",
+    "I_ips_ddr_top/u_ddrphy_top/ddrphy_calib_top/ddrphy_rdcal/rdcal_wrdata[192]/opit_0_inv_L6Q_LUT6DQL5Q",
+    "I_ips_ddr_top/u_ddrphy_top/ddrphy_calib_top/ddrphy_rdcal/rdcal_wrdata[96]/opit_0_inv_L6Q_LUT6DQL5Q",
+    "I_ips_ddr_top/u_ddrphy_top/ddrphy_calib_top/ddrphy_rdcal/rdcal_wrdata_en[3]/opit_0_inv",
+    "I_ips_ddr_top/u_ddrphy_top/ddrphy_calib_top/ddrphy_wrcal/wr_enable_d/opit_0_inv",
+    "I_ips_ddr_top/u_ddrphy_top/ddrphy_calib_top/ddrphy_wrcal/wrcal_wrdata_en[1]/opit_0_inv_L6Q_LUT6DQL5Q",
+    "I_ips_ddr_top/u_ddrphy_top/ddrphy_calib_top/ddrphy_wrcal/wrcal_wrdata_en[2]/opit_0_inv_L6Q_LUT6DQL5Q",
+    "I_ips_ddr_top/u_ddrphy_top/ddrphy_dfi/phy_addr_d[34]/opit_0_inv_L6Q_LUT6DQL5Q",
+    "I_ips_ddr_top/u_ddrphy_top/ddrphy_dfi/phy_addr_d[35]/opit_0_inv_L6Q_LUT6DQL5Q",
+    "I_ips_ddr_top/u_ddrphy_top/ddrphy_dfi/phy_wrdata_en_d[0]/opit_0_inv_L6Q",
+    "I_ips_ddr_top/u_ddrphy_top/ddrphy_dfi/phy_wrdata_en_d[1]/opit_0_inv_L6Q"
+  ],
+  "old_sites": [
+    "CLMA_705_697",
+    "CLMA_711_690",
+    "CLMS_711_697"
+  ],
+  "new_sites": [
+    "CLMA_717_1015",
+    "CLMA_711_708",
+    "CLMS_711_1009"
+  ],
+  "before": {
+    "sum_span": 42026,
+    "critical_sum": 36629,
+    "critical_max": 498,
+    "weighted": 151913,
+    "incoming_max": 193,
+    "outgoing_max": 498
+  },
+  "after": {
+    "sum_span": 29594,
+    "critical_sum": 10423,
+    "critical_max": 180,
+    "weighted": 60863,
+    "incoming_max": 486,
+    "outgoing_max": 378
+  },
+  "incident_edges": 176,
+  "critical_edges": 96,
+  "modgen_partial_moves": 0,
+  "carry_moves": 0,
+  "all_other_placements_preserved": true,
+  "qualification": "Static original device site table only as candidate generator; current2025 native move must prove legality, identical logical connectivity and actual new sites.",
+  "pins": {
+    "original-evidence/qo_plan25.py": "23632abe874d2af93cbe4e3fb0d7f45dd674bd4451542c9e168433be7800e500",
+    "original-evidence/CELLS.json": "03e3e2fd3100328f17595468471d05cc7c9c897467e8068e5ae800d9939b50b5",
+    "original-evidence/PLACEMENTS.json": "2a272fdb93872308235e61c885e6aa051db5e4b30338c4b6dd74bdbcc09a383e",
+    "original-evidence/readback.adf": "0912ed05cb48c4822d8f03720f1e600f945eabbe7de2ed2d042b0bd46ca7fa63",
+    "original-evidence/qualified_saved_plc.adf": "e197da67c93ee7fac320f94e918682ccd5545f5787f4578f8cccb2e47f73250c",
+    "original-evidence/clk_region_info.txt": "1b8c392673bde60750b64079bcb80655fdf1f282bf011bfa552f16e68fa5076c"
+  }
+}

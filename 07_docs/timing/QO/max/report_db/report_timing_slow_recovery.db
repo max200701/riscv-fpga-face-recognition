@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tables>
+    <table id="report_timing_slow_recovery" title="Recovery Summary" column_number="6">
+        <column_headers>
+            <data>Launch Clock</data>
+            <data>Capture Clock</data>
+            <data>WNS(ns)</data>
+            <data>TNS(ns)</data>
+            <data>Failing Endpoints</data>
+            <data>Total Endpoints</data>
+        </column_headers>
+        <row>
+            <data>ddrphy_sysclk</data>
+            <data>ddrphy_sysclk</data>
+            <data>1.268</data>
+            <data>0.000</data>
+            <data>0</data>
+            <data>6855</data>
+        </row>
+        <row>
+            <data>ddrphy_sysclk</data>
+            <data>cpu_demo_clk</data>
+            <data>3.601</data>
+            <data>0.000</data>
+            <data>0</data>
+            <data>10</data>
+        </row>
+        <row>
+            <data>rst_clk</data>
+            <data>rst_clk</data>
+            <data>4.345</data>
+            <data>0.000</data>
+            <data>0</data>
+            <data>103</data>
+        </row>
+        <row>
+            <data>free_clk</data>
+            <data>ddrphy_sysclk</data>
+            <data>4.753</data>
+            <data>0.000</data>
+            <data>0</data>
+            <data>6</data>
+        </row>
+        <row>
+            <data>free_clk</data>
+            <data>hdmi_pixel_clk</data>
+            <data>6.076</data>
+            <data>0.000</data>
+            <data>0</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>ddrphy_sysclk</data>
+            <data>free_clk</data>
+            <data>7.123</data>
+            <data>0.000</data>
+            <data>0</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>cpu_demo_clk</data>
+            <data>cpu_demo_clk</data>
+            <data>27.272</data>
+            <data>0.000</data>
+            <data>0</data>
+            <data>819</data>
+        </row>
+        <row>
+            <data>free_clk</data>
+            <data>free_clk</data>
+            <data>31.976</data>
+            <data>0.000</data>
+            <data>0</data>
+            <data>9</data>
+        </row>
+        <row>
+            <data>hdmi_pixel_clk</data>
+            <data>hdmi_pixel_clk</data>
+            <data>32.863</data>
+            <data>0.000</data>
+            <data>0</data>
+            <data>242</data>
+        </row>
+    </table>
+</tables>

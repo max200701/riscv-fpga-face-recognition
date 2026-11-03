@@ -1,0 +1,308 @@
+{
+  "status": "ALL_EIGHT_ROUTED_TABLES_PASS",
+  "tool": "PDS 2025.2 build 211867",
+  "design": "mini_face_demo_top",
+  "device": "PG2L200H -6 FBB676",
+  "timing": {
+    "Setup_Slow": {
+      "wns": 0.002,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 332406
+    },
+    "Setup_Fast": {
+      "wns": 2.799,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 332406
+    },
+    "Recovery_Slow": {
+      "wns": 1.268,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 8048
+    },
+    "Recovery_Fast": {
+      "wns": 3.858,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 8048
+    },
+    "Hold_Slow": {
+      "wns": 0.06,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 332211
+    },
+    "Hold_Fast": {
+      "wns": 0.038,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 332211
+    },
+    "Removal_Slow": {
+      "wns": 0.231,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 8038
+    },
+    "Removal_Fast": {
+      "wns": 0.157,
+      "tns": 0.0,
+      "failed": 0,
+      "endpoints": 8038
+    }
+  },
+  "bound_files": [
+    {
+      "file": "08_bitstreams/QO/routed.adf",
+      "sha256": "325b2a57609ae3e7803caa79e5e72e6956e634161954475362e65543c194dfed"
+    },
+    {
+      "file": "08_bitstreams/QO/mini_face_demo_QO_DEBUG136.sbit",
+      "sha256": "bedb89fe470c9978afb61905c3fc1a2f19d17840de8c9859a81415729709063d"
+    },
+    {
+      "file": "08_bitstreams/QO/mini_face_demo_QO_DEBUG136.fic",
+      "sha256": "e2f6943975f99f248ebf7cfcced5115da816048b688a33d3756f50c79f3c821d"
+    }
+  ],
+  "reports": [
+    {
+      "file": "07_docs/timing/QO/max/mini_face_demo_top.rtr",
+      "bytes": 1533318385,
+      "sha256": "657e84c99a2ad3cf0acf49b36b6cba348b37eaed8f0cd8ce7f9e439e7f33d8ec",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/max/mini_face_demo_top_exception.rtr",
+      "bytes": 11184109,
+      "sha256": "d8e9d09aadc0d4bfde2953fdb3f43cc60b4bf99b40e7f1d75d717f903f338b15",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/max/report_db/check_timing_summary.db",
+      "bytes": 23634,
+      "sha256": "8f608b4f5a0d8f45579e242b5030333f5b7694ef358002b93b1a42731cc97a61",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/max/report_db/Input_Ports_Setup_Hold.db",
+      "bytes": 1478388,
+      "sha256": "781046eba045f2476a11c9b6871b02332d757eae34acdf0fce34ee100da07469",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/max/report_db/Output_Ports_Clock_to_out.db",
+      "bytes": 125085,
+      "sha256": "df2ff06c24833c272a51dab34ace43d82df807a66d65f59bdcb46a4380b9449e",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/max/report_db/report_clock_interaction.db",
+      "bytes": 13000,
+      "sha256": "fbf6834c12ba54924696e08c6774048a63691a6a9ab2413d392352b47b7542bf",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/max/report_db/report_timing_clock_summary.db",
+      "bytes": 6094,
+      "sha256": "52b74e5c1ddd9aa05ad28c2a387283cdab1e2517a7e2f54c7c70e5f8b6916399",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/max/report_db/report_timing_fast_mpw.db",
+      "bytes": 2564,
+      "sha256": "8d7ac56272afd1586114e49b31b9aac529ffbb5bbb9e88e686ab7229fe280303",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/max/report_db/report_timing_fast_recovery.db",
+      "bytes": 2520,
+      "sha256": "961722bee2e8ba94ec1531c7cf54a4a1b7a849c3958398f7371cc33d51029a51",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/max/report_db/report_timing_fast_setup.db",
+      "bytes": 4943,
+      "sha256": "c404a60c78a0c04d059a3b8793413a5a7b89d5583dc1573efbf0483516defd98",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/max/report_db/report_timing_fast_skew.db",
+      "bytes": 1394,
+      "sha256": "27da5c08b05066bd712479df0dd84d2bb6f6e70394d3c986971d2649924715c1",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/max/report_db/report_timing_fmax.db",
+      "bytes": 1432,
+      "sha256": "603daa236e976c59e211dd8297babab8143d62a921ff45df880af6bf657c9d7b",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/max/report_db/report_timing_messages.db",
+      "bytes": 106109,
+      "sha256": "b854364ca1ebbd6664040f6e4a6e6c64a46656d7e1a3ad4627c89c8b0d6baeb2",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/max/report_db/report_timing_runtime.db",
+      "bytes": 779,
+      "sha256": "982197b88ce6f18bea70b3e33f08b7aaedb12590832e0434278af0dc07c606d5",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/max/report_db/report_timing_settings.db",
+      "bytes": 3933,
+      "sha256": "a3f4e3e354fc15a377181c9de6ae8e55a0f62d31838ab114789217cb52d32e3b",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/max/report_db/report_timing_slow_mpw.db",
+      "bytes": 2564,
+      "sha256": "2e65d50a53ed0a1dc2a39ce2cade02cae421d7586e10588ce78fe94e7541dbff",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/max/report_db/report_timing_slow_recovery.db",
+      "bytes": 2520,
+      "sha256": "a2135121987d8ff68f457562ed587b433b2447f49f1496c0b744154bad57ba47",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/max/report_db/report_timing_slow_setup.db",
+      "bytes": 4943,
+      "sha256": "fcbd9b77dea813d9837fd10e592c399a792431a6b47509d9f2ec808962d41f6d",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/max/report_db/report_timing_slow_skew.db",
+      "bytes": 1394,
+      "sha256": "057fa5bfd9e6fa84d34ae8b446802ac6544a87f72c3d5970b39c3cd20aa2b4e4",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/max/report_db/Setup_Hold_times_for_input_bus.db",
+      "bytes": 1711208,
+      "sha256": "1415ed70c9e551ae08f49c28228bbba2cfe449718e31aa06e0a30ef6d11728ac",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/min/mini_face_demo_top.rtr",
+      "bytes": 1230264207,
+      "sha256": "cfa86be643f122b0ed1bdae2720152e1e9d52b8de4da13cc3dd47cfd98823e5c",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/min/mini_face_demo_top_exception.rtr",
+      "bytes": 9993618,
+      "sha256": "a5ef60d8ae57778fb5be1e81be56ebb66afb3b78a29d84efd910351f3888c5b1",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/min/report_db/check_timing_summary.db",
+      "bytes": 23634,
+      "sha256": "8f608b4f5a0d8f45579e242b5030333f5b7694ef358002b93b1a42731cc97a61",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/min/report_db/Input_Ports_Setup_Hold.db",
+      "bytes": 1477624,
+      "sha256": "630efe11b0855a64b887ba1b1c75596754f96160e587ee581c1d33cacbacdc3e",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/min/report_db/Output_Ports_Clock_to_out.db",
+      "bytes": 120355,
+      "sha256": "89611a00723182b5df9c7cbd41b8566381e870fbda76bd06a65660a900b81536",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/min/report_db/report_clock_interaction.db",
+      "bytes": 10999,
+      "sha256": "7ff7aa528c61b351616c467a75a463bf4148a9988aac8f8ecc08ad8560a199d1",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/min/report_db/report_timing_clock_summary.db",
+      "bytes": 6094,
+      "sha256": "52b74e5c1ddd9aa05ad28c2a387283cdab1e2517a7e2f54c7c70e5f8b6916399",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/min/report_db/report_timing_fast_hold.db",
+      "bytes": 3790,
+      "sha256": "00248b25ddbc0e3623eb5493b26d9bf1fd7e89ef218788dcc63e58c4884c3bf6",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/min/report_db/report_timing_fast_mpw.db",
+      "bytes": 2564,
+      "sha256": "8d7ac56272afd1586114e49b31b9aac529ffbb5bbb9e88e686ab7229fe280303",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/min/report_db/report_timing_fast_removal.db",
+      "bytes": 1836,
+      "sha256": "b35e9db723e566a2749e917d203437f2bd968f00fc007dcb5a9d15c2c8c4f1b8",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/min/report_db/report_timing_fast_skew.db",
+      "bytes": 1394,
+      "sha256": "27da5c08b05066bd712479df0dd84d2bb6f6e70394d3c986971d2649924715c1",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/min/report_db/report_timing_messages.db",
+      "bytes": 106109,
+      "sha256": "b854364ca1ebbd6664040f6e4a6e6c64a46656d7e1a3ad4627c89c8b0d6baeb2",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/min/report_db/report_timing_runtime.db",
+      "bytes": 779,
+      "sha256": "bc7709da7081ec45980458de121fa3d06c6e14c8fcfa5b1dffd257ff780ab711",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/min/report_db/report_timing_settings.db",
+      "bytes": 3933,
+      "sha256": "7199037b26bc383460c6653076ab749e61e1e3a6d4dba51177145cb42072dfeb",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/min/report_db/report_timing_slow_hold.db",
+      "bytes": 3790,
+      "sha256": "b5cf3b76e5b747ccc94f567ac47eb112edd9b490c73d3add7cf9dcc4daa9d324",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/min/report_db/report_timing_slow_mpw.db",
+      "bytes": 2564,
+      "sha256": "2e65d50a53ed0a1dc2a39ce2cade02cae421d7586e10588ce78fe94e7541dbff",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/min/report_db/report_timing_slow_removal.db",
+      "bytes": 1836,
+      "sha256": "433e7ff448c1e89279777a0c60aa7dc863a887388e6aa48fbe45ec2ae94cf24b",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/min/report_db/report_timing_slow_skew.db",
+      "bytes": 1394,
+      "sha256": "057fa5bfd9e6fa84d34ae8b446802ac6544a87f72c3d5970b39c3cd20aa2b4e4",
+      "native_report_unchanged": true
+    },
+    {
+      "file": "07_docs/timing/QO/min/report_db/Setup_Hold_times_for_input_bus.db",
+      "bytes": 1710496,
+      "sha256": "7a77de7593228f9899879e24367192eb0ea1b34e5a4a564a33a24a0de827d064",
+      "native_report_unchanged": true
+    }
+  ],
+  "external_HDMI_full_corner_qualification": false,
+  "repackaging_reran_STA": false
+}

@@ -1,0 +1,17 @@
+[
+  "rtl/boot_rom_dp.v",
+  "rtl/burst_read_sequencer.v",
+  "rtl/cpu_perf_board.v",
+  "rtl/cpu_perf_pll.v",
+  "rtl/cpu_soc.v",
+  "rtl/rv32_alu.v",
+  "rtl/rv32_core.sv",
+  "rtl/rv32_dcache.v",
+  "rtl/rv32_icache.v",
+  "rtl/rv32_muldiv.v",
+  "rtl/rv32_regfile.v",
+  "rtl/sprint_tcm.v",
+  "rtl/sync_ram.v",
+  "rtl/uart_rx.v",
+  "rtl/uart_tx.v"
+]

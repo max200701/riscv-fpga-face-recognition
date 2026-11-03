@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tables>
+    <table id="report_timing_clock_summary" title="Clock Summary" column_number="10" tree="">
+        <column_headers>
+            <data>Clock Name</data>
+            <data>Type</data>
+            <data>Period</data>
+            <data>Frequency</data>
+            <data>Rise</data>
+            <data>Fall</data>
+            <data>Clock Load</data>
+            <data>Non-clock Load</data>
+            <data>Source</data>
+            <data>Targets</data>
+        </column_headers>
+        <row>
+            <data>free_clk</data>
+            <data>Declared</data>
+            <data>37.0370</data>
+            <data>27.0000MHz</data>
+            <data>0.0000</data>
+            <data>18.5180</data>
+            <data>585</data>
+            <data>0</data>
+            <data/>
+            <data>{ free_clk }</data>
+        </row>
+        <row>
+            <data>ref_clk</data>
+            <data>Declared</data>
+            <data>8.0000</data>
+            <data>125.0000MHz</data>
+            <data>0.0000</data>
+            <data>4.0000</data>
+            <data>0</data>
+            <data>4</data>
+            <data/>
+            <data>{ ref_clk_p }</data>
+            <row>
+                <data>rst_clk</data>
+                <data>Generated</data>
+                <data>8.0000</data>
+                <data>125.0000MHz</data>
+                <data>0.0000</data>
+                <data>4.0000</data>
+                <data>124</data>
+                <data>0</data>
+                <data>ref_clk</data>
+                <data>{ I_ips_ddr_top/u_ddrphy_top/rst_clk_gpll/u_gpll/gpll_inst/CLKOUT0 }</data>
+            </row>
+            <row>
+                <data>ddrphy_sysclk</data>
+                <data>Generated</data>
+                <data>8.0000</data>
+                <data>125.0000MHz</data>
+                <data>0.0000</data>
+                <data>4.0000</data>
+                <data>61033</data>
+                <data>4</data>
+                <data>ref_clk</data>
+                <data>{ I_ips_ddr_top/u_ddrphy_top/ddrphy_gpll/u_gpll/gpll_inst/CLKOUT0 }</data>
+                <row>
+                    <data>cpu_demo_clk</data>
+                    <data>Generated</data>
+                    <data>32.0000</data>
+                    <data>31.2500MHz</data>
+                    <data>0.0000</data>
+                    <data>16.0000</data>
+                    <data>7495</data>
+                    <data>0</data>
+                    <data>ddrphy_sysclk</data>
+                    <data>{ cpu_clk_buf/gopclkbufg/CLKOUT }</data>
+                </row>
+            </row>
+            <row>
+                <data>phy_dq_clk_0</data>
+                <data>Generated</data>
+                <data>1.0000</data>
+                <data>1000.0000MHz</data>
+                <data>0.0000</data>
+                <data>0.5000</data>
+                <data>35</data>
+                <data>1</data>
+                <data>ref_clk</data>
+                <data>{ I_ips_ddr_top/u_ddrphy_top/ddrphy_slice_top/i_dqs_bank[0].ddrphy_ppll/u_ppll/ppll_inst/CLKOUTPHY }</data>
+                <row>
+                    <data>phy_dq_sysclk_0</data>
+                    <data>Generated</data>
+                    <data>8.0000</data>
+                    <data>125.0000MHz</data>
+                    <data>2.0000</data>
+                    <data>6.0000</data>
+                    <data>35</data>
+                    <data>0</data>
+                    <data>phy_dq_clk_0</data>
+                    <data>{ I_ips_ddr_top/u_ddrphy_top/ddrphy_slice_top/i_dqs_bank[0].u_ddrphy_ioclkdiv/ddrphy_ioclk_div_inst/CLKOUT }</data>
+                </row>
+            </row>
+            <row>
+                <data>phy_dq_clk_1</data>
+                <data>Generated</data>
+                <data>1.0000</data>
+                <data>1000.0000MHz</data>
+                <data>0.0000</data>
+                <data>0.5000</data>
+                <data>84</data>
+                <data>1</data>
+                <data>ref_clk</data>
+                <data>{ I_ips_ddr_top/u_ddrphy_top/ddrphy_slice_top/i_dqs_bank[1].ddrphy_ppll/u_ppll/ppll_inst/CLKOUTPHY }</data>
+                <row>
+                    <data>phy_dq_sysclk_1</data>
+                    <data>Generated</data>
+                    <data>8.0000</data>
+                    <data>125.0000MHz</data>
+                    <data>2.0000</data>
+                    <data>6.0000</data>
+                    <data>84</data>
+                    <data>0</data>
+                    <data>phy_dq_clk_1</data>
+                    <data>{ I_ips_ddr_top/u_ddrphy_top/ddrphy_slice_top/i_dqs_bank[1].u_ddrphy_ioclkdiv/ddrphy_ioclk_div_inst/CLKOUT }</data>
+                </row>
+            </row>
+        </row>
+        <row>
+            <data>hdmi_pixel_clk</data>
+            <data>Declared</data>
+            <data>39.6800</data>
+            <data>25.2016MHz</data>
+            <data>0.0000</data>
+            <data>19.8400</data>
+            <data>347</data>
+            <data>0</data>
+            <data/>
+            <data>{ pixclk_in }</data>
+        </row>
+        <row>
+            <data>CORES|CORES|SCANCHAIN_CAPTURE</data>
+            <data>Declared</data>
+            <data>100.0000</data>
+            <data>10.0000MHz</data>
+            <data>25.0000</data>
+            <data>75.0000</data>
+            <data>11</data>
+            <data>0</data>
+            <data/>
+            <data>{ u_CORES/u_GTP_SCANCHAIN/scanchain/CAPTUREDR }</data>
+        </row>
+        <row>
+            <data>CORES|CORES|SCANCHAIN_JCLK</data>
+            <data>Declared</data>
+            <data>50.0000</data>
+            <data>20.0000MHz</data>
+            <data>0.0000</data>
+            <data>25.0000</data>
+            <data>287</data>
+            <data>0</data>
+            <data/>
+            <data>{ u_CORES/u_GTP_SCANCHAIN/scanchain/TCK1 }</data>
+        </row>
+    </table>
+</tables>

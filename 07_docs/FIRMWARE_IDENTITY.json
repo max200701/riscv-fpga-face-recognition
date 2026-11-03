@@ -1,0 +1,5 @@
+{
+  "face_elf_low64KiB_equals_board_ROM": true,
+  "rom_sha256": "55748eafb974c52c5f856e0acf4210b71face4f8fbd9b44e739265f81c7e1ab5",
+  "rom_binary_sha256": "062bb15422605345aaaf5679321a8504fd45505635d6156fb623d7462c1254a9"
+}

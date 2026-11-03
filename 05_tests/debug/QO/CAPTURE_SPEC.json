@@ -1,0 +1,363 @@
+{
+  "clock": "clk_cpu",
+  "MHz": 31.25,
+  "groups": [
+    {
+      "label": "fetch_pc_word",
+      "nets": [
+        "application/core/dut/ia [2]",
+        "application/core/dut/ia [3]",
+        "application/core/dut/ia [4]",
+        "application/core/dut/ia [5]",
+        "application/core/dut/ia [6]",
+        "application/core/dut/ia [7]",
+        "application/core/dut/ia [8]",
+        "application/core/dut/ia [9]",
+        "application/core/dut/ia [10]",
+        "application/core/dut/ia [11]",
+        "application/core/dut/ia [12]",
+        "application/core/dut/ia [13]",
+        "application/core/dut/ia [14]",
+        "application/core/dut/ia [15]",
+        "application/core/dut/ia [16]",
+        "application/core/dut/ia [17]",
+        "application/core/dut/ia [18]",
+        "application/core/dut/ia [19]",
+        "application/core/dut/ia [20]",
+        "application/core/dut/ia [21]",
+        "application/core/dut/ia [22]",
+        "application/core/dut/ia [23]",
+        "application/core/dut/ia [24]",
+        "application/core/dut/ia [25]",
+        "application/core/dut/ia [26]",
+        "application/core/dut/ia [27]",
+        "application/core/dut/ia [28]",
+        "application/core/dut/ia [29]",
+        "application/core/dut/ia [30]",
+        "application/core/dut/ia [31]"
+      ],
+      "meaning": "Instruction request PC[31:2], valid with i_valid",
+      "display_left_shift": 2,
+      "channel_low": 0,
+      "width": 30
+    },
+    {
+      "label": "wb_pc_word",
+      "nets": [
+        "application/core/dut/core/wb_pc [2]",
+        "application/core/dut/core/wb_pc [3]",
+        "application/core/dut/core/wb_pc [4]",
+        "application/core/dut/core/wb_pc [5]",
+        "application/core/dut/core/wb_pc [6]",
+        "application/core/dut/core/wb_pc [7]",
+        "application/core/dut/core/wb_pc [8]",
+        "application/core/dut/core/wb_pc [9]",
+        "application/core/dut/core/wb_pc [10]",
+        "application/core/dut/core/wb_pc [11]",
+        "application/core/dut/core/wb_pc [12]",
+        "application/core/dut/core/wb_pc [13]",
+        "application/core/dut/core/wb_pc [14]",
+        "application/core/dut/core/wb_pc [15]",
+        "application/core/dut/core/wb_pc [16]",
+        "application/core/dut/core/wb_pc [17]",
+        "application/core/dut/core/wb_pc [18]",
+        "application/core/dut/core/wb_pc [19]",
+        "application/core/dut/core/wb_pc [20]",
+        "application/core/dut/core/wb_pc [21]",
+        "application/core/dut/core/wb_pc [22]",
+        "application/core/dut/core/wb_pc [23]",
+        "application/core/dut/core/wb_pc [24]",
+        "application/core/dut/core/wb_pc [25]",
+        "application/core/dut/core/wb_pc [26]",
+        "application/core/dut/core/wb_pc [27]",
+        "application/core/dut/core/wb_pc [28]",
+        "application/core/dut/core/wb_pc [29]",
+        "application/core/dut/core/wb_pc [30]",
+        "application/core/dut/core/wb_pc [31]"
+      ],
+      "meaning": "MEM/WB slot0 PC[31:2]; not automatically retired",
+      "display_left_shift": 2,
+      "channel_low": 30,
+      "width": 30
+    },
+    {
+      "label": "wb1_pc_word",
+      "nets": [
+        "application/core/dut/core/wb1_pc [2]",
+        "application/core/dut/core/wb1_pc [3]",
+        "application/core/dut/core/wb1_pc [4]",
+        "application/core/dut/core/wb1_pc [5]",
+        "application/core/dut/core/wb1_pc [6]",
+        "application/core/dut/core/wb1_pc [7]",
+        "application/core/dut/core/wb1_pc [8]",
+        "application/core/dut/core/wb1_pc [9]",
+        "application/core/dut/core/wb1_pc [10]",
+        "application/core/dut/core/wb1_pc [11]",
+        "application/core/dut/core/wb1_pc [12]",
+        "application/core/dut/core/wb1_pc [13]",
+        "application/core/dut/core/wb1_pc [14]",
+        "application/core/dut/core/wb1_pc [15]",
+        "application/core/dut/core/wb1_pc [16]",
+        "application/core/dut/core/wb1_pc [17]",
+        "application/core/dut/core/wb1_pc [18]",
+        "application/core/dut/core/wb1_pc [19]",
+        "application/core/dut/core/wb1_pc [20]",
+        "application/core/dut/core/wb1_pc [21]",
+        "application/core/dut/core/wb1_pc [22]",
+        "application/core/dut/core/wb1_pc [23]",
+        "application/core/dut/core/wb1_pc [24]",
+        "application/core/dut/core/wb1_pc [25]",
+        "application/core/dut/core/wb1_pc [26]",
+        "application/core/dut/core/wb1_pc [27]",
+        "application/core/dut/core/wb1_pc [28]",
+        "application/core/dut/core/wb1_pc [29]",
+        "application/core/dut/core/wb1_pc [30]",
+        "application/core/dut/core/wb1_pc [31]"
+      ],
+      "meaning": "MEM/WB slot1 PC[31:2], valid with wb1_valid",
+      "display_left_shift": 2,
+      "channel_low": 60,
+      "width": 30
+    },
+    {
+      "label": "instret16",
+      "nets": [
+        "application/core/dut/core/instret_count [0]",
+        "application/core/dut/core/instret_count [1]",
+        "application/core/dut/core/instret_count [2]",
+        "application/core/dut/core/instret_count [3]",
+        "application/core/dut/core/instret_count [4]",
+        "application/core/dut/core/instret_count [5]",
+        "application/core/dut/core/instret_count [6]",
+        "application/core/dut/core/instret_count [7]",
+        "application/core/dut/core/instret_count [8]",
+        "application/core/dut/core/instret_count [9]",
+        "application/core/dut/core/instret_count [10]",
+        "application/core/dut/core/instret_count [11]",
+        "application/core/dut/core/instret_count [12]",
+        "application/core/dut/core/instret_count [13]",
+        "application/core/dut/core/instret_count [14]",
+        "application/core/dut/core/instret_count [15]"
+      ],
+      "meaning": "Low 16 bits of architectural instruction counter",
+      "display_left_shift": 0,
+      "channel_low": 90,
+      "width": 16
+    },
+    {
+      "label": "cycle12",
+      "nets": [
+        "application/core/dut/core/cycle_count [0]",
+        "application/core/dut/core/cycle_count [1]",
+        "application/core/dut/core/cycle_count [2]",
+        "application/core/dut/core/cycle_count [3]",
+        "application/core/dut/core/cycle_count [4]",
+        "application/core/dut/core/cycle_count [5]",
+        "application/core/dut/core/cycle_count [6]",
+        "application/core/dut/core/cycle_count [7]",
+        "application/core/dut/core/cycle_count [8]",
+        "application/core/dut/core/cycle_count [9]",
+        "application/core/dut/core/cycle_count [10]",
+        "application/core/dut/core/cycle_count [11]"
+      ],
+      "meaning": "Low 12 CPU cycle bits; inhibited cycles invalidate IPC window",
+      "display_left_shift": 0,
+      "channel_low": 106,
+      "width": 12
+    },
+    {
+      "label": "queue_count",
+      "nets": [
+        "application/core/dut/core/queue_count [0]",
+        "application/core/dut/core/queue_count [1]",
+        "application/core/dut/core/queue_count [2]"
+      ],
+      "meaning": "Four-entry instruction queue occupancy",
+      "display_left_shift": 0,
+      "channel_low": 118,
+      "width": 3
+    },
+    {
+      "label": "wb_valid",
+      "nets": [
+        "application/core/dut/debug_data [136]"
+      ],
+      "meaning": "Alias of wb_valid",
+      "display_left_shift": 0,
+      "channel_low": 121,
+      "width": 1
+    },
+    {
+      "label": "wb1_valid",
+      "nets": [
+        "application/core/dut/core/wb1_valid"
+      ],
+      "meaning": "Younger pending instruction",
+      "display_left_shift": 0,
+      "channel_low": 122,
+      "width": 1
+    },
+    {
+      "label": "issue0",
+      "nets": [
+        "application/core/dut/core/ex_fire"
+      ],
+      "meaning": "EX accepted",
+      "display_left_shift": 0,
+      "channel_low": 123,
+      "width": 1
+    },
+    {
+      "label": "issue1",
+      "nets": [
+        "application/core/dut/core/pair_fire"
+      ],
+      "meaning": "Conditional second instruction accepted",
+      "display_left_shift": 0,
+      "channel_low": 124,
+      "width": 1
+    },
+    {
+      "label": "wb_success",
+      "nets": [
+        "application/core/dut/core/wb_success"
+      ],
+      "meaning": "Successful completion; older may also commit on younger fault",
+      "display_left_shift": 0,
+      "channel_low": 125,
+      "width": 1
+    },
+    {
+      "label": "flush",
+      "nets": [
+        "application/core/dut/core/pipeline_flush"
+      ],
+      "meaning": "EX fault or control redirect",
+      "display_left_shift": 0,
+      "channel_low": 126,
+      "width": 1
+    },
+    {
+      "label": "i_valid",
+      "nets": [
+        "application/core/dut/iv"
+      ],
+      "meaning": "Instruction request",
+      "display_left_shift": 0,
+      "channel_low": 127,
+      "width": 1
+    },
+    {
+      "label": "i_ready",
+      "nets": [
+        "application/core/dut/ir"
+      ],
+      "meaning": "Instruction response",
+      "display_left_shift": 0,
+      "channel_low": 128,
+      "width": 1
+    },
+    {
+      "label": "d_valid",
+      "nets": [
+        "application/core/dut/debug_data [139]"
+      ],
+      "meaning": "CPU data request",
+      "display_left_shift": 0,
+      "channel_low": 129,
+      "width": 1
+    },
+    {
+      "label": "d_ready",
+      "nets": [
+        "application/core/dut/debug_data [140]"
+      ],
+      "meaning": "CPU data response; waiting is not necessarily DDR latency",
+      "display_left_shift": 0,
+      "channel_low": 130,
+      "width": 1
+    },
+    {
+      "label": "d_error",
+      "nets": [
+        "application/core/dut/de"
+      ],
+      "meaning": "CPU data access error",
+      "display_left_shift": 0,
+      "channel_low": 131,
+      "width": 1
+    },
+    {
+      "label": "cpu_arst",
+      "nets": [
+        "application/core/cpu_arst"
+      ],
+      "meaning": "CPU active-high reset",
+      "display_left_shift": 0,
+      "channel_low": 132,
+      "width": 1
+    },
+    {
+      "label": "md_done",
+      "nets": [
+        "application/core/dut/core/md_done"
+      ],
+      "meaning": "Mul/div done",
+      "display_left_shift": 0,
+      "channel_low": 133,
+      "width": 1
+    },
+    {
+      "label": "forward_a",
+      "nets": [
+        "application/core/dut/core/forward_a"
+      ],
+      "meaning": "Source A forwarding",
+      "display_left_shift": 0,
+      "channel_low": 134,
+      "width": 1
+    },
+    {
+      "label": "forward_b",
+      "nets": [
+        "application/core/dut/core/forward_b"
+      ],
+      "meaning": "Source B forwarding",
+      "display_left_shift": 0,
+      "channel_low": 135,
+      "width": 1
+    }
+  ],
+  "reset_active": 1,
+  "trigger_pc": "fetch_pc_word",
+  "profiles": [
+    [
+      "matrix",
+      71432,
+      "calc_func LTO-inlined matrix multiply sequence; exact opcode 03dd8d33"
+    ],
+    [
+      "list",
+      76992,
+      "core_bench_list"
+    ]
+  ],
+  "native": "original-evidence/routed_actual.v",
+  "width": 136,
+  "depth": 2048,
+  "window_us": 65.536,
+  "data_storage_bits": 278528,
+  "ideal_drm36k_blocks": 8,
+  "clock_driver": {
+    "type": "gopCLKBUFG",
+    "instance": "cpu_clk_buf/gopclkbufg",
+    "port": "CLKOUT",
+    "line": 3402793
+  },
+  "status": "ROUTED_DEBUG_BITSTREAM_READY_NOT_CAPTURED",
+  "polarity_status": "vendor Inserter logical mapping and reset/counter calibration required before IPC publication",
+  "original_probe_plan": "original-evidence/CAPTURE_SPEC.json",
+  "implemented_native": "original-evidence/routed_actual.v",
+  "native_reference_scope": "original net names for semantic provenance; implemented_native is current implementation",
+  "debug_bitstream": "original-evidence/mini_face_demo_QO_DEBUG136.sbit"
+}

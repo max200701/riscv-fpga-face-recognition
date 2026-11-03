@@ -1,0 +1,30 @@
+{
+  "candidate": "QO_DEBUG_TIMING11_DELAY56",
+  "source_db": "original-evidence/mini_face_demo_top_pnr.adf",
+  "source_sha256": "1542f587fb79566f5caa5dd6b5b179cab0fd9cb818881c2876bacaa923559c9b",
+  "sets": {
+    "F_delay": [
+      "I_ips_ddr_top/u_ddrphy_top/ddrphy_slice_top/adj_odt[0]"
+    ]
+  },
+  "protected_routes": [
+    "I_ips_ddr_top/u_ddrphy_top/ddrphy_slice_top/all_group_ca_dly"
+  ],
+  "forced_adjacent_pins": [
+    "M1:CLMA_705_720",
+    "CR1:CLMA_705_720"
+  ],
+  "setup_budget": {
+    "original_odt_slow_slack": -0.092,
+    "original_slow_wire": 1.985,
+    "maximum_slow_wire_for_zero_slack": 1.893
+  },
+  "hold_budget": {
+    "original_fast_slack": 0.138,
+    "original_fast_wire": 0.855,
+    "minimum_fast_wire_for_zero_slack": 0.717
+  },
+  "reason": "Original final ODT route uses an actual CLMA M1->CR1 route buffer. Unconstrained shortest route removes it and fails hold. Retain this native proven buffer arc while allowing both wire approaches to be rerouted. Max and min at different corners must be measured; budgets are not proof.",
+  "board": false,
+  "previous_adapter_failure": "Both direct and nested Tcl net quoting returned DesignEditor-0029. No route was produced. The Tcl guide page71 PS defines > between pins, ; between branches, # between nets. Test > for a single pin-chain; this corrects the earlier unproven bus-quoting explanation."
+}

@@ -1,24 +1,22 @@
-name: Source and offline host checks
-on: [push, pull_request]
-permissions:
-  contents: read
+name: Source and waveform checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
 jobs:
-  source:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - run: python scripts/verify_release.py
-  windows-host:
+  check:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python scripts/verify_release.py
-      - run: python -m pip install -r host/requirements.txt
-      - run: python scripts/prepare_test_assets.py
-      - run: python scripts/run_host_tests.py
+          cache: pip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python -m pip install -r requirements.txt
+      - run: python -B tools/verify_package.py
+      - run: python -B tools/test_host.py
+      - run: node 05_tests/host/test_metrics56.js
+      - run: python -B tools/verify_waveforms.py

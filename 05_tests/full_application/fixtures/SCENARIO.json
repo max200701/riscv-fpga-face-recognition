@@ -1,0 +1,29 @@
+{
+  "candidate_id": "PW_SAME_CPU_COREMARK01",
+  "stimulus": "overlap",
+  "mode": "overlap",
+  "DDR_latency": 40,
+  "DDR_bytes_per_second": 3000000000,
+  "requests": 8,
+  "beats": 64,
+  "physical_writers": 1,
+  "CPU_Hz": 31250000,
+  "NPU_Hz": 125000000,
+  "not_board_prediction": true,
+  "cold_separate": true,
+  "host_ARM_after_START_ack_ms": 120,
+  "HDL_same_as_PP04": false,
+  "scope": "Host scheduling tradeoff experiment; no live host/device mutation; fixed A five-app reference only",
+  "HDL_same_as_PP67": false,
+  "physical_board": false,
+  "source_changes": [
+    "conv_window_source.v",
+    "credit_math4.v",
+    "demo_hmic_bridge.sv",
+    "requant_stream4.v",
+    "tile_writeback4.v"
+  ],
+  "CoreMark_after_five_frames": true,
+  "face_again_after_CoreMark": true,
+  "ROM_changed": true
+}
